@@ -2,14 +2,14 @@ Package: rust
 Version: 1.95.0
 Architecture: aarch64
 Maintainer: @clandro
-Installed-Size: 176860
+Installed-Size: 176852
 Depends: clang, libandroid-execinfo, libc++, libllvm (<< 22), lld, openssl, zlib
 Suggests: rust-analyzer
 Filename: pool/clandro-pkg/rust_1.95.0_aarch64.deb
-Size: 37154032
-MD5sum: dddd3cd6e37790525fef6663e092bb15
-SHA1: 837900d8c959051583fb57cb928b23a61c878e73
-SHA256: 4f28fced76eb6d2769fae78cb269140d4647afa46471cc217e7cd8f95c41c5a0
+Size: 37152896
+MD5sum: 69ada7e79f5f7dccea26544871b38dcd
+SHA1: 96096d281dffa5a2bb00ed902ae30b2ce38f2335
+SHA256: 616ee3b9d119385bcc9b4454bbdcfff6748ad6e7d2ab23e8029d1514e986e8d3
 Homepage: https://www.rust-lang.org/
 Description: Systems programming language focused on safety, speed and concurrency
 
