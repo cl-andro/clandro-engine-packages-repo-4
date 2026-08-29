@@ -1,0 +1,187 @@
+Package: rust
+Version: 1.95.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 548864
+Depends: clang, libandroid-execinfo, libc++, libllvm (<< 22), lld, openssl, zlib, rust-std-aarch64-linux-android
+Suggests: rust-analyzer
+Filename: pool/clandro-pkg/rust_1.95.0_aarch64.deb
+Size: 120181072
+MD5sum: 9fe98edb3fc7b0afceebb9962d37ff52
+SHA1: fb59b8fbb414ffcb90ed108ff178b794d2b8b469
+SHA256: 3fe6b92b194a7e97baf5ddeee260d4b46c73dcb72bb99c908d181c1f90b48a15
+Homepage: https://www.rust-lang.org/
+Description: Systems programming language focused on safety, speed and concurrency
+
+Package: rust-docs
+Version: 1.95.0
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 775948
+Filename: pool/clandro-pkg/rust-docs_1.95.0_all.deb
+Size: 29867736
+MD5sum: 30b07c1b3545467f564754db80f87e00
+SHA1: dc9ca0f85c132f52f7cb057d0beab1a37b7a3dce
+SHA256: 6a8979513920b453a7ac4ed62bbff2f06874409fcb1e0da6f24c09d97fe49528
+Homepage: https://www.rust-lang.org/
+Description: Rust documentation
+
+Package: rust-src
+Version: 1.95.0
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 53424
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Filename: pool/clandro-pkg/rust-src_1.95.0_all.deb
+Size: 3987464
+MD5sum: 6b7bda67c836dc6b11c96583f071472e
+SHA1: 704395543bd75b836a4fd6470c2a6322a9dbdb80
+SHA256: 877ab5ac82ff780286db354c82602a99f8b93744f9e5c370a7fc88667880f4e7
+Homepage: https://www.rust-lang.org/
+Description: Rust source code files
+
+Package: rust-std-aarch64-linux-android
+Version: 1.95.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 25508
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Filename: pool/clandro-pkg/rust-std-aarch64-linux-android_1.95.0_aarch64.deb
+Size: 4772608
+MD5sum: 7cad4e211ea0e2a893d8669c71c5a9ca
+SHA1: 33d99b1f9b3481a00baeb9d3f07e32bb540c57af
+SHA256: 6c31976c45186de6a82d59743589959e65407cb6c36eaf22bc3107b3c90dc50c
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target aarch64-linux-android
+
+Package: rust-std-armv7-linux-androideabi
+Version: 1.95.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 15528
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Filename: pool/clandro-pkg/rust-std-armv7-linux-androideabi_1.95.0_aarch64.deb
+Size: 3304684
+MD5sum: ec6e754700373693e8f4e8d30ba1ecf2
+SHA1: 363ee7e8dfaab1f4f2f7817dbd570ee19a37a258
+SHA256: 8ec4e5904b0b03a76709078cfc6af0d252eb224a5e9bfb211d52a9ab58771c47
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target armv7-linux-androideabi
+
+Package: rust-std-i686-linux-android
+Version: 1.95.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 14692
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Filename: pool/clandro-pkg/rust-std-i686-linux-android_1.95.0_aarch64.deb
+Size: 3283416
+MD5sum: 45760a4954b3f93ad883ea37416e3f9f
+SHA1: 237da39bb52cfa95e7289a807cba8fc9143208bc
+SHA256: 848d79089bcdccc026dcfe9130d0b0f014e7a87bb5d0a0f0573b4f63aa9ab805
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target i686-linux-android
+
+Package: rust-std-wasm32-unknown-unknown
+Version: 1.95.0
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 83392
+Breaks: rust-std-wasm32 (<< 1.74.1-1)
+Replaces: rust-std-wasm32 (<< 1.74.1-1)
+Filename: pool/clandro-pkg/rust-std-wasm32-unknown-unknown_1.95.0_all.deb
+Size: 19703484
+MD5sum: ef4af2c48b6b3253dde20271e6b23365
+SHA1: bd10552de49d0a2ec4f23a32d16451a031e3806b
+SHA256: 994a6267215ad1cc5e5b7e3de31bfb59e96d4e5529b2b7dd9d099e6661368145
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target wasm32-unknown-unknown
+
+Package: rust-std-wasm32-wasip1
+Version: 1.95.0
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 87744
+Filename: pool/clandro-pkg/rust-std-wasm32-wasip1_1.95.0_all.deb
+Size: 20747192
+MD5sum: 0cbdc196206f70650086c56899b99b90
+SHA1: 4bc1aebb5df11adfe583010ffcccf7bcf3ee544c
+SHA256: 3a0be707cdcd9b75d20d8a7914cd6388ef032bb95b7ef6abfa8b42bdff4bd9e6
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target wasm32-wasip1
+
+Package: rust-std-wasm32-wasip2
+Version: 1.95.0
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 89748
+Filename: pool/clandro-pkg/rust-std-wasm32-wasip2_1.95.0_all.deb
+Size: 21192116
+MD5sum: 073cc64a7e2c5569d73791f4fda71aee
+SHA1: 442afd7e178f07d68c6e8e0a851af9ca3a97b897
+SHA256: ceea3218dd3fc64b2c40f1f1e824d8af969673f2a96b0364dfefead00bdcf386
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target wasm32-wasip2
+
+Package: rust-std-wasm32-wasip3
+Version: 1.95.0
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 89756
+Filename: pool/clandro-pkg/rust-std-wasm32-wasip3_1.95.0_all.deb
+Size: 21195864
+MD5sum: 06fbf2bbb90ffa27c582d4aece7d4abd
+SHA1: a227dc1e3a6e6ccbe739e0c82fd703afeda2c5eb
+SHA256: 96cc372af3bbf21ba7cf44eaba01a5322a84ea1f136cf09b7a51a3ce0b1c65d5
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target wasm32-wasip3
+
+Package: rust-std-x86-64-linux-android
+Version: 1.95.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 16464
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Filename: pool/clandro-pkg/rust-std-x86-64-linux-android_1.95.0_aarch64.deb
+Size: 3241912
+MD5sum: d743a97536c1a41cfc28fdd831bd69db
+SHA1: 2c5969e68aa3522dfaf7191cf0a3208c101319a3
+SHA256: 159b65d6aa71fcc34a4ef1cbad8e9edaede10b4bb587529658204550dd6eb3ac
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target x86_64-linux-android
+
+Package: rustc-dev
+Version: 1.95.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 292396
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Filename: pool/clandro-pkg/rustc-dev_1.95.0_aarch64.deb
+Size: 71812712
+MD5sum: 43f7a964892211f2c660a0095ffd0fc8
+SHA1: 4a9198b2b987387c62cf7f6469e01fe2dd63315a
+SHA256: bedb29e8f932906791d22669987599f5962b835c634935b6aca3cef16791d38f
+Homepage: https://www.rust-lang.org/
+Description: Rust compiler development libs
+
+Package: rustc-src
+Version: 1.95.0
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 41480
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Filename: pool/clandro-pkg/rustc-src_1.95.0_all.deb
+Size: 5276564
+MD5sum: 1f0f11147f94be15c7b0bde4f2a0b134
+SHA1: cddf010ae884e440525029bef7a62b7136a2370b
+SHA256: 87735c8cd8763a196044921cbbd7e2d8d5cd14a5e79bb7d5229f4fb4c0365e49
+Homepage: https://www.rust-lang.org/
+Description: Rust compiler source code files
+

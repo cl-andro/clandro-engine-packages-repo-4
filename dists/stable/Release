@@ -1,0 +1,22 @@
+Origin: clandro-engine-packages-repo-2
+Label: clandro-engine-packages-repo-2
+Suite: stable
+Codename: stable
+Architectures: aarch64
+Components: b2b clandro-pkg
+Description: Secure Custom Package Repository for OpsPulse
+Date: Sat, 29 Aug 2026 07:07:22 +0000
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 b2b/binary-aarch64/Packages
+ 41d4c2c2c4e6e9585727449a83781f58 29 b2b/binary-aarch64/Packages.gz
+ 8dc5aea5b03dff8595f096f9e368e888 32 b2b/binary-aarch64/Packages.xz
+ 5a0f7e70d5274cf8a45536d83d28616b 6288 clandro-pkg/binary-aarch64/Packages
+ 0119e87a24c428fafbfe6313470ab7e8 1966 clandro-pkg/binary-aarch64/Packages.gz
+ 7e1ca07406c4dbf793ba1df25a8d91e5 1908 clandro-pkg/binary-aarch64/Packages.xz
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 b2b/binary-aarch64/Packages
+ aa61691f820bf74d6997fd60e22899e4e4f94d6cbb53c0910d6cf6bf7f155a8f 29 b2b/binary-aarch64/Packages.gz
+ 0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275 32 b2b/binary-aarch64/Packages.xz
+ f5c25185a0980adcc2d38902654aa0dad49163b374fd764c6277dec49ee5af09 6288 clandro-pkg/binary-aarch64/Packages
+ a2cc270ac5e480efb2c0733d5a49dd3053a2ec8d955c211d60f7adf18c40c08e 1966 clandro-pkg/binary-aarch64/Packages.gz
+ 7ea454472dc9feedeca729bb139f494b110710c45cbfbf82b948c36c1c71b020 1908 clandro-pkg/binary-aarch64/Packages.xz
