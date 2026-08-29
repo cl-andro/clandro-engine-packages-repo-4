@@ -185,3 +185,17 @@ SHA256: 87735c8cd8763a196044921cbbd7e2d8d5cd14a5e79bb7d5229f4fb4c0365e49
 Homepage: https://www.rust-lang.org/
 Description: Rust compiler source code files
 
+Package: wasi-libc
+Version: 30
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 253732
+Recommends: wasm-component-ld
+Filename: pool/clandro-pkg/wasi-libc_30_all.deb
+Size: 44153480
+MD5sum: 436bedbbeb4f19f9db08bd69314b9c5d
+SHA1: 12c901c15c964b69b1ffbceeb21c0903aa4c5427
+SHA256: 989277845a9058fefce0f1c4cd7a0d3384cf6f3fcb56d6f5d7b48adf6b9a5ba4
+Homepage: https://wasi.dev/
+Description: Libc for WebAssembly programs built on top of WASI system calls
+
