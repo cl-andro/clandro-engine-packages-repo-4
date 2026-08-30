@@ -1,3 +1,98 @@
+Package: 0verkill
+Version: 1:0.16-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 3172
+Filename: pool/clandro-pkg/0verkill_1:0.16-1_aarch64.deb
+Size: 162864
+MD5sum: 124e5e7038379ae0744bfaf98809ca86
+SHA1: 487087a235a253451218510c90f9f6a9d4f6427d
+SHA256: a9286e546129ba8d768ec13ed5cd08a0221ed064278848779f3f42c50d70d4e2
+Homepage: https://github.com/hackndev/0verkill
+Description: Bloody 2D action deathmatch-like game in ASCII-ART
+
+Package: 2048-c
+Version: 1:1.0.3-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 72
+Filename: pool/clandro-pkg/2048-c_1:1.0.3-1_aarch64.deb
+Size: 6052
+MD5sum: 7d038aed5950f544fea6b069d56d76e1
+SHA1: fe04bc4986ff68a919c76e94cd0210bc88a8f7ed
+SHA256: 2ebb82330a2cd09a7e2b25a22d4fe480b7f304bc0daebc7d0fe271888ed2d53c
+Homepage: https://github.com/mevdschee/2048.c
+Description: Console version of the game '2048' for GNU/Linux
+
+Package: 2ping
+Version: 4.5.1-5
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 264
+Depends: python
+Filename: pool/clandro-pkg/2ping_4.5.1-5_all.deb
+Size: 32328
+MD5sum: 7d29ce99ed19c2901a276a7ce415a1ad
+SHA1: 95aaa3a6aa4e76d4977bd03e8086ecd7d1350c49
+SHA256: c6fac400040aca0739487d1cd0f8e2900b63748fad235d1d804bd4dd82025362
+Homepage: https://www.finnie.org/software/2ping/
+Description: A bi-directional ping utility
+
+Package: 6tunnel
+Version: 0.14
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 88
+Filename: pool/clandro-pkg/6tunnel_0.14_aarch64.deb
+Size: 9640
+MD5sum: 4a91265f24dcbbd79ebfb88cfbbd5c9d
+SHA1: 98db6fda3dbeb6b5dc099b76d4c33e31291a341f
+SHA256: bdea0b7e0e2055837e4a1eb32be14de66fac288c4f70f3ca32f2c44f3ebbeb91
+Homepage: https://github.com/wojtekka/6tunnel
+Description: Allows you to use services provided by IPv6 hosts with IPv4-only applications and vice-versa
+
+Package: 8086tiny
+Version: 1.25-5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1540
+Depends: bash, coreutils, ncurses
+Filename: pool/clandro-pkg/8086tiny_1.25-5_aarch64.deb
+Size: 1199288
+MD5sum: e601d9f9256bd076375759245cbbe82f
+SHA1: 0a374af164066831e5ef1be5b1727b2094e8a134
+SHA256: 03fc94b85318c44a819cba116310ec470b2fa1f183681b8b085cab5358d779aa
+Homepage: https://github.com/adriancable/8086tiny
+Description: A PC XT-compatible emulator/virtual machine
+
+Package: aalib
+Version: 1.4rc5-13
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 632
+Depends: ncurses
+Filename: pool/clandro-pkg/aalib_1.4rc5-13_aarch64.deb
+Size: 110236
+MD5sum: a60219d1ccc967c2c029be7b3265511a
+SHA1: bdebd74f8b5cf279ca6b4307dbae8b285c76c97b
+SHA256: 1d16b25eaf451afacccec2be58633c7dda76966008300a6112094d55bb690d42
+Homepage: https://sourceforge.net/projects/aa-project/
+Description: A portable ASCII art graphic library
+
+Package: aalib-static
+Version: 1.4rc5-13
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 216
+Depends: aalib (= 1.4rc5-13)
+Filename: pool/clandro-pkg/aalib-static_1.4rc5-13_aarch64.deb
+Size: 36968
+MD5sum: 79c62dda92da1b16253b38e8a60ab1c2
+SHA1: 9e2e8486e0c3ef78b6d3909eca64a4f34f5ad009
+SHA256: 57777e1527a9aa5699510434f178418dad58f8ebf75517306d5d7c2b7d100e1e
+Homepage: https://sourceforge.net/projects/aa-project/
+Description: Static libraries for aalib
+
 Package: aapt
 Version: 13.0.0.6-23
 Architecture: aarch64
@@ -39,6 +134,62 @@ SHA1: 2891e5ea0f09c608049a93346262b7fa3daa0ead
 SHA256: feecc9e9b1eace9daf8b8dd8fe95e9ae1ba0d74aa3d53c2f7d8e7bd0bb108362
 Homepage: https://www.brain-dump.org/projects/abduco/
 Description: Clean and simple terminal session manager
+
+Package: abook
+Version: 0.6.2-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 188
+Depends: libandroid-support, ncurses, readline
+Filename: pool/clandro-pkg/abook_0.6.2-1_aarch64.deb
+Size: 46100
+MD5sum: 705dcaf280b50acbc3bdaac95ddd3336
+SHA1: 89f5d0f2b215570c6d41a2f0b3d0848d9316cc9a
+SHA256: fb12beaa098f59eb2aa3ab7a13c925dff92ebef2c63ad9fcbeca73b5f73b51fe
+Homepage: http://abook.sourceforge.net/
+Description: Abook is a text-based addressbook program designed to use with mutt mail client
+
+Package: abootimg
+Version: 0.6-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 84
+Depends: util-linux, libblkid
+Filename: pool/clandro-pkg/abootimg_0.6-3_aarch64.deb
+Size: 7884
+MD5sum: 9889f469b89e886d73acdf01b110f196
+SHA1: 95fd1d11557355ca22601f2cd764d744d8426e6c
+SHA256: d8c7855238aeb402415c3a86ed2790e4cdf468d266c987e9013df4b66461f455
+Homepage: https://gitlab.com/ajs124/abootimg
+Description: Pack or unpack android boot images
+
+Package: ack-grep
+Version: 3.9.0-1
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 224
+Depends: perl
+Filename: pool/clandro-pkg/ack-grep_3.9.0-1_all.deb
+Size: 42020
+MD5sum: dea7cf88a8b117c854f0e7627a9d82ea
+SHA1: 3c53bd177d9e71d9c9c67f6cea54714fc9b20ecc
+SHA256: b3d6a0d5bc949dbd4a3095da2d57c53e87684b0b2b88d959fbd2bafea9f0f8cb
+Homepage: https://beyondgrep.com/
+Description: Tool like grep optimized for programmers
+
+Package: acr
+Version: 2.2.6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 436
+Depends: dash
+Filename: pool/clandro-pkg/acr_2.2.6_aarch64.deb
+Size: 52904
+MD5sum: f21c04a2aca06ef280f18bcc2c45a17e
+SHA1: dec2d280364150eea30db8d6b93c6d45e6e0a4c1
+SHA256: 9e04bab84bb5cb3be0437c24a1fcf3525c91f05fbb6105602cf07cc3d6c78081
+Homepage: https://github.com/radareorg/acr
+Description: A fully compatible autoconf replacement
 
 Package: aerc
 Version: 0.21.0
