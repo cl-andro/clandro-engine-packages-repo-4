@@ -5,18 +5,18 @@ Codename: stable
 Architectures: aarch64
 Components: b2b clandro-pkg
 Description: Secure Custom Package Repository for OpsPulse
-Date: Sun, 30 Aug 2026 08:20:37 +0000
+Date: Sun, 30 Aug 2026 09:27:52 +0000
 MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e 0 b2b/binary-aarch64/Packages
- ec9bf6dc0e1cd9c43a6fd599fb8f3c40 29 b2b/binary-aarch64/Packages.gz
+ 3f9c31e52c9813840ca2f45d5aecbff9 29 b2b/binary-aarch64/Packages.gz
  8dc5aea5b03dff8595f096f9e368e888 32 b2b/binary-aarch64/Packages.xz
- 6059e42590672a9466f6ebca70a603d4 57410 clandro-pkg/binary-aarch64/Packages
- 49b56e4629b8e2a1a65ecbbf15003590 20262 clandro-pkg/binary-aarch64/Packages.gz
- 2882f4db1e8247342336aa0d32c5b952 18244 clandro-pkg/binary-aarch64/Packages.xz
+ 026a812805e5f491d28240b2d93634ce 78279 clandro-pkg/binary-aarch64/Packages
+ 1d9f423946075536af81823bcf82b5e8 27712 clandro-pkg/binary-aarch64/Packages.gz
+ b5603ffa92ce6e845c28783a7151d5e4 24660 clandro-pkg/binary-aarch64/Packages.xz
 SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 b2b/binary-aarch64/Packages
- f26118eadbc489734a95ce1a44383de0a2f91e280885e3e56c4227d5c0d518bb 29 b2b/binary-aarch64/Packages.gz
+ b4fc83bf23b5a6dc958fe442725ab7a5f1d42548e87aaabc95b5b360df0003e5 29 b2b/binary-aarch64/Packages.gz
  0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275 32 b2b/binary-aarch64/Packages.xz
- f9e66853cab189376d41b86848ee9ac405fbedb29021f47b06f49984bb0e551b 57410 clandro-pkg/binary-aarch64/Packages
- 6628027013c597a7c4a7fde03035062f89ab3707434a98d2934dc0d7e9e746db 20262 clandro-pkg/binary-aarch64/Packages.gz
- 7aae1609808148f5c3047e061a98a13e21936b956f16abb4873eb6d621a721d6 18244 clandro-pkg/binary-aarch64/Packages.xz
+ eb0632e05240ce6c8db653be5560e1c93e0ff5e562b4d2e97d77e1f839f09198 78279 clandro-pkg/binary-aarch64/Packages
+ 34b0f3d555961aa4303e944466b4cb2b514ccc41cf429edf5cce5a01c124efb4 27712 clandro-pkg/binary-aarch64/Packages.gz
+ fd249aa6f482803ceada10b1db26be2c98bd36709f3c375c51552df7bddb8303 24660 clandro-pkg/binary-aarch64/Packages.xz
