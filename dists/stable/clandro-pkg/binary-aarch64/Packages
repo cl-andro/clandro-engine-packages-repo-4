@@ -1,3 +1,31 @@
+Package: aapt
+Version: 13.0.0.6-23
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 6252
+Depends: fmt, libc++, libexpat, libpng, libzopfli, zlib
+Filename: pool/clandro-pkg/aapt_13.0.0.6-23_aarch64.deb
+Size: 4695628
+MD5sum: 38802f5fd2d096b7a3d7eba0e3d68aa4
+SHA1: 9435f77d846530e639a3ba6edc9c7c85ad4aff14
+SHA256: 210fef54a3c7aa7a6983931bb85bf126b198665aa87c9f2a1480f0290e79a5d8
+Homepage: https://elinux.org/Android_aapt
+Description: Android Asset Packaging Tool
+
+Package: aapt2
+Version: 13.0.0.6-23
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2024
+Depends: abseil-cpp, libprotobuf, aapt (= 13.0.0.6-23)
+Filename: pool/clandro-pkg/aapt2_13.0.0.6-23_aarch64.deb
+Size: 496472
+MD5sum: 27b27e0ee8a5a62a67993c4488a83de2
+SHA1: 10c773bde16da50e244dbd4ee36f344f022d4524
+SHA256: c2cafe728488c21c9a1d296bc6c77be9d910ed3475940cf222a4945baf9d49fa
+Homepage: https://elinux.org/Android_aapt
+Description: AAPT2 (Android Asset Packaging Tool)
+
 Package: abduco
 Version: 0.6-4
 Architecture: aarch64
@@ -38,6 +66,34 @@ SHA256: 2a05befceb5e5a1d76ba07ae639df08812ae8ab4867627d0ba9b59c968bf80c6
 Homepage: https://github.com/FiloSottile/age
 Description: A simple, modern and secure encryption tool with small explicit keys, no config options, and UNIX-style composability
 
+Package: aidl
+Version: 13.0.0.6-23
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1276
+Depends: googletest, aapt (= 13.0.0.6-23)
+Filename: pool/clandro-pkg/aidl_13.0.0.6-23_aarch64.deb
+Size: 336708
+MD5sum: 18b122a78239b3bbb2b5fb1eb5508def
+SHA1: 413b2c2fc7b470b55dfb2badf82e343c68e33627
+SHA256: a64db57972de9528ed52dfbba10328ebf6f2931280af3a2646c0980d85a0e726
+Homepage: https://elinux.org/Android_aapt
+Description: Android Interface Definition Language (AIDL)
+
+Package: android-tools
+Version: 35.0.2-7
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 12440
+Depends: abseil-cpp, brotli, fmt, libc++, liblz4, libprotobuf, pcre2, zlib, zstd
+Filename: pool/clandro-pkg/android-tools_35.0.2-7_aarch64.deb
+Size: 1976644
+MD5sum: 15affa10f060a318adf31c7cca9a38ed
+SHA1: 60f7479ae2f59870f9435581b826e0fb78a97dfa
+SHA256: 693bb28867aa67064f66dfdbd72e6ec58be1d3f5858161454fb50c9109cdc1ca
+Homepage: https://developer.android.com/
+Description: Android platform tools
+
 Package: ani-cli
 Version: 4.14
 Architecture: all
@@ -51,6 +107,34 @@ SHA1: 65958516275887066281e6879627ef7b02ee3615
 SHA256: 05b4f33506c579667c256023b9f379271235db158b7aba931890f13c0ea0e22a
 Homepage: https://github.com/pystardust/ani-cli
 Description: A cli to browse and watch anime
+
+Package: apkeep
+Version: 1.0.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 11004
+Depends: openssl (>= 3.0.3)
+Filename: pool/clandro-pkg/apkeep_1.0.0_aarch64.deb
+Size: 2973608
+MD5sum: f6846fca93d3557290ab7d60fad45720
+SHA1: 1fab061832a65a7e09ddd4c7197630c10f018725
+SHA256: 88e4dbf84f94547d248d9757e9cf5e19f35ac6b7560d9b171b3984080a625500
+Homepage: https://github.com/EFForg/apkeep
+Description: A command-line tool for downloading APK files from various sources
+
+Package: apksigner
+Version: 33.0.1-1
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 1052
+Depends: openjdk-21
+Filename: pool/clandro-pkg/apksigner_33.0.1-1_all.deb
+Size: 913336
+MD5sum: e65f540c46183027583d81638b67d1a9
+SHA1: 650ff3b16bc8e6013c83bfe69925cd4a0a84ea40
+SHA256: 864572cd68394e2aa81197f729f9dbe585df78727e0926f167a2727110249d61
+Homepage: https://developer.android.com/studio/command-line/apksigner
+Description: APK signing tool from Android SDK
 
 Package: cargo-binstall
 Version: 1.19.1
@@ -93,6 +177,69 @@ SHA1: c493e3e57e5ac1bd3b47f66e6a5180e2ecad85fe
 SHA256: fa350e1079fabf5d12e92cf8f5a2403120a00cc41d0ef74473d027bb092c8e07
 Homepage: https://github.com/martanne/dvtm
 Description: Terminal tiling window manager
+
+Package: googletest
+Version: 1.17.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1948
+Depends: libc++
+Conflicts: libgtest
+Replaces: libgtest
+Filename: pool/clandro-pkg/googletest_1.17.0-1_aarch64.deb
+Size: 354188
+MD5sum: 9f649d6d3a03cd130e4b929a491877c6
+SHA1: 1f30ad4b4195b8d467f8ea1c3a2c28acd98f275b
+SHA256: f8ebf25b66673d8a77aa10bbbcf2570fc32ab9f33b82bda371c7e3e97b801880
+Homepage: https://github.com/google/googletest
+Description: Google C++ testing framework
+
+Package: libprotobuf
+Version: 2:33.1-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 8864
+Depends: abseil-cpp, libc++, zlib
+Conflicts: protobuf-static
+Breaks: libprotobuf-dev, protobuf-dev, protobuf-static, libutf8-range
+Replaces: libprotobuf-dev, protobuf-dev, protobuf-static, libutf8-range
+Filename: pool/clandro-pkg/libprotobuf_2:33.1-1_aarch64.deb
+Size: 1339320
+MD5sum: c37a395f1a924cf51e739413ad1b3703
+SHA1: 7c1c7ef5e6dbd2b14fbce04f107691f01a7de265
+SHA256: 58bfa19f25fc6ae36edf0d03fc42ef777ae77aa2e1742f4e256196957fa363dd
+Homepage: https://github.com/protocolbuffers/protobuf
+Description: Protocol buffers C++ library
+
+Package: libzopfli
+Version: 1.0.3-5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 384
+Depends: libc++
+Breaks: libzopfli-dev
+Replaces: libzopfli-dev
+Filename: pool/clandro-pkg/libzopfli_1.0.3-5_aarch64.deb
+Size: 117912
+MD5sum: 775218be99166a78eddc05f76a8a50b5
+SHA1: 3f3ff9e84df9c02167d0131ee80f4ef64dd49aa5
+SHA256: 3589b9d1ff404b47e2e2b888017832b75dac2c1cbb06dcc5b6754f2ba15c8412
+Homepage: https://github.com/google/zopfli
+Description: New zlib compatible compressor library
+
+Package: protobuf
+Version: 2:33.1-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 5748
+Depends: libprotobuf (= 2:33.1-1)
+Filename: pool/clandro-pkg/protobuf_2:33.1-1_aarch64.deb
+Size: 1155124
+MD5sum: cdc1c284b66c4043eabc8f856ca6901e
+SHA1: f0054f3cda8c2ae2da24dfb3db83e86818d7b0a3
+SHA256: f66e5da97deb2196a49267b5be0fdfccb339dfbd93d6eb1e7e06e7863ee3e561
+Homepage: https://github.com/protocolbuffers/protobuf
+Description: Compiler for protocol buffer definition files
 
 Package: ripgrep-all
 Version: 1:0.10.10
@@ -336,4 +483,18 @@ SHA1: 12c901c15c964b69b1ffbceeb21c0903aa4c5427
 SHA256: 989277845a9058fefce0f1c4cd7a0d3384cf6f3fcb56d6f5d7b48adf6b9a5ba4
 Homepage: https://wasi.dev/
 Description: Libc for WebAssembly programs built on top of WASI system calls
+
+Package: zopfli
+Version: 1.0.3-5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 88
+Depends: libzopfli (= 1.0.3-5)
+Filename: pool/clandro-pkg/zopfli_1.0.3-5_aarch64.deb
+Size: 22520
+MD5sum: f3a2d97c5a5b810790016321d4c61968
+SHA1: fbe995b269de55c8ae246122ae222dbadd61ea5e
+SHA256: 459f6ed243e17c8703e1062b17d7512a778f9da73008e65956a9abe585af033c
+Homepage: https://github.com/google/zopfli
+Description: New zlib compatible compressor tools
 
