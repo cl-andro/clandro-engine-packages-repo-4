@@ -643,6 +643,534 @@ SHA256: f690ce2f4bcf2817cef65d1da2a5bb6353280ff0e508a3ba8bbce1f6ef188738
 Homepage: https://www.aptly.info
 Description: A Swiss Army knife for Debian repository management
 
+Package: argon2
+Version: 20190702-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 160
+Filename: pool/clandro-pkg/argon2_20190702-2_aarch64.deb
+Size: 22436
+MD5sum: 6a7fd071ee57bb1811dd6b85d16d345c
+SHA1: f18e0d6e7e7432697df3ba97064bb03ff1f982a8
+SHA256: 78b6ea197c3a6c48698d3f9ee7e0eb799d0a208b78b16826a17360b45a3bf950
+Homepage: https://github.com/P-H-C/phc-winner-argon2
+Description: A password-hashing function (reference C implementation)
+
+Package: argon2-static
+Version: 20190702-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 224
+Depends: argon2 (= 20190702-2)
+Filename: pool/clandro-pkg/argon2-static_20190702-2_aarch64.deb
+Size: 44788
+MD5sum: fe6feac5f91fee0c7dc3f3228ad2d992
+SHA1: 8ec75c1b682b67bc27dee1003052f028bd63cd4e
+SHA256: b946ee9d4839211c30e441daea271e196c33d4db30346009998ea20b3236eff9
+Homepage: https://github.com/P-H-C/phc-winner-argon2
+Description: Static libraries for argon2
+
+Package: arj
+Version: 3.10.22-6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 400
+Filename: pool/clandro-pkg/arj_3.10.22-6_aarch64.deb
+Size: 118208
+MD5sum: 5145b4923a5a863d451fe6e1d5871410
+SHA1: 72f6be17ffe6ecacf71206150d17c679552d9283
+SHA256: 5d0ccb9bfe4d41a80c9fca59adc8f55aa41d813eebd8ac650d4b24d95075abb0
+Homepage: https://arj.sourceforge.net/
+Description: Open-source version of arj archiver
+
+Package: arpack-ng
+Version: 2:3.9.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1044
+Depends: libopenblas
+Filename: pool/clandro-pkg/arpack-ng_2:3.9.1_aarch64.deb
+Size: 232452
+MD5sum: 9adfc6142325392b36447f92d2ebd712
+SHA1: 6e77fb3f81d3325eb1b63221948e4a5f95b51b3d
+SHA256: 419df615756695a69cb31d4a0fc45c37bcec55110250788331e44303dee80fad
+Homepage: https://github.com/opencollab/arpack-ng
+Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
+
+Package: artalk
+Version: 2.9.1-1
+Architecture: aarch64
+Maintainer: Moraxyc <termux@qaq.li>
+Installed-Size: 50392
+Filename: pool/clandro-pkg/artalk_2.9.1-1_aarch64.deb
+Size: 10314676
+MD5sum: a17c95b987d8e5eb394bfaff25ccb7a1
+SHA1: 620b6ee0fb9a61e538c26a1debb79b63d1bfe5e5
+SHA256: fa62ef0ecf03d1619222d0727915e6fe697e55232fa5a616f453ecb3c31be687
+Homepage: https://artalk.js.org/
+Description: A self-hosted comment system
+
+Package: arturo
+Version: 0.9.83-1
+Architecture: aarch64
+Maintainer: Komo @mbekkomo
+Installed-Size: 6400
+Depends: libgmp, libmpfr, libandroid-glob, libsqlite
+Filename: pool/clandro-pkg/arturo_0.9.83-1_aarch64.deb
+Size: 1006536
+MD5sum: f39c8e9c883272c29e8ee2d39d162f79
+SHA1: 93ab509a354d7258a89d4148593824e893f47be2
+SHA256: ed525e2437978be0191becf45676907b8d00b9bb686eca0ff9e293401512dcd2
+Homepage: https://arturo-lang.io
+Description: Simple, expressive & portable programming language for efficient scripting
+
+Package: ascii
+Version: 3.31
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 128
+Filename: pool/clandro-pkg/ascii_3.31_aarch64.deb
+Size: 13592
+MD5sum: dfcf1a3024891f006bcbd6d733e96cad
+SHA1: 21f4b3ccb525659dd55b6c44795ac2555883e607
+SHA256: 07f7a18d858e4f5968894eed7e5bd31d0cfe5bff7baf3513b7eea532fefe195e
+Homepage: http://www.catb.org/~esr/ascii/
+Description: List ASCII idiomatic names and octal/decimal code-point forms
+
+Package: asciidoc
+Version: 10.2.1-2
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 1304
+Depends: docbook-xsl, libxml2-utils, python, xsltproc
+Suggests: w3m
+Filename: pool/clandro-pkg/asciidoc_10.2.1-2_all.deb
+Size: 180740
+MD5sum: 338e3a5814c3f4cfa6e5499736442299
+SHA1: c7d2b0130fa118bee494661f044c7ae71638dc3b
+SHA256: f5a5ae68354d9c7861145ffdf839b751256c84f622fb97f36ee00e8b15e54db4
+Homepage: https://asciidoc.org
+Description: Text document format for short documents, articles, books and UNIX man pages.
+
+Package: asciidoctor
+Version: 2.0.26
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 6488
+Depends: ruby
+Filename: pool/clandro-pkg/asciidoctor_2.0.26_all.deb
+Size: 599884
+MD5sum: 5353ce9a491d7376f1e61e02d6c76421
+SHA1: dbed8c1481fdad36f9f3c635c78d71a99fec2eb2
+SHA256: f270b83e48eb827ee73254289d9dcd8d69cebf93efc37c4ffad854dbc2a6a345
+Homepage: https://asciidoctor.org/
+Description: An implementation of AsciiDoc in Ruby
+
+Package: asciinema
+Version: 1:3.2.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 7116
+Filename: pool/clandro-pkg/asciinema_1:3.2.0_aarch64.deb
+Size: 3130844
+MD5sum: 333e41ba7585fd18b86ff321f1f1020d
+SHA1: 60b7d62ee5a659fa0e27c6970c3e600a1c8ee6fa
+SHA256: 8ffc550789bc6ccc299ad2cfa7f5ec9e3c065d1dbfc2281f4790c9b2af54f440
+Homepage: https://asciinema.org/
+Description: Record and share your terminal sessions, the right way
+
+Package: asm-lsp
+Version: 0.10.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 8788
+Filename: pool/clandro-pkg/asm-lsp_0.10.1_aarch64.deb
+Size: 1813488
+MD5sum: 105b9f2f4ec42a23039c77d8fd5d749a
+SHA1: ab32c7d9ae5a980619c51a11da372f9e66581fc5
+SHA256: e70f482aa1f7af9d9d41f0814a7b5b820b62edf7b11de1cebd517cad33712069
+Homepage: https://github.com/bergercookie/asm-lsp
+Description: language server for NASM/GAS/GO assembly
+
+Package: aspell
+Version: 0.60.8.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2648
+Depends: libc++
+Filename: pool/clandro-pkg/aspell_0.60.8.2_aarch64.deb
+Size: 351600
+MD5sum: eac1dcf58fc454cd49f9cca654561b9e
+SHA1: 743402802d1c314d6b5b3f45cd66c92b3fb00f13
+SHA256: 6b170344ca726ea60f6bb4311c365a3f26e9f3a588b509418eb3bcf10bf80921
+Homepage: http://aspell.net
+Description: A free and open source spell checker designed to replace Ispell
+
+Package: aspell-de
+Version: 1:20161207.7.0
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 2184
+Depends: aspell
+Filename: pool/clandro-pkg/aspell-de_1:20161207.7.0_all.deb
+Size: 749244
+MD5sum: 987c843238edcc67ac7ef7f38ba10111
+SHA1: 1a045eec49611ede576deceeb6c4d16e96aabdfa
+SHA256: 195732683e09487cebfa81232987ecf65c8aa7e7ead25201821b86b8e5f2dedc
+Homepage: http://aspell.net/
+Description: German dictionary for aspell
+
+Package: aspell-en
+Version: 1:2020.12.07
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 4580
+Depends: aspell
+Filename: pool/clandro-pkg/aspell-en_1:2020.12.07_all.deb
+Size: 1124928
+MD5sum: e267217078692be170f15278792eb43e
+SHA1: 0fcd7d44e1bf40eb09caa6bea982ba6e458fbab5
+SHA256: 36a5f713964ceca337e784832a5e8d6eeeae2773feb7537aea219b3dc4a9a283
+Homepage: http://aspell.net/
+Description: English dictionary for aspell
+
+Package: aspell-es
+Version: 2:1.11-2-0
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 1528
+Depends: aspell
+Filename: pool/clandro-pkg/aspell-es_2:1.11-2-0_all.deb
+Size: 452768
+MD5sum: 6da86e802a316362cef6a976f603dfd0
+SHA1: 93e463bac619ca0b11c5234e2178712f5ff60c6e
+SHA256: 78b8c8ea31c6e14a5294331400ca0f28c3a2fcf125da891e311fc28b55c08790
+Homepage: http://aspell.net/
+Description: Spanish dictionary for aspell
+
+Package: aspell-fr
+Version: 2:0.50-3-1
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 17588
+Depends: aspell
+Filename: pool/clandro-pkg/aspell-fr_2:0.50-3-1_all.deb
+Size: 4370308
+MD5sum: 12631b26fb5ff1c5179f6561bd163dc2
+SHA1: 7777deeddd038163ac6617b39e2285785d0bec02
+SHA256: 40b2d228f1262f596a82c60afce4cd81e3ce6d546c727ca352a048b08e8978e2
+Homepage: http://aspell.net/
+Description: French dictionary for aspell
+
+Package: aspell-static
+Version: 0.60.8.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 3180
+Depends: aspell (= 0.60.8.2)
+Filename: pool/clandro-pkg/aspell-static_0.60.8.2_aarch64.deb
+Size: 326720
+MD5sum: b0a38eda37fec4622cae06658e506361
+SHA1: 86830d9ff0fb5f57014930922c566e02bbf0ab8d
+SHA256: 3aa0c7975067074bc26b783811feb89141cfb4db56eef49d0405df9454a110e9
+Homepage: http://aspell.net
+Description: Static libraries for aspell
+
+Package: assimp
+Version: 6.0.5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 11244
+Depends: libc++, zlib
+Breaks: assimp-dev
+Replaces: assimp-dev
+Filename: pool/clandro-pkg/assimp_6.0.5_aarch64.deb
+Size: 2240540
+MD5sum: 65a274a12fe8a22579584ca663dfa95f
+SHA1: 7d72a8aedbf24394a18701cf7c0f0117b8a37d25
+SHA256: e3db898320bc64e9cf143004af5a96eb4a1e207deae980b86ce04784822a7680
+Homepage: https://assimp.sourceforge.net/index.html
+Description: Library to import various well-known 3D model formats in an uniform manner
+
+Package: at
+Version: 3.2.5-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 232
+Suggests: clandro-services
+Filename: pool/clandro-pkg/at_3.2.5-2_aarch64.deb
+Size: 31836
+MD5sum: 5e988c95a94497a36a33381ab153ec14
+SHA1: 9ebdb9b967dbd016d34d4e73b28f06738773fa56
+SHA256: 1c8bb7aa8a1f6fc53c94275f0751ad734d30a77053a94ada4e8edf43fdba20d8
+Homepage: https://salsa.debian.org/debian/at
+Description: AT and batch delayed command scheduling utility and daemon
+
+Package: atomicparsley
+Version: 1:20240608.083822.1ed9031-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 404
+Depends: libc++, zlib
+Filename: pool/clandro-pkg/atomicparsley_1:20240608.083822.1ed9031-1_aarch64.deb
+Size: 107972
+MD5sum: c3116ed0ea5112c7e493149dafe4c6eb
+SHA1: 18ec464d92d87ea4bb28c1785b3294bde1e9d51b
+SHA256: 75f76214a5f98ce91fc8acf457aac091fcdc15ab9c31d5037ec8df0584b91c97
+Homepage: https://github.com/wez/atomicparsley
+Description: Read, parse and set metadata of MPEG-4 and 3gp files
+
+Package: atomvm
+Version: 1:0.6.6-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 732
+Depends: zlib
+Filename: pool/clandro-pkg/atomvm_1:0.6.6-1_aarch64.deb
+Size: 175480
+MD5sum: ba75deb20252c1f05f34e722cc69532c
+SHA1: 6796cee1a22f495ea7558ede8e04080a2446841e
+SHA256: 2d51bd2025a336b482c68ea067321e76fecf8da80c29419aa7abb417d82ce935
+Homepage: https://github.com/bettio/AtomVM
+Description: The minimal Erlang VM implementation
+
+Package: atool
+Version: 0.39.0-2
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 208
+Depends: perl
+Recommends: arj, llvm, bzip2, cpio, file, gzip, lhasa, lzip, lzop, p7zip, tar, unrar, unzip, xz-utils, zip
+Suggests: bash-completion
+Filename: pool/clandro-pkg/atool_0.39.0-2_all.deb
+Size: 34716
+MD5sum: 2139baa9d2f83839922f7d1f713012ab
+SHA1: 804fbbadbf96d1306419499cdf4cb8d178c53178
+SHA256: c81edf33cdd4d8cfd5b62bb744f6ab381be6ac72e06dc87e87dfa9b8ca86d6cc
+Homepage: https://www.nongnu.org/atool
+Description: tool for managing file archives of various types
+
+Package: atuin
+Version: 18.16.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 24620
+Filename: pool/clandro-pkg/atuin_18.16.0_aarch64.deb
+Size: 6241432
+MD5sum: 60b82f583591a8e06214a23b6ff4d5cf
+SHA1: bcf4798dbaa740d794b267865aa5ef0037fda2b8
+SHA256: 722a40acd20e285c689b93898e9c78c65033edc0ba20a7669735ffac5b22a386
+Homepage: https://atuin.sh/
+Description: Magical shell history
+
+Package: aubio
+Version: 0.4.9-7
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 736
+Depends: ffmpeg, libsamplerate, libsndfile
+Filename: pool/clandro-pkg/aubio_0.4.9-7_aarch64.deb
+Size: 112320
+MD5sum: b257906faa0d73f3af79f282a1d0bf80
+SHA1: 96d5d1620c788bd865ea46dc5f28bc53451a06ad
+SHA256: f9b68191a0b42b6eb449a8f8b525dc44ef3290501fa81feb432c3f20073ce8b3
+Homepage: https://aubio.org/
+Description: A library to label music and sounds
+
+Package: aubio-static
+Version: 0.4.9-7
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1040
+Depends: aubio (= 0.4.9-7)
+Filename: pool/clandro-pkg/aubio-static_0.4.9-7_aarch64.deb
+Size: 191972
+MD5sum: 7c1c79e2cf0841fb08941e112ff729ea
+SHA1: 77cc47a86e14710a2b4e79ff7f45d65aa74241b4
+SHA256: fa487ee68c2ba89707a371cfde980e84a42db696facb685742d8a5a24ac12a07
+Homepage: https://aubio.org/
+Description: Static libraries for aubio
+
+Package: audiofile
+Version: 0.3.6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 484
+Depends: flac, libc++
+Filename: pool/clandro-pkg/audiofile_0.3.6_aarch64.deb
+Size: 91120
+MD5sum: 148125897cb5fc9f07aae366f97c2c9b
+SHA1: 727db5e7cb249b6d4fc398116531d4d2dd7fd0e5
+SHA256: 9aea717acd7b3a4c963510565e4370c0225bc2bc99c556b7a214a332befefbbb
+Homepage: https://audiofile.68k.org/
+Description: Silicon Graphics Audio File Library
+
+Package: audiofile-static
+Version: 0.3.6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1560
+Depends: audiofile (= 0.3.6)
+Filename: pool/clandro-pkg/audiofile-static_0.3.6_aarch64.deb
+Size: 173324
+MD5sum: f4821ef66bc901bd2c193f79ffb7ff14
+SHA1: f7b091d8d72d418df3abbfab2adaa01d382715c0
+SHA256: 916795cad5735f7d001abb59a0c0fb1a90c05d14700fff8ff61336c2c03e7f17
+Homepage: https://audiofile.68k.org/
+Description: Static libraries for audiofile
+
+Package: autoconf-archive
+Version: 2024.10.16
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 4644
+Filename: pool/clandro-pkg/autoconf-archive_2024.10.16_all.deb
+Size: 402456
+MD5sum: a95a1e6159e22e2598dd006de3d67786
+SHA1: e475f0d3026736d8db6f9999b66b03a30a754024
+SHA256: ee1f47bd0464bb656c80210295ce80683ba40b73721b987e9b2c5697d1b2b2fb
+Homepage: https://www.gnu.org/software/autoconf-archive/
+Description: A collection of freely re-usable Autoconf macros
+
+Package: autojump
+Version: 22.5.3-2
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 240
+Depends: python
+Filename: pool/clandro-pkg/autojump_22.5.3-2_all.deb
+Size: 27848
+MD5sum: a1a33bb3aa231022427a95c53e9ab3a2
+SHA1: dcf8ef83c79df0c827725f55f1356c8121213c68
+SHA256: 7e6c854f7f44131f32bdd028dd75e33fdf7c017b65478127c31e136614eed040
+Homepage: https://github.com/wting/autojump
+Description: A faster way to navigate your filesystem
+
+Package: aview
+Version: 1.3.0rc1-6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 120
+Depends: aalib (>> 1.4rc5-8)
+Filename: pool/clandro-pkg/aview_1.3.0rc1-6_aarch64.deb
+Size: 14200
+MD5sum: ab3e9e67b76b219964c76ecb0b15f110
+SHA1: 59749e41401a094e94d21c0cccaeee8120bb9417
+SHA256: 572fe7d504eeb2fec8fa3e0226bccb10ebbcbc8f4d35fd6ed7090df91deca503
+Homepage: https://aa-project.sourceforge.net/aview/
+Description: High quality ascii-art image browser and animation player
+
+Package: avra
+Version: 1.4.2-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1920
+Filename: pool/clandro-pkg/avra_1.4.2-1_aarch64.deb
+Size: 77784
+MD5sum: 4bc3aa0edc803f5cd4047af4c984ed8c
+SHA1: 2caa7e1fc1228a9334ba595ed8bb94fe111cb221
+SHA256: c3dfaa9e18b63e1e95f83d8b2648eca13058eb693034fd4958f313cee1683145
+Homepage: https://github.com/Ro5bert/avra
+Description: Assember for the Atmel AVR microcontroller family
+
+Package: await
+Version: 2.6.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 100
+Filename: pool/clandro-pkg/await_2.6.0_aarch64.deb
+Size: 11412
+MD5sum: f651ede7c9f96a2fd05d3bcd671e8df8
+SHA1: bb6e2c78fd97c121e43013cb87cf47f198e5b17a
+SHA256: fb4fcba9735539f8b2d6cb75949d6fc8e0a2e91173f84c037ba700871f946d13
+Homepage: https://github.com/slavaGanzin/await
+Description: Runs list of commands in parallel and waits for their termination
+
+Package: axel
+Version: 2.17.14-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 128
+Depends: openssl
+Filename: pool/clandro-pkg/axel_2.17.14-1_aarch64.deb
+Size: 24384
+MD5sum: 6b5733befb05c56c1f54c9e581c75b60
+SHA1: 975c9c7eb54d00d92daa3cb08c3c0fa78c6bdefd
+SHA256: 9563a58aab9ac03608e4c4354884eab279c66e722b5fad94749b2d730e9c22c1
+Homepage: https://github.com/axel-download-accelerator/axel
+Description: light command line download accelerator
+
+Package: b3sum
+Version: 1.8.5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1016
+Filename: pool/clandro-pkg/b3sum_1.8.5_aarch64.deb
+Size: 332524
+MD5sum: 9505e843e5bfcb5eae5f70733ecb4627
+SHA1: 11127690e0ad7aabe7d36f3518dd34442e169575
+SHA256: b3d6c7b72cec60c7e0ad9262bfc0c124733136de6edd97fb4ca11b974db31517
+Homepage: https://github.com/BLAKE3-team/BLAKE3/tree/master/b3sum
+Description: A command line utility for calculating BLAKE3 hashes, similar to Coreutils tools like b2sum or md5sum
+
+Package: blas-openblas
+Version: 0.3.33
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 32
+Depends: libopenblas (= 0.3.33)
+Filename: pool/clandro-pkg/blas-openblas_0.3.33_aarch64.deb
+Size: 988
+MD5sum: d57007f146a4a618a8e03c3b51da6f76
+SHA1: f35bc1155557e862181a0566e11db53679280def
+SHA256: dc43dbd26730ee5866d4895d1f1748b2a773fe4ca5a65d94b55490b4d893bcda
+Homepage: https://www.openblas.net
+Description: OpenBLAS symlinks for BLAS/CBLAS/LAPACK/LAPACKE
+
+Package: boost
+Version: 1:1.90.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 8456
+Depends: libc++, libbz2, libiconv, liblzma, zlib, libandroid-wordexp
+Breaks: libboost-python (<= 1.65.1-2), boost-dev
+Replaces: libboost-python (<= 1.65.1-2), boost-dev
+Filename: pool/clandro-pkg/boost_1:1.90.0-1_aarch64.deb
+Size: 1450052
+MD5sum: 69676ecc66bbd6750f9e8264a23802b4
+SHA1: 75f0a017c00c23535ecb2b38aca885a44e92ccf7
+SHA256: 18852c34e5eaabce85a23f76709dde23d899e831949aa1153738c52877b8a3ee
+Homepage: https://boost.org
+Description: Free peer-reviewed portable C++ source libraries
+
+Package: boost-headers
+Version: 1:1.90.0-1
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 189108
+Depends: boost (= 1:1.90.0-1)
+Filename: pool/clandro-pkg/boost-headers_1:1.90.0-1_all.deb
+Size: 10644380
+MD5sum: 543de44f5bbd14b740cb04f796bce0e5
+SHA1: 90ee0724df5a0da076d64362b146b877e94049d3
+SHA256: afdaec4f6490b9a65a5ae7216f013ac3da6a38041662007f55243f28c9f67f82
+Homepage: https://boost.org
+Description: Boost header files
+
+Package: boost-static
+Version: 1:1.90.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 41364
+Depends: boost (= 1:1.90.0-1)
+Filename: pool/clandro-pkg/boost-static_1:1.90.0-1_aarch64.deb
+Size: 2986328
+MD5sum: 82d14d6b402264d1d081311017b682d1
+SHA1: ab9802b93d3677a7ba62550a69391c72941ef007
+SHA256: 1931d302340dd6660646a6486e2e74131913434725cb4f409408bd067f19ee46
+Homepage: https://boost.org
+Description: Static libraries for boost
+
 Package: cargo-binstall
 Version: 1.19.1
 Architecture: aarch64
@@ -741,6 +1269,33 @@ SHA1: 27cfac3efb314768053a8c3158302068230d78bf
 SHA256: e56f1fa611867adac2cdddf73821c29a280511813f6a505f2b8057f7d2c0d476
 Homepage: https://pantoniou.github.io/libfyaml/
 Description: Static libraries for libfyaml
+
+Package: libopenblas
+Version: 0.3.33
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 11820
+Filename: pool/clandro-pkg/libopenblas_0.3.33_aarch64.deb
+Size: 2580540
+MD5sum: 9dfa39f54867337052453001d87cbb2d
+SHA1: 367d70948a1cacd93d4e395347cbd8ef57328754
+SHA256: 52fa83deddc7143f664d5e9b2c1325410065857f0cb539918f089bbaf8450bed
+Homepage: https://www.openblas.net
+Description: An optimized BLAS library based on GotoBLAS2 1.13 BSD
+
+Package: libopenblas-static
+Version: 0.3.33
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 23636
+Depends: libopenblas (= 0.3.33)
+Filename: pool/clandro-pkg/libopenblas-static_0.3.33_aarch64.deb
+Size: 2599676
+MD5sum: 2417cfcd17fcd1bfd2f9e050b57cb017
+SHA1: 4cc54aa363c3172cc0c34441f82a917f3589116b
+SHA256: c410e9efae23b9042e10f632ada55fb2b7116be84e1a10ad2c4926ddff9680c4
+Homepage: https://www.openblas.net
+Description: Static libraries for libopenblas
 
 Package: libprotobuf
 Version: 2:33.1-1
