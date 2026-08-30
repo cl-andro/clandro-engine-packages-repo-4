@@ -1,3 +1,57 @@
+Package: abduco
+Version: 0.6-4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 100
+Depends: dvtm
+Filename: pool/clandro-pkg/abduco_0.6-4_aarch64.deb
+Size: 10180
+MD5sum: f44be8fd07b6c16a77c7378b1aef4b8e
+SHA1: 2891e5ea0f09c608049a93346262b7fa3daa0ead
+SHA256: feecc9e9b1eace9daf8b8dd8fe95e9ae1ba0d74aa3d53c2f7d8e7bd0bb108362
+Homepage: https://www.brain-dump.org/projects/abduco/
+Description: Clean and simple terminal session manager
+
+Package: aerc
+Version: 0.21.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 17828
+Filename: pool/clandro-pkg/aerc_0.21.0_aarch64.deb
+Size: 4735496
+MD5sum: a2908f5aeecf68103544de115138f67b
+SHA1: 660f428fac90b89190252441b106d2568cea13bc
+SHA256: 4302a3bbe76294e125b4f8e11a2bfc11a967b0b6550c84a41f0211a349e2e352
+Homepage: https://aerc-mail.org/
+Description: A pretty good email client
+
+Package: age
+Version: 1:1.3.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 7404
+Filename: pool/clandro-pkg/age_1:1.3.1_aarch64.deb
+Size: 1601220
+MD5sum: 2c651a3758f33b1276fae60e6d3294bd
+SHA1: c4267536176d62113700ceec8ba51610840ee3fe
+SHA256: 2a05befceb5e5a1d76ba07ae639df08812ae8ab4867627d0ba9b59c968bf80c6
+Homepage: https://github.com/FiloSottile/age
+Description: A simple, modern and secure encryption tool with small explicit keys, no config options, and UNIX-style composability
+
+Package: ani-cli
+Version: 4.14
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 104
+Depends: aria2, ffmpeg, fzf, grep, sed, wget
+Filename: pool/clandro-pkg/ani-cli_4.14_all.deb
+Size: 10232
+MD5sum: fd8eb792dd0ee60a6713d84625f29748
+SHA1: 65958516275887066281e6879627ef7b02ee3615
+SHA256: 05b4f33506c579667c256023b9f379271235db158b7aba931890f13c0ea0e22a
+Homepage: https://github.com/pystardust/ani-cli
+Description: A cli to browse and watch anime
+
 Package: cargo-binstall
 Version: 1.19.1
 Architecture: aarch64
@@ -25,6 +79,20 @@ SHA1: 50a7eb7d18e29e84d224381e77d339f453d524b7
 SHA256: 9cb5f02ecf2302148ef13cf537eb8ba836fb8d07cfe4abcdb85c66b58f35d011
 Homepage: https://github.com/lu-zero/cargo-c
 Description: Cargo C-ABI helpers
+
+Package: dvtm
+Version: 0.15-4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 156
+Depends: ncurses
+Filename: pool/clandro-pkg/dvtm_0.15-4_aarch64.deb
+Size: 25212
+MD5sum: 8e31da8f228bb3b1b37381ec12d24341
+SHA1: c493e3e57e5ac1bd3b47f66e6a5180e2ecad85fe
+SHA256: fa350e1079fabf5d12e92cf8f5a2403120a00cc41d0ef74473d027bb092c8e07
+Homepage: https://github.com/martanne/dvtm
+Description: Terminal tiling window manager
 
 Package: ripgrep-all
 Version: 1:0.10.10
