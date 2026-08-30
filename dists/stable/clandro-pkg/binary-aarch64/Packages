@@ -366,6 +366,77 @@ SHA256: 4231579fa3e8668326143535983aaaf7cf51097679763d92f73732bec172c54d
 Homepage: http://alpine.x10host.com/
 Description: Fast, easy to use email client
 
+Package: alpine-xfce-proot
+Version: 1.0.0-1
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 76
+Depends: proot, proot-distro, bash, coreutils
+Suggests: clusterctl
+Filename: pool/clandro-pkg/alpine-xfce-proot_1.0.0-1_all.deb
+Size: 2616
+MD5sum: 0b84e956c5758384214347b68ff595b5
+SHA1: ff3f0a937b695a4b1f71e05d053b73735b53e130
+SHA256: 2b7e7230ceee12066ce14336f55a6286af5139213e3671cdf007bebacac0746b
+Homepage: https://github.com/anomalyco/clandro-pkg
+Description: Alpine Linux XFCE Mobile Desktop - PRoot distro integration for cl-andro
+
+Package: alsa-utils
+Version: 1.2.15.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2360
+Depends: ncurses, alsa-lib
+Filename: pool/clandro-pkg/alsa-utils_1.2.15.2_aarch64.deb
+Size: 1035648
+MD5sum: e3e1b166b93e457a7f53a2654b05be3a
+SHA1: 7cbaaee1f4a91f39736abaf73e65a8bbe77d0f47
+SHA256: 440db66844b0a770131d1739574ffe1704ed653ff45c617a96fc7ae4fb69a108
+Homepage: https://www.alsa-project.org
+Description: The Advanced Linux Sound Architecture (ALSA) - utils
+
+Package: alsa-utils-static
+Version: 1.2.15.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 120
+Depends: alsa-utils (= 1.2.15.2)
+Filename: pool/clandro-pkg/alsa-utils-static_1.2.15.2_aarch64.deb
+Size: 25900
+MD5sum: b837a413abf3cb3f410934055ae54f68
+SHA1: 7ef1c0afe567bb2d1a6d69fc7d2f85a699b92b3e
+SHA256: 92d0e9ba2d91cc0b9e16190572420cb645c802328b2a7c4e025c105e8c057d99
+Homepage: https://www.alsa-project.org
+Description: Static libraries for alsa-utils
+
+Package: amber
+Version: 0.6.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 4976
+Breaks: amr, ambs
+Replaces: amr, ambs
+Filename: pool/clandro-pkg/amber_0.6.1_aarch64.deb
+Size: 902988
+MD5sum: a931451dbaa85d78a057ac1da79f9467
+SHA1: f0c2a9ab0d002473cf5afe343632b02bc2523030
+SHA256: 8ebdf33446809e372e1178e58e755261e6f4f1e95c4b11bab2dd46d3b65ffdc8
+Homepage: https://github.com/dalance/amber
+Description: A code search / replace tool
+
+Package: amfora
+Version: 1.11.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 18308
+Filename: pool/clandro-pkg/amfora_1.11.0-1_aarch64.deb
+Size: 4238316
+MD5sum: 230b935fce807b822b72fd3b2963a077
+SHA1: 31f99faeb7badf657f85c602c0923a4575775fbf
+SHA256: f92de3cda113d0c52a3bd99c63f74ef9811bc9a987b8701f65e5fc351594b081
+Homepage: https://github.com/makew0rld/amfora
+Description: Aims to be the best looking Gemini client
+
 Package: android-tools
 Version: 35.0.2-7
 Architecture: aarch64
@@ -380,6 +451,32 @@ SHA256: 693bb28867aa67064f66dfdbd72e6ec58be1d3f5858161454fb50c9109cdc1ca
 Homepage: https://developer.android.com/
 Description: Android platform tools
 
+Package: anewer
+Version: 0.1.6-1
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 788
+Filename: pool/clandro-pkg/anewer_0.1.6-1_aarch64.deb
+Size: 270048
+MD5sum: fdad0cfdbc54d686831b7faeff3455e9
+SHA1: ff9f339c0f9afdadc6286d3f41c136ed7bda4c93
+SHA256: 3578f2187ad47d946577cc1064de4a14024e1634250a852711549e8364bfcc2f
+Homepage: https://github.com/ysf/anewer
+Description: Append lines from stdin to a file if these lines do not present in that file (aHash-based uniq)
+
+Package: angle-grinder
+Version: 0.19.6-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 4220
+Filename: pool/clandro-pkg/angle-grinder_0.19.6-1_aarch64.deb
+Size: 1181916
+MD5sum: c2f9493d24584ad21d59c63c4a83ce07
+SHA1: bbe46a833574edb6a88de8a186f6de095c7a6e59
+SHA256: 34619827c28cab47815b51fa8607148899dbafad8cd209ddbe6c2e85c760d258
+Homepage: https://github.com/rcoh/angle-grinder
+Description: Slice and dice logs on the command line
+
 Package: ani-cli
 Version: 4.14
 Architecture: all
@@ -393,6 +490,74 @@ SHA1: 65958516275887066281e6879627ef7b02ee3615
 SHA256: 05b4f33506c579667c256023b9f379271235db158b7aba931890f13c0ea0e22a
 Homepage: https://github.com/pystardust/ani-cli
 Description: A cli to browse and watch anime
+
+Package: ansifilter
+Version: 2.22
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 336
+Depends: libc++
+Filename: pool/clandro-pkg/ansifilter_2.22_aarch64.deb
+Size: 78876
+MD5sum: 01c0ddb9c7aff3ef9a8e9f9530c47af7
+SHA1: 7d78f8d3b61fdc1533ba33fe77d4c11c8e9498e8
+SHA256: e2c0598b78073a967d12ead6a0f5cbaf3807ef4dc99d7be131158708734a35c8
+Homepage: http://www.andre-simon.de/doku/ansifilter/en/ansifilter.php
+Description: Strip or convert ANSI codes into HTML, (La)Tex, RTF, or BBCode
+
+Package: ant
+Version: 1.10.17
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 4012
+Depends: openjdk-21
+Filename: pool/clandro-pkg/ant_1.10.17_all.deb
+Size: 2775160
+MD5sum: ac8d9ebe4f76a01942ad54bd986b438c
+SHA1: e19657840b94ce1cdbc82fee2490b5e67af0520c
+SHA256: 71d40b4c942165bb926f915f31146760fb3e4102b4282f50fc796f8d99e31739
+Homepage: https://ant.apache.org/
+Description: Java based build tool like make
+
+Package: antibody
+Version: 6.1.1-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 5044
+Filename: pool/clandro-pkg/antibody_6.1.1-3_aarch64.deb
+Size: 1336340
+MD5sum: 113288448a173d317ad9036bada7ca0c
+SHA1: aca67623cef115e1d9c6986dd5b07dd7983bd22d
+SHA256: 8a7490ec3cfdc4b63055385bb62ad3c5de81c0f6c2ab7a06dd878d81f997c4d9
+Homepage: https://github.com/getantibody/antibody
+Description: The fastest shell plugin manager
+
+Package: antiword
+Version: 0.37-4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 620
+Filename: pool/clandro-pkg/antiword_0.37-4_aarch64.deb
+Size: 91104
+MD5sum: 8585a880d6b3eeaf82fc1670fe031ab0
+SHA1: ba9ab60cade47c23563e37b101eb4163553bc5ec
+SHA256: 300c3114331c8b323aadbd150ebdd7b4955f37a35f5e4fbbabfb15560156ebfb
+Homepage: https://en.m.wikipedia.org/wiki/Antiword
+Description: A free MS Word reader
+
+Package: apache-orc
+Version: 2.3.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2012
+Depends: libc++, liblz4, libprotobuf, libsnappy, zlib, zstd
+Filename: pool/clandro-pkg/apache-orc_2.3.0-1_aarch64.deb
+Size: 403348
+MD5sum: 4c60e288edda69e3c0e59cac51778752
+SHA1: 973474f0663b0b0a6f1889a4597d8152d1be5de6
+SHA256: 68dc2b72c8f9587d9b98b2c187255982499aec75b3de71c2e01552400252a605
+Homepage: https://orc.apache.org/
+Description: Columnar storage for Hadoop workloads
 
 Package: apkeep
 Version: 1.0.0
@@ -421,6 +586,62 @@ SHA1: 650ff3b16bc8e6013c83bfe69925cd4a0a84ea40
 SHA256: 864572cd68394e2aa81197f729f9dbe585df78727e0926f167a2727110249d61
 Homepage: https://developer.android.com/studio/command-line/apksigner
 Description: APK signing tool from Android SDK
+
+Package: appstream
+Version: 1.1.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2392
+Depends: curl, glib, libfyaml, libxml2, libxmlb, zstd
+Filename: pool/clandro-pkg/appstream_1.1.2_aarch64.deb
+Size: 335716
+MD5sum: b8a4bbeb6fda426b3d69753955a58cfe
+SHA1: 25ac32682b4a1cc3b0aafc0fa30e769b7774999a
+SHA256: 1576f4db5f5a7511261b9ce9fd693bdbc7494ae18667a180a309e14030c70759
+Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
+Description: Provides a standard for creating app stores across distributions
+
+Package: apt-file
+Version: 3.3
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 128
+Depends: apt, libapt-pkg-perl, libregexp-assemble-perl, perl
+Replaces: whatprovides
+Filename: pool/clandro-pkg/apt-file_3.3_all.deb
+Size: 17068
+MD5sum: 405bd14cb5c5d982b45a815b4f8b1ccd
+SHA1: ce3a04aec79995280717a8bdbe35a10c83192ecf
+SHA256: 58ee04ac556a1129454d8a4bc6b6279f12cad08e0e0c0af148e500a4330f1fed
+Homepage: https://wiki.debian.org/apt-file
+Description: search for files within packages
+
+Package: apt-show-versions
+Version: 0.22.16
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 136
+Depends: apt, libapt-pkg-perl, perl
+Filename: pool/clandro-pkg/apt-show-versions_0.22.16_all.deb
+Size: 13384
+MD5sum: e4f725d4c59018d5fa113252b792c0fa
+SHA1: 86a9400dfc43e31cfed85ebe9155c3dc20ef5e74
+SHA256: b8a79636dd829611ab579f4a72a0ea655c74a04f0f25a56eb2db2c29ca159bfd
+Homepage: https://salsa.debian.org/debian/apt-show-versions
+Description: Lists available package versions with distribution
+
+Package: aptly
+Version: 1.6.2-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 44552
+Filename: pool/clandro-pkg/aptly_1.6.2-1_aarch64.deb
+Size: 9188816
+MD5sum: 88b828f3ce6522a60725dad7613ec974
+SHA1: 5eb7828aa07806dba62bb9cb34b4004f270f34d5
+SHA256: f690ce2f4bcf2817cef65d1da2a5bb6353280ff0e508a3ba8bbce1f6ef188738
+Homepage: https://www.aptly.info
+Description: A Swiss Army knife for Debian repository management
 
 Package: cargo-binstall
 Version: 1.19.1
@@ -480,6 +701,47 @@ SHA256: f8ebf25b66673d8a77aa10bbbcf2570fc32ab9f33b82bda371c7e3e97b801880
 Homepage: https://github.com/google/googletest
 Description: Google C++ testing framework
 
+Package: libapt-pkg-perl
+Version: 0.1.40-14
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 324
+Depends: apt, libc++, perl
+Filename: pool/clandro-pkg/libapt-pkg-perl_0.1.40-14_aarch64.deb
+Size: 66132
+MD5sum: 68c1c801f5167becba5e64d57d108941
+SHA1: c1058e5e6b86469651cea37c984b365da03689dc
+SHA256: 91f2125dae05a37dcd02d60fb5fb30d619c1dded9687918bd97dad9d8e90bf31
+Homepage: https://packages.debian.org/libapt-pkg-perl
+Description: Perl interface to APT's libapt-pkg
+
+Package: libfyaml
+Version: 0.9.6-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1280
+Filename: pool/clandro-pkg/libfyaml_0.9.6-1_aarch64.deb
+Size: 371676
+MD5sum: bd3ee9464f4ca4cb22f46345a9d4ce37
+SHA1: fa6c32250f34cbb2af2e041eaa81697c74e49d6c
+SHA256: fdc2d88d1b4cd03dc43dc233dc96c7cd4041bc63767e70186fd3d709185eabca
+Homepage: https://pantoniou.github.io/libfyaml/
+Description: Fully feature complete YAML parser and emitter
+
+Package: libfyaml-static
+Version: 0.9.6-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1100
+Depends: libfyaml (= 0.9.6-1)
+Filename: pool/clandro-pkg/libfyaml-static_0.9.6-1_aarch64.deb
+Size: 240372
+MD5sum: e366d1fc32f1459d1de1e266a68cc544
+SHA1: 27cfac3efb314768053a8c3158302068230d78bf
+SHA256: e56f1fa611867adac2cdddf73821c29a280511813f6a505f2b8057f7d2c0d476
+Homepage: https://pantoniou.github.io/libfyaml/
+Description: Static libraries for libfyaml
+
 Package: libprotobuf
 Version: 2:33.1-1
 Architecture: aarch64
@@ -496,6 +758,61 @@ SHA1: 7c1c7ef5e6dbd2b14fbce04f107691f01a7de265
 SHA256: 58bfa19f25fc6ae36edf0d03fc42ef777ae77aa2e1742f4e256196957fa363dd
 Homepage: https://github.com/protocolbuffers/protobuf
 Description: Protocol buffers C++ library
+
+Package: libregexp-assemble-perl
+Version: 0.38-8
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 216
+Depends: perl
+Filename: pool/clandro-pkg/libregexp-assemble-perl_0.38-8_all.deb
+Size: 52320
+MD5sum: 4d4c04b8eea4205654913135abd3f5fd
+SHA1: 472cc34ae6f1dcb17f4bbefb4058f3888a6d223c
+SHA256: 4c0c0651583cbc573aeeb121510d17edddabf6e488703261f7927d250b1d17e3
+Homepage: https://metacpan.org/pod/Regexp::Assemble
+Description: Perl module to merge several regular expressions
+
+Package: libstemmer
+Version: 3.0.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1172
+Filename: pool/clandro-pkg/libstemmer_3.0.1_aarch64.deb
+Size: 100960
+MD5sum: c7569d7f234076b82ab933e98ee80b92
+SHA1: 3c2720a3a26f84d11a1e180f36378e54acdaaf80
+SHA256: 1ccbac05e41212ab341637defa4a5858e65c1379edae077814a8d15fbb0a1aed
+Homepage: https://snowballstem.org/
+Description: Snowball compiler and stemming algorithms
+
+Package: libstemmer-static
+Version: 3.0.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1844
+Depends: libstemmer (= 3.0.1)
+Filename: pool/clandro-pkg/libstemmer-static_3.0.1_aarch64.deb
+Size: 173700
+MD5sum: 547c55f68c87fb789390640f4e3bf68a
+SHA1: 59c22d4bb7884ef4cd6e652cab238898e3524646
+SHA256: 5589451e1b971f341337a0a6faf6dde622ccb7a0becaa9cbf93d9915dc06eb5c
+Homepage: https://snowballstem.org/
+Description: Static libraries for libstemmer
+
+Package: libxmlb
+Version: 0.3.26
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 712
+Depends: glib, liblzma, libstemmer, zstd
+Filename: pool/clandro-pkg/libxmlb_0.3.26_aarch64.deb
+Size: 90640
+MD5sum: d24a60d5067946825adec623cac808c3
+SHA1: f4a8b0a0335f5522a2073c8f082b2a016f5b5b6a
+SHA256: cf4048044d8d5a4678e70dc15c6cb3007e4ffa59610a25750dc1278810139ea7
+Homepage: https://github.com/hughsie/libxmlb
+Description: Library to help create and query binary XML blobs
 
 Package: libzopfli
 Version: 1.0.3-5
@@ -755,6 +1072,78 @@ SHA1: 2cf157f102a1c3a1f1b52a5a0c11a6c79816aa4a
 SHA256: c1bf460c0f8ef29ed8f25335898c0ca264d789c220d499dc9ecde96560f57fcd
 Homepage: https://www.rust-lang.org/
 Description: Rust compiler source code files
+
+Package: stemwords
+Version: 3.0.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1136
+Filename: pool/clandro-pkg/stemwords_3.0.1_aarch64.deb
+Size: 104696
+MD5sum: abf0e6fecdf7bcad5f987b2bdc3d20a8
+SHA1: a8b8485ece314f5d3b37d6035a4b7f7f564cea8e
+SHA256: 2e5b85e9683d6d5b7653a2f71840421beb2a5c1f8f16ed3c1e7381807717e2c1
+Homepage: https://snowballstem.org/
+Description: A command-line tool which uses libstemmer
+
+Package: valac
+Version: 0.56.19
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 13376
+Depends: glib
+Recommends: clang, pkg-config
+Breaks: valac-dev
+Replaces: valac-dev
+Filename: pool/clandro-pkg/valac_0.56.19_aarch64.deb
+Size: 1664160
+MD5sum: 5d07e7cbc4896693a38fdf4aab20000e
+SHA1: 0a71b3dbefaee86cba61b1d14316904c9d1b2fa7
+SHA256: c8fb833acface68ebc23b29c162152f335980ebb3063488e677cb8b87f83f2e5
+Homepage: https://wiki.gnome.org/Projects/Vala
+Description: C# like language for the GObject system
+
+Package: valac-static
+Version: 0.56.19
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 6472
+Depends: valac (= 0.56.19)
+Filename: pool/clandro-pkg/valac-static_0.56.19_aarch64.deb
+Size: 942808
+MD5sum: f45803743256ca9aac68cbbd740409d4
+SHA1: 76c91d01b5ded55e2162d0ef7447e268dfd433a1
+SHA256: 77c534d13a284dd989cd9606d2d3300a390cbaf7b2e4f6b7c2bab2a60ce38067
+Homepage: https://wiki.gnome.org/Projects/Vala
+Description: Static libraries for valac
+
+Package: valadoc
+Version: 0.56.19
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1932
+Depends: graphviz, valac (= 0.56.19)
+Filename: pool/clandro-pkg/valadoc_0.56.19_aarch64.deb
+Size: 343196
+MD5sum: 608d7b6cef6c7db344b9c573eb7da777
+SHA1: f0411ffe04dd3a090474c1738ca810916f9457b8
+SHA256: 17202a14c9efc06e322aa27eb7620f54b13d34c6a36e4383c0a0b5e5f0a8bc2b
+Homepage: https://wiki.gnome.org/Projects/Vala
+Description: API documentation generator for vala
+
+Package: valadoc-static
+Version: 0.56.19
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2704
+Depends: valadoc, valac (= 0.56.19)
+Filename: pool/clandro-pkg/valadoc-static_0.56.19_aarch64.deb
+Size: 369048
+MD5sum: 07eb206ac6a051c19cb360c96681e561
+SHA1: 4fc7bccbeeff1b763b299be50224aad6aa518811
+SHA256: 9f07852210baa2c1ce32140c3bdd4169e77a90413d2be4e9c9d3d1b664f8396b
+Homepage: https://wiki.gnome.org/Projects/Vala
+Description: Static libraries for valadoc
 
 Package: wasi-libc
 Version: 30
