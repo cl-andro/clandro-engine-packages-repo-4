@@ -1178,12 +1178,12 @@ Version: 15.0.3-1
 Architecture: aarch64
 Maintainer: @clandro
 Installed-Size: 2432
-Depends: libc++, liblzo, openssl, zlib
+Depends: libc++, liblzo, openssl, zlib, libcap
 Filename: pool/clandro-pkg/bacula-fd_15.0.3-1_aarch64.deb
 Size: 597856
-MD5sum: 98d2ac62223bbf4645baa3b2c075a4c7
-SHA1: 339989a4ea190d22be0eca4a12cdc301af1c80a3
-SHA256: 2b57f76652fa65ccfebd997fbd1a321c2db9ead6e9ebfbdbf71f1e03a0231ecd
+MD5sum: 7964c920b15ee91e143d095cafcbc3f5
+SHA1: 95201b699565f7a9740ad0ae34fd1ef16ebf7577
+SHA256: 6782e06ded82183da75cee4b4a07b5830a1df2f394a2814dcbdc8a0c00d853e5
 Homepage: https://www.bacula.org
 Description: Bacula backup software
 
@@ -1395,12 +1395,14 @@ Package: biome2
 Version: 2.4.14
 Architecture: aarch64
 Maintainer: @clandro
-Installed-Size: 92456
+Installed-Size: 52328
+Breaks: biome
+Replaces: biome
 Filename: pool/clandro-pkg/biome2_2.4.14_aarch64.deb
-Size: 20998496
-MD5sum: ff7ff46b2924c688d8686c8684f0ee80
-SHA1: f1f35fd815a064fdb9b9c19c45f31e9cea364913
-SHA256: 35859d63ec794c8ea160d861641341ac50208793878ceb7f3c96f000d27e373f
+Size: 11038148
+MD5sum: b7aff067643b588235614245ef3ecaec
+SHA1: 573ed9574804819f2a235db34bb2fd589a22730b
+SHA256: 564d5977cf9246c168ba8b9608de36f5975f230e98c28e887061b7c1a44e6e2e
 Homepage: https://biomejs.dev/
 Description: A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP
 
