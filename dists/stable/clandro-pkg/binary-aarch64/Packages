@@ -1,3 +1,46 @@
+Package: cargo-binstall
+Version: 1.19.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 16144
+Depends: resolv-conf
+Filename: pool/clandro-pkg/cargo-binstall_1.19.1_aarch64.deb
+Size: 4944064
+MD5sum: af5b92756564ab5617541aaea5b287f5
+SHA1: fd625ca606da396e8185f840046dee157f7fba0a
+SHA256: b6780b2bac63a9884f880fb220a1d7518bcb2bc5105e7c726c277bcfdc85bec5
+Homepage: https://github.com/cargo-bins/cargo-binstall
+Description: Tool to fetch and install precompiled musl-based static binaries from the Rust ecosystem
+
+Package: cargo-c
+Version: 0.10.22
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 93512
+Depends: libcurl, libgit2, libssh2, openssl, zlib
+Filename: pool/clandro-pkg/cargo-c_0.10.22_aarch64.deb
+Size: 25178892
+MD5sum: 04c82d9f458653cc258d7fd49708bd57
+SHA1: 50a7eb7d18e29e84d224381e77d339f453d524b7
+SHA256: 9cb5f02ecf2302148ef13cf537eb8ba836fb8d07cfe4abcdb85c66b58f35d011
+Homepage: https://github.com/lu-zero/cargo-c
+Description: Cargo C-ABI helpers
+
+Package: ripgrep-all
+Version: 1:0.10.10
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 15392
+Depends: fzf, ripgrep, xz-utils
+Recommends: ffmpeg, graphicsmagick, pandoc, poppler, tesseract
+Filename: pool/clandro-pkg/ripgrep-all_1:0.10.10_aarch64.deb
+Size: 3516564
+MD5sum: d2101ac688bbb8a618b51023bedb648f
+SHA1: ce7781eb0b62faa03478625859075bff9c69d876
+SHA256: 1d8402efd0762dd84b2dcd864d7ef3884aaa622151c8a03be2f5319105c7ed8a
+Homepage: https://github.com/phiresky/ripgrep-all
+Description: Search tool able to locate in PDFs, E-Books, zip, tar.gz, etc
+
 Package: rust
 Version: 1.95.0
 Architecture: aarch64
@@ -12,6 +55,33 @@ SHA1: ef982e735292eb3158c3a04d030717a2abdfd178
 SHA256: 740f2b3dbdbb0db5ab6c936ef76b424a29c1de6fb9f467f4196d6f1bbb3f9808
 Homepage: https://www.rust-lang.org/
 Description: Systems programming language focused on safety, speed and concurrency
+
+Package: rust-analyzer
+Version: 20260504
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 36484
+Depends: rust-src
+Filename: pool/clandro-pkg/rust-analyzer_20260504_aarch64.deb
+Size: 8037216
+MD5sum: 5dbcf14850beaf7d6223ac13700c3b9a
+SHA1: 6c2c83c5eea6c98f860a96b17d59eddc235c4b05
+SHA256: e4ba56b270c5c3ea960fb0c5be033b9e1d006ad1d77a3fb287c80e904c2952e8
+Homepage: https://rust-analyzer.github.io/
+Description: A Rust compiler front-end for IDEs
+
+Package: rust-bindgen
+Version: 0.72.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 6244
+Filename: pool/clandro-pkg/rust-bindgen_0.72.1_aarch64.deb
+Size: 1616764
+MD5sum: 4c524ee1044c67a478106f54b12ea9e0
+SHA1: ef0fea80118f085d65cb5c06a3a72468aafe07d7
+SHA256: db45d2bac9a01fce7f94bca9b52de41b2223db1f91d3123f7bb5ccd7bd4957e0
+Homepage: https://github.com/rust-lang/rust-bindgen
+Description: Automatically generates Rust FFI bindings to C (and some C++) libraries
 
 Package: rust-docs
 Version: 1.95.0
