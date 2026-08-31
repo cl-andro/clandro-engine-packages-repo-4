@@ -2839,12 +2839,12 @@ Version: 0.34.1
 Architecture: aarch64
 Maintainer: @clandro
 Installed-Size: 25696
-Depends: libc++, lua51, libsqlite, ncurses, zlib
+Depends: libc++, lua54, libsqlite, ncurses, zlib
 Filename: pool/clandro-pkg/crawl_0.34.1_aarch64.deb
 Size: 6408556
-MD5sum: 821cca086a6aa29f574a445baa00df94
-SHA1: 1c92ba7aae5d3da2896c73e513859094d70fe205
-SHA256: 50737a6aa8e458c68f5b132e997f744194f727946d3c86f9f4793457c0dd152d
+MD5sum: d7c3f8acc2caccc550d0b4e7fb2e0805
+SHA1: 3dd22e0a62d967e463c1357a2da837585a58ce1b
+SHA256: 987b985e09a898658cc0caae1d37916e71e7265e502dffa1c078a98b19be3060
 Homepage: https://crawl.develz.org/
 Description: Roguelike adventure through dungeons filled with dangerous monsters
 
@@ -2995,12 +2995,12 @@ Version: 2:6.2.1
 Architecture: aarch64
 Maintainer: @clandro
 Installed-Size: 3656
-Depends: libiconv, libjansson, libxml2, libyaml
+Depends: libiconv, libjansson, libseccomp, libxml2, libyaml
 Filename: pool/clandro-pkg/ctags_2:6.2.1_aarch64.deb
-Size: 723700
-MD5sum: 0d455dbcc64f863a4b56481c6cc03418
-SHA1: 448a13b76024595f8bb603ca04abf8f43d8bf8fe
-SHA256: 31badabc0a843803bc9ff29a3c02a7a35fbbbf00db8e53d86987a0946b1cca95
+Size: 723704
+MD5sum: 81e0601042ec1c7822533057521dc8ae
+SHA1: e6795ac3bdfcce862f54f3ce2da96aea996d10b9
+SHA256: a81ccf523609253db62f79f0a0f60a1ddd672ba689ae6daa63cb710be6604da8
 Homepage: https://ctags.io/
 Description: Universal ctags: Source code index builder
 
@@ -3132,12 +3132,12 @@ Version: 2.8.5
 Architecture: aarch64
 Maintainer: @clandro
 Installed-Size: 6060
-Depends: attr, libbz2, libc++, libgcrypt, libgpg-error, liblzma, liblzo, zlib, zstd
+Depends: argon2, attr, libbz2, libc++, libgcrypt, libgpg-error, liblzma, liblzo, zlib, zstd
 Filename: pool/clandro-pkg/dar_2.8.5_aarch64.deb
-Size: 1368552
-MD5sum: 7636e62068135b5a910ea46ff0e19e50
-SHA1: 2a3e51dba88c59eb7e17dff48076d8d308846db8
-SHA256: 22df90aa9cbd43fbda40f38138865dc68d123c79ed0721e9d5d7eb21a422c2b6
+Size: 1368556
+MD5sum: 4dc5becdb6e9d35f0ac238efe658b459
+SHA1: 0821e739548e3a4d524d10882c8f7ee90cf348c5
+SHA256: b7446dc6d55a33a9af248af03291220dd115617e01fefe37b98622a927ccf7d0
 Homepage: http://dar.linux.free.fr/
 Description: A full featured command-line backup tool, short for Disk ARchive
 
