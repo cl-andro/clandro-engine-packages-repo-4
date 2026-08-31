@@ -2864,6 +2864,34 @@ SHA256: bcc71d729f9eafb64d544209836eb4df395bb9c894aaaf7a11e027286da7f2a6
 Homepage: https://www.cryptopp.com/
 Description: Static libraries for cryptopp
 
+Package: debootstrap
+Version: 1.0.144
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 360
+Depends: llvm, perl, proot, sed, wget
+Filename: pool/clandro-pkg/debootstrap_1.0.144_all.deb
+Size: 35692
+MD5sum: 9a4cae2b8a79340040bfc688143d755b
+SHA1: 861b33f29f6d2943b48fc63738b5654048724520
+SHA256: 50de18a2f9fba800943ca026828e7d0ae3341d8d8d54c1b22bf72dcf71ea14ec
+Homepage: https://wiki.debian.org/Debootstrap
+Description: Bootstrap a basic Debian system
+
+Package: delve
+Version: 1.26.3
+Architecture: aarch64
+Maintainer: Krishna kanhaiya @kcubeterm
+Installed-Size: 13460
+Depends: golang, git
+Filename: pool/clandro-pkg/delve_1.26.3_aarch64.deb
+Size: 3478640
+MD5sum: bbfa26fb6d97a423c92c8f09c5572c10
+SHA1: 8b38729a76e8dda1c5a6d9284e43bb402a2d60d2
+SHA256: ba7d5f9c3ea8ee0f2be112ff0749d05147c4fdb008e9b41f71a6db3dd9410e7b
+Homepage: https://github.com/go-delve/delve
+Description: A debugger for the Go programming language
+
 Package: dvtm
 Version: 0.15-4
 Architecture: aarch64
