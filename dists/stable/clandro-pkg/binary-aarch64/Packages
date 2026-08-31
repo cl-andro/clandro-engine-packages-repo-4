@@ -5337,6 +5337,20 @@ SHA256: bae2bba57e11f0fbd1f437dd40dd3a37b64ab74bbc142baa428e4e15661a3d0e
 Homepage: https://github.com/pyca/cryptography
 Description: Provides cryptographic recipes and primitives to Python developers
 
+Package: python-cryptography
+Version: 48.0.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 5444
+Depends: openssl, python, python-pip
+Filename: pool/clandro-pkg/python-cryptography_48.0.0-1_aarch64.deb
+Size: 1129028
+MD5sum: 1715db5e8b61cb3b22fda261171ca341
+SHA1: 6abda3c42c68eba61bea03448bfd5b4eb9efa13b
+SHA256: 9937ba03e91a06b74fa85451fb42b4d6094f9348a2948ccfd8558b0d6d8eeb2d
+Homepage: https://github.com/pyca/cryptography
+Description: Provides cryptographic recipes and primitives to Python developers
+
 Package: quickjs-ng
 Version: 0.14.0
 Architecture: aarch64
