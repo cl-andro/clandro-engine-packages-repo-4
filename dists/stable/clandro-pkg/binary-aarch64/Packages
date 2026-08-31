@@ -4165,11 +4165,12 @@ Version: 18.4.19-1
 Architecture: aarch64
 Maintainer: @clandro
 Installed-Size: 316
+Depends: lua52
 Filename: pool/clandro-pkg/eja_18.4.19-1_aarch64.deb
-Size: 49228
-MD5sum: c63532bb56b9f2eaba0c0131c83cc061
-SHA1: d92f74e7e843046e391ac70a5836b77a42553fe1
-SHA256: 776a02d15ee3f6fc401b7c0f105b2b7b97b38b15984a96efd819fbfc90eed79b
+Size: 49240
+MD5sum: 13853782c335ccfc2028521baee2ddd1
+SHA1: 34775e87ad93cbe57b78cc00a95c28aef0be8dd1
+SHA256: 8543c7419cedb15cbb626e72a50de8bf5e500e57f0f447a9a5a5cee7f82ac7d8
 Homepage: https://github.com/eja/eja
 Description: eja micro web server
 
