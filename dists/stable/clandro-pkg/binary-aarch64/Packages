@@ -2641,6 +2641,20 @@ SHA256: 5228107d4c783a0bcdb071992e2f7abf02f0b94e2f355a72788f22dea161d21e
 Homepage: https://github.com/termux/command-not-found
 Description: Suggest installation of packages in interactive shell sessions
 
+Package: command-not-found
+Version: 3.5.0-2
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev> & @clandro
+Installed-Size: 576
+Depends: libc++
+Filename: pool/clandro-pkg/command-not-found_3.5.0-2_aarch64.deb
+Size: 89788
+MD5sum: d58420be954093d686ad1cdba31b356b
+SHA1: f767eff59fa86e4330dc3c46aa0b88aaeb90be40
+SHA256: 32764d60e1ae389307df5b978b2ecff91b912390521b11b2859cb7e38f9c153f
+Homepage: https://github.com/termux/command-not-found
+Description: Suggest installation of packages in interactive shell sessions
+
 Package: convertlit
 Version: 1.8-2
 Architecture: aarch64
