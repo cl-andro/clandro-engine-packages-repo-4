@@ -2627,6 +2627,20 @@ SHA256: 1722ee0f51c11e5e86582108cd12ba96a202de250eb4e43e5e1b166558aafce9
 Homepage: https://www.colm.net/open-source/colm/
 Description: Static libraries for colm
 
+Package: command-not-found
+Version: 3.5.0-1
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev> & @clandro
+Installed-Size: 116
+Depends: libc++
+Filename: pool/clandro-pkg/command-not-found_3.5.0-1_aarch64.deb
+Size: 16980
+MD5sum: f3397acacb24b21dc837d2b73aded3f8
+SHA1: 4e0d30f6dd4c22b6a312f80935c88b6b3b492402
+SHA256: 5228107d4c783a0bcdb071992e2f7abf02f0b94e2f355a72788f22dea161d21e
+Homepage: https://github.com/termux/command-not-found
+Description: Suggest installation of packages in interactive shell sessions
+
 Package: convertlit
 Version: 1.8-2
 Architecture: aarch64
