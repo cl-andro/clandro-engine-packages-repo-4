@@ -5,18 +5,18 @@ Codename: stable
 Architectures: aarch64
 Components: b2b clandro-pkg
 Description: Secure Custom Package Repository for OpsPulse
-Date: Mon, 31 Aug 2026 05:12:14 +0000
+Date: Mon, 31 Aug 2026 05:51:18 +0000
 MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e 0 b2b/binary-aarch64/Packages
- df153c9fb19b382c6a5fe2bb87e8e1c5 29 b2b/binary-aarch64/Packages.gz
+ 1bb4b7cee25c91ac82ef66db03749c77 29 b2b/binary-aarch64/Packages.gz
  8dc5aea5b03dff8595f096f9e368e888 32 b2b/binary-aarch64/Packages.xz
- 86ab2a799423ceeb74c6b6c01b10cb96 105440 clandro-pkg/binary-aarch64/Packages
- 1f63f8ed4211f15780683252df9c23ce 37244 clandro-pkg/binary-aarch64/Packages.gz
- 9d5358b8d30472dbeadccf85a9c6e943 32864 clandro-pkg/binary-aarch64/Packages.xz
+ e14f0700fb751181ed353af944f96cea 106376 clandro-pkg/binary-aarch64/Packages
+ 72589eca315b7607b0b3d8deebfe169c 37479 clandro-pkg/binary-aarch64/Packages.gz
+ 68972acc77b499daf27d427c2f3d4c3f 33052 clandro-pkg/binary-aarch64/Packages.xz
 SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 b2b/binary-aarch64/Packages
- fb2c4f06b4330734b417f01bdc8c3fcb722938b3eeca2aa8921dff464f1a45e4 29 b2b/binary-aarch64/Packages.gz
+ 05df1eca5d9c374ec7501490f32ebffe29e0d9d2554fe4e1682d1b7ddc8f6610 29 b2b/binary-aarch64/Packages.gz
  0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275 32 b2b/binary-aarch64/Packages.xz
- 9c71ee9b51d563a51c9e5a97502715edb660650c5542d0b6124b8fafd11107dc 105440 clandro-pkg/binary-aarch64/Packages
- b4039ce24c35c3bd8577882fb90fc58c496fd9889eb4a8e198cd87503eb4d5cf 37244 clandro-pkg/binary-aarch64/Packages.gz
- d4e6b450682ba6e20f3726f17a0706b82dc57a6a97597fd4927fe9e8aa407152 32864 clandro-pkg/binary-aarch64/Packages.xz
+ c20aa865051ad10a5a380efd738eb4bb4a2caecd04daaa4835d371c2a623e0dc 106376 clandro-pkg/binary-aarch64/Packages
+ 56920a6a9ad8dfe8ee37dd235c36bc99f77918937d504f72fc3641bb64015381 37479 clandro-pkg/binary-aarch64/Packages.gz
+ 9b09c06de5391f5041e8b44d553965db0e9441e3f0805c7c90b87bf6c5ec062b 33052 clandro-pkg/binary-aarch64/Packages.xz

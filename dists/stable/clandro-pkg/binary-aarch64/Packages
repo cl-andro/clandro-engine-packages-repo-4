@@ -2513,6 +2513,20 @@ SHA256: 2d789ba4fb88cc2776ecfd2c91860584b807bf6545167e044994894747cd3a70
 Homepage: https://notroj.github.io/neon/
 Description: An HTTP/1.1 and WebDAV client library, with a C interface
 
+Package: libneon
+Version: 0.37.1-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1540
+Depends: libexpat, openssl, zlib, krb5
+Filename: pool/clandro-pkg/libneon_0.37.1-1_aarch64.deb
+Size: 204308
+MD5sum: 400fd05001e17f9ff6f3056bd7717a3e
+SHA1: 3fab54913a03a84c303dc2dbf1f097cd34750c59
+SHA256: 73c349a8d5ed960a8f439af43d95da0965a0348bbc56a3f747961fe2d54614ae
+Homepage: https://notroj.github.io/neon/
+Description: An HTTP/1.1 and WebDAV client library, with a C interface
+
 Package: libneon-static
 Version: 0.37.1
 Architecture: aarch64
@@ -2524,6 +2538,20 @@ Size: 66548
 MD5sum: 7be09a163df1e5c4a4a76511f91059e6
 SHA1: fed42941f04f221a675a4664f3578d7ce234084c
 SHA256: 612bca0d75efc83d0d678dee95e2753cb47e5359c5c067b2389dd49119ff2787
+Homepage: https://notroj.github.io/neon/
+Description: Static libraries for libneon
+
+Package: libneon-static
+Version: 0.37.1-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 332
+Depends: libneon (= 0.37.1-1)
+Filename: pool/clandro-pkg/libneon-static_0.37.1-1_aarch64.deb
+Size: 66552
+MD5sum: 05e02d7d13aa6495313ca6ef9cdb0a79
+SHA1: 424bc654aaafc4d6d0aff148244d8b6535897256
+SHA256: edeafecf023317e1ae69e42f216e1a01abf4d2add311171fa759648b2d113fc5
 Homepage: https://notroj.github.io/neon/
 Description: Static libraries for libneon
 
