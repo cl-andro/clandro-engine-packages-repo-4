@@ -65,6 +65,20 @@ SHA256: 03fc94b85318c44a819cba116310ec470b2fa1f183681b8b085cab5358d779aa
 Homepage: https://github.com/adriancable/8086tiny
 Description: A PC XT-compatible emulator/virtual machine
 
+Package: a52dec
+Version: 0.8.0-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 88
+Depends: liba52 (= 0.8.0-3)
+Filename: pool/clandro-pkg/a52dec_0.8.0-3_aarch64.deb
+Size: 14304
+MD5sum: 9aa6aee0f7f19fb7568f594db4cb757c
+SHA1: 5ae6e0439c8883907ff4c1e2f0ec716c1488a693
+SHA256: 897d29ad4bd52646103e1eb6406dfa7fb0f1465ebcb8366d761587a9eed52808
+Homepage: http://liba52.sourceforge.net/
+Description: A test program for liba52
+
 Package: aalib
 Version: 1.4rc5-13
 Architecture: aarch64
@@ -1683,6 +1697,32 @@ SHA256: 61c87aa6e89e4ee73f98da355adda7de9f3d68d0e0a36d02fd61f48c021014a2
 Homepage: https://github.com/Canop/broot
 Description: A better way to navigate directories
 
+Package: bsd-finger
+Version: 0.17-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 124
+Filename: pool/clandro-pkg/bsd-finger_0.17-3_aarch64.deb
+Size: 17180
+MD5sum: ec1c55805cb220acb0af30a03d6f96ea
+SHA1: f00486dcae5803a28bbfa6370a033902fd7dbc93
+SHA256: 863592006456a0a29c648f11244e5c03934a7a91a1a6dc8238133bcb951e320b
+Homepage: https://packages.debian.org/sid/source/bsd-finger
+Description: User information lookup program
+
+Package: btop
+Version: 1.4.7
+Architecture: aarch64
+Maintainer: @tstein <me@tedstein.net>
+Installed-Size: 1912
+Filename: pool/clandro-pkg/btop_1.4.7_aarch64.deb
+Size: 489244
+MD5sum: a0ed41d206dd9120849519f647e6f8b7
+SHA1: 317c28c5b8e3e819e842c30ea1ce86012f99ff97
+SHA256: 5f41db6e5d9d3ef8caf707b02510e358c1a0cb10540e7c79a4682eca8e303c34
+Homepage: https://github.com/aristocratos/btop
+Description: Resource monitor that shows usage and stats for processor, memory, disks, network and processes.
+
 Package: btrfs-progs
 Version: 6.19.1
 Architecture: aarch64
@@ -1696,6 +1736,177 @@ SHA1: 59a1c621d1da954d52d0ac9a3dbe62b79f63fefc
 SHA256: 587590a6c3f76c857e6444e776a9de526d3cd4c423e206cfe91cc4db891ca084
 Homepage: https://btrfs.readthedocs.io/en/latest/
 Description: Utilities for Btrfs filesystem
+
+Package: buf
+Version: 1.69.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 56328
+Filename: pool/clandro-pkg/buf_1.69.0_aarch64.deb
+Size: 10361740
+MD5sum: b91e0e90354c6a81c577e2cc35439934
+SHA1: a9c7f1eb5effa108368ba13214d08d0317653a1a
+SHA256: e36408c2552eeadd2a74c64eaf3422f115e4e97ad4715775ab966c53d6df4703
+Homepage: https://buf.build
+Description: A new way of working with Protocol Buffers
+
+Package: build-essential
+Version: 4.1
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 4
+Depends: clang, make, pkg-config
+Recommends: autoconf, automake, bc, bison, cmake, flex, gperf, libtool, m4
+Suggests: git, golang, nodejs, patchelf, proot, python, ruby, rust, subversion
+Filename: pool/clandro-pkg/build-essential_4.1_all.deb
+Size: 812
+MD5sum: 131033c32612783e1e243b6c63e07603
+SHA1: 370e0a6d3a6fb19541ad65b23de7434f91def030
+SHA256: 8b7639e5a714e6a736dbb37b55ddd45d6a0dde76a604911c42e222895561c412
+Homepage: https://github.com/termux/termux-packages
+Description: A metapackage that installs essential development tools
+
+Package: busybox
+Version: 1.37.0-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1044
+Depends: libandroid-selinux
+Filename: pool/clandro-pkg/busybox_1.37.0-3_aarch64.deb
+Size: 465692
+MD5sum: 0525f16f56d2687fbbb14c4302733af8
+SHA1: 936eca2150bd960289d7928f7a6817120b896d20
+SHA256: 070e120f54b31dc586f28f5ffe418d679f3532367de32d3084bc4ad56010a4cd
+Homepage: https://busybox.net/
+Description: Tiny versions of many common UNIX utilities into a single small executable
+
+Package: bvi
+Version: 1.5.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 176
+Depends: ncurses
+Filename: pool/clandro-pkg/bvi_1.5.0-1_aarch64.deb
+Size: 43768
+MD5sum: 54c3649f8d02a53231988d5789f281ea
+SHA1: 8a6cd619414f2d6df1c5915efcc9247939e516f2
+SHA256: 96ac86fe7e15f7bdeba163b298ab36bb0ac91a716c77623d64a9b88e43354d90
+Homepage: https://bvi.sourceforge.net/
+Description: Binary file editor based on vi
+
+Package: byacc
+Version: 20260126
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 240
+Conflicts: bison
+Filename: pool/clandro-pkg/byacc_20260126_aarch64.deb
+Size: 54956
+MD5sum: afafc68883f4ab00a229dfd3205d0eb8
+SHA1: 7965287e9dcd0a3680b4d3ce3de5d9be196ddd63
+SHA256: d158fd10b044aa3f60809265f9223765e7d4d8f9463ac419a669180ed63ea04f
+Homepage: https://invisible-island.net/byacc/
+Description: byacc is generally conceded to be the best yacc variant available
+
+Package: byobu
+Version: 6.15
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 1220
+Depends: gawk, tmux
+Filename: pool/clandro-pkg/byobu_6.15_all.deb
+Size: 287024
+MD5sum: 50ec68892a285723c5d610e767a92fda
+SHA1: 243aafed641053c9b7a4339632b5c4f765ef0404
+SHA256: 59ca214490f25412ad4218828a8c780b907f7bff22aa8cbb168d52f3c47cdfc9
+Homepage: https://www.byobu.org/
+Description: Byobu is a GPLv3 open source text-based window manager and terminal multiplexer
+
+Package: cadaver
+Version: 0.28
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 180
+Depends: libiconv, libneon, readline, libandroid-glob
+Filename: pool/clandro-pkg/cadaver_0.28_aarch64.deb
+Size: 33424
+MD5sum: 9fbac57ce28148845e529df0629c9686
+SHA1: 44f4d51e7b95d1758fea8750580dce6a59b68423
+SHA256: 09b2817aa45929f8be641503e0faeac082913421d120d19018ecfaadee3de241
+Homepage: https://notroj.github.io/cadaver/
+Description: A command-line WebDAV client for Unix
+
+Package: calc
+Version: 2.16.1.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 6744
+Depends: ncurses, readline
+Filename: pool/clandro-pkg/calc_2.16.1.2_aarch64.deb
+Size: 831076
+MD5sum: 95299a6d7e5b50992086cf5963e008a9
+SHA1: 9b62b0b6be0a64bc6ba5f5569def7babe855e472
+SHA256: b1f7f4945808faab7fc596eb5ccdc69b85f9551449edfef4f182258c07d84fed
+Homepage: http://www.isthe.com/chongo/tech/comp/calc/
+Description: Arbitrary precision console calculator
+
+Package: calcurse
+Version: 4.8.2-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 644
+Depends: libandroid-support, ncurses
+Recommends: calcurse-caldav
+Filename: pool/clandro-pkg/calcurse_4.8.2-2_aarch64.deb
+Size: 146508
+MD5sum: 5a4f43926a68716d7f18cbaf2ec42ff0
+SHA1: ec8bbfdff8ac1c7cc50902e21911ffbcd17cd80a
+SHA256: 35fb696027fd188802bb749aac17ef91fe4a41c27ea7618b28165c7981b38618
+Homepage: https://calcurse.org/
+Description: calcurse is a calendar and scheduling application for the command line
+
+Package: calcurse-caldav
+Version: 4.8.2-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 56
+Depends: python, python-pip, calcurse (= 4.8.2-2)
+Breaks: calcurse (<< 4.7.1-1)
+Replaces: calcurse (<< 4.7.1-1)
+Filename: pool/clandro-pkg/calcurse-caldav_4.8.2-2_aarch64.deb
+Size: 7956
+MD5sum: 11b4d929acab11fd74e4022e31cfec58
+SHA1: e957db8e6a8fa35389470e5f14e456ffc732623b
+SHA256: b939fe88248e5686c8765bfa5ec0efe0403759c9d06f0c5f4382805d7f1dc416
+Homepage: https://calcurse.org/
+Description: Sync calcurse with remote caldav calendar
+
+Package: capnproto
+Version: 1.4.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 9096
+Depends: libc++
+Filename: pool/clandro-pkg/capnproto_1.4.0_aarch64.deb
+Size: 1683724
+MD5sum: 1b4967e3d2d379ca38cdff5791d6afb0
+SHA1: e5e0869df9f3c1d2e95f3b8938497c40e4eac0a2
+SHA256: 8619c66d9ad63f7731aaf2d33122a4b3558e7958978a2d895789ec525c136474
+Homepage: https://capnproto.org/
+Description: Data interchange format and capability-based RPC system
+
+Package: carapace
+Version: 1.6.5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 65384
+Filename: pool/clandro-pkg/carapace_1.6.5_aarch64.deb
+Size: 7975128
+MD5sum: 0295a664d6cd6038458efc06e5a16ab1
+SHA1: e80e50776d09296aa64f6c80070ddac5ff99d629
+SHA256: ca6981fbf03ba79e6ac46dbb4eb29c9555d43e0ebf46328fc0314aca3996a794
+Homepage: https://carapace.sh/
+Description: Multi-shell multi-command argument completer
 
 Package: cargo-binstall
 Version: 1.19.1
@@ -1724,6 +1935,254 @@ SHA1: 50a7eb7d18e29e84d224381e77d339f453d524b7
 SHA256: 9cb5f02ecf2302148ef13cf537eb8ba836fb8d07cfe4abcdb85c66b58f35d011
 Homepage: https://github.com/lu-zero/cargo-c
 Description: Cargo C-ABI helpers
+
+Package: cargo-cache
+Version: 0.8.3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2884
+Depends: zlib
+Filename: pool/clandro-pkg/cargo-cache_0.8.3_aarch64.deb
+Size: 910160
+MD5sum: 0639e34473a01f1d3b11931d1f2d2d55
+SHA1: 1d7c877e52c81ccb906d5d4b1a726de2048c0d72
+SHA256: 0fe7be37137a73a943bfc5b6aea87390b941f9b61d3ee603f80b2269e8bdb43f
+Homepage: https://github.com/matthiaskrgr/cargo-cache
+Description: Tool to manage cargo cache
+
+Package: cargo-leptos
+Version: 0.3.6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 30856
+Depends: openssl
+Filename: pool/clandro-pkg/cargo-leptos_0.3.6_aarch64.deb
+Size: 8110344
+MD5sum: 6cca7339df6d774a2d3dd5b016de126b
+SHA1: 3ab8bf489eed877f5a5f08782450beb4826b3667
+SHA256: 5461e6e4fd360af958bd1ef0f5bf47f46f6b083a0bf6a7f851c7d1e42c6cbd2a
+Homepage: https://github.com/leptos-rs/cargo-leptos
+Description: Build tool for the Rust framework Leptos
+
+Package: catdoc
+Version: 0.95-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 812
+Depends: libandroid-glob
+Filename: pool/clandro-pkg/catdoc_0.95-2_aarch64.deb
+Size: 70384
+MD5sum: 29cfd2a3d94f031342b4d287ecf9b039
+SHA1: c61f565a9a557c0fe548c90157d9972b6f19372d
+SHA256: a2599eea5b34052f771f50f21d311744b42c69af7021af26a68ae77c68cd2e51
+Homepage: http://www.wagner.pp.ru/~vitus/software/catdoc/
+Description: Program which reads MS-Word file and prints readable ASCII text to stdout
+
+Package: catgirl
+Version: 2.2a-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 208
+Depends: libandroid-support, libretls, ncurses, openssl
+Filename: pool/clandro-pkg/catgirl_2.2a-1_aarch64.deb
+Size: 51000
+MD5sum: 4c956352fee35b772df1d6146d97963e
+SHA1: d84b0638c0d92a0c2cb256fe0da90c37b67022aa
+SHA256: 23660ee5f4d41e983591b4cb77203f6c0279fe8e3cf98a6d43003037eb5b36af
+Homepage: https://git.causal.agency/catgirl
+Description: A TLS-only terminal IRC client
+
+Package: catimg
+Version: 2.8.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 164
+Filename: pool/clandro-pkg/catimg_2.8.0_aarch64.deb
+Size: 38680
+MD5sum: 4ab04db0e584658de629e46e352340c5
+SHA1: 2630eb6d71c645cb318742b70a47d11569aea918
+SHA256: b46d79711f7d7cf330089792f611bf6a1809bfca4e004b57e8781b5161731bdc
+Homepage: https://posva.net/shell/retro/bash/2013/05/27/catimg
+Description: Renders images in the terminal
+
+Package: cava
+Version: 0.10.7
+Architecture: aarch64
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 180
+Depends: fftw, libiniparser, ncurses, pulseaudio
+Filename: pool/clandro-pkg/cava_0.10.7_aarch64.deb
+Size: 37424
+MD5sum: 77b1accef033b48dc611831ea3951a62
+SHA1: 73341f9b3b0ba04f2bb89d3e9bb82713df0db68a
+SHA256: 6c913ffbb475dd712b8ed8b16c8901639a6cc83b26247f45f447a9b790950191
+Homepage: https://github.com/karlstav/cava
+Description: Console-based Audio Visualizer. Works with MPD and Pulseaudio
+
+Package: cavif
+Version: 1.5.6-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 3544
+Breaks: cavif-rs
+Replaces: cavif-rs
+Filename: pool/clandro-pkg/cavif_1.5.6-1_aarch64.deb
+Size: 1260820
+MD5sum: a42a77eeeb17579dba5ac63a1aaed014
+SHA1: bfa7fcf30009a3090b8873f7b086d26e2cc60c9f
+SHA256: e57b524b51b75bcdb487c853d0c68d591f82bf3d44ea0b3ced9240ddb38222ca
+Homepage: https://lib.rs/cavif
+Description: AVIF image creator in pure Rust
+
+Package: cc65
+Version: 2.19-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 33232
+Filename: pool/clandro-pkg/cc65_2.19-1_aarch64.deb
+Size: 1913916
+MD5sum: 3ca215383f6f6ff416e958b5c4e4f0cd
+SHA1: ae16976b5c192518fe07ff8d9dd0b436bfa1eae5
+SHA256: 5ac250488fa657f725e5ea32f1f983619855c36c45eb5633a0c52514e3527ce6
+Homepage: https://cc65.github.io/
+Description: A free compiler for 6502 based system
+
+Package: cccc
+Version: 3.2.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 600
+Depends: libc++
+Filename: pool/clandro-pkg/cccc_3.2.0-1_aarch64.deb
+Size: 129708
+MD5sum: 1c74588d2c862dcc93c384cd82af3a7c
+SHA1: 362d3cf86b4a88e16afb5a57e427c8355df283e3
+SHA256: 12ca21228514ae850bb5ad87a1d84ed418133073fc75c8ef160ffedc6ac89288
+Homepage: https://sarnold.github.io/cccc/
+Description: Source code counter and metrics tool for C++, C, and Java
+
+Package: ccextractor
+Version: 0.94-6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 664
+Depends: freetype, gpac, libiconv, libmd, libpng, libprotobuf-c, utf8proc
+Filename: pool/clandro-pkg/ccextractor_0.94-6_aarch64.deb
+Size: 224016
+MD5sum: 49e3582c271087efa853702cffa1657b
+SHA1: ab2e1f17fb8e665680f8d7ab242ba6fa041b0ef1
+SHA256: 704b02a406bf5765beb6fad2f596895b1e4a9e9e1145b13a01209c4909372b73
+Homepage: https://ccextractor.org/
+Description: A tool used to produce subtitles for TV recordings
+
+Package: ccls
+Version: 0.20250815.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1384
+Depends: clang, libc++, libllvm
+Filename: pool/clandro-pkg/ccls_0.20250815.1_aarch64.deb
+Size: 398052
+MD5sum: 298e74288e62bffce751e86223c02219
+SHA1: 814d5d3fd098355f7ae8d40d914c745f5def9ad9
+SHA256: 359fbe2d5696c5d76229ae94f143d46a144b4bf755e88eca37c6b560c2322706
+Homepage: https://github.com/MaskRay/ccls
+Description: C/C++/ObjC language server
+
+Package: ccrypt
+Version: 1.11-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 168
+Depends: libcrypt
+Filename: pool/clandro-pkg/ccrypt_1.11-1_aarch64.deb
+Size: 37864
+MD5sum: 293e301ab5f350ae02108cf5ca36d51e
+SHA1: 18b91bfccc715587ccca8d5e8bbccefe1d0f07df
+SHA256: 06936655b0098456c51bce2965dff5703404425aff81b6c920dd4ccf51339fbf
+Homepage: https://ccrypt.sourceforge.net/
+Description: Secure encryption and decryption of files and streams utility
+
+Package: cfengine
+Version: 1:3.25.0-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 5660
+Depends: libandroid-glob, liblmdb, libxml2, libyaml, openssl, pcre2, librsync
+Filename: pool/clandro-pkg/cfengine_1:3.25.0-2_aarch64.deb
+Size: 901412
+MD5sum: aa1c3fe6c5f676da18e577b6231dc834
+SHA1: c0a04ebaa6999e39fbe072fd41bacc0cab4cd243
+SHA256: e0cd626a46245eebe8b955b89eebb495136f47a17876ef2a6df16ea8ed8e92ec
+Homepage: https://cfengine.com/
+Description: CFEngine is a configuration management technology
+
+Package: cfengine-static
+Version: 1:3.25.0-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 7840
+Depends: cfengine (= 1:3.25.0-2)
+Filename: pool/clandro-pkg/cfengine-static_1:3.25.0-2_aarch64.deb
+Size: 1453504
+MD5sum: 2ec6271dae138de0b98de6de90346f73
+SHA1: bcb8df12342ca68b9a076b1be420f64963416f61
+SHA256: d27056a8250fd61a6c7d1aece122140cb8578f66c174729f24f94288d5765ce6
+Homepage: https://cfengine.com/
+Description: Static libraries for cfengine
+
+Package: cfm
+Version: 1.2.0-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 3088
+Filename: pool/clandro-pkg/cfm_1.2.0-3_aarch64.deb
+Size: 865768
+MD5sum: ad795d832a045b7cd3234ba5342b5f56
+SHA1: d9e2fa1d83b4daf5fa50d09b4a27eaae4f09ddd9
+SHA256: 692266bb0381adf6178d6373acfbd9ff8202c746ae2073f8deab88db7cfd5118
+Homepage: https://github.com/0l1v3rr/cli-file-manager
+Description: A basic file manager that runs inside a terminal, designed for Linux. It's fully responsive and incredibly fast.
+
+Package: cgdb
+Version: 0.8.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 576
+Depends: libc++, ncurses, readline, gdb
+Filename: pool/clandro-pkg/cgdb_0.8.0-1_aarch64.deb
+Size: 141376
+MD5sum: 40b2fe1827a5cbbf900f72de78109b81
+SHA1: e33eea7cd404091f50bedd5b46de82c2388b89e0
+SHA256: aa751836fecae91b0427f80e786ef321c7afa5edecbe9ff90247ce754c48fc5b
+Homepage: https://cgdb.github.io/
+Description: A lightweight curses (terminal-based) interface to the GNU Debugger (GDB)
+
+Package: cgif
+Version: 0.5.3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 108
+Filename: pool/clandro-pkg/cgif_0.5.3_aarch64.deb
+Size: 8896
+MD5sum: d1b41e7b9501e38ebea10e5e3d354f03
+SHA1: 18ab2d43fec38534a98790c1da76747df4f98d4c
+SHA256: 47c4122de817f4659ce8db772f1fc1afe08e477c6e9cad93aa5cb2eb42b00622
+Homepage: https://github.com/dloebl/cgif
+Description: A fast and lightweight GIF encoding library
+
+Package: chezmoi
+Version: 2.70.3
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 46428
+Filename: pool/clandro-pkg/chezmoi_2.70.3_aarch64.deb
+Size: 11072568
+MD5sum: 1d4823a646a6b39985b02a37fb8bba51
+SHA1: ce7c4318882b9e393e77a70b9fc9d18e7e610447
+SHA256: 83ff5c1e659ebc555f67af4dbc47717af0ea0069660825f00329cf348b72f466
+Homepage: https://chezmoi.io
+Description: Manage your dotfiles across multiple machines
 
 Package: dvtm
 Version: 0.15-4
@@ -1800,6 +2259,75 @@ SHA1: 1f30ad4b4195b8d467f8ea1c3a2c28acd98f275b
 SHA256: f8ebf25b66673d8a77aa10bbbcf2570fc32ab9f33b82bda371c7e3e97b801880
 Homepage: https://github.com/google/googletest
 Description: Google C++ testing framework
+
+Package: gpac
+Version: 2.4.0-5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 12888
+Depends: ffmpeg, freetype, liba52, libjpeg-turbo, liblzma, libmad, libnghttp2, libogg, libpng, libtheora, libvorbis, openjpeg, openssl, pulseaudio, xvidcore, zlib
+Filename: pool/clandro-pkg/gpac_2.4.0-5_aarch64.deb
+Size: 3834484
+MD5sum: b79a6ab9dbf75a8a0d2bda1e06ffc0ce
+SHA1: af3fdae5d91dbddc419a2aa45254b9cb7554e1b6
+SHA256: 0cc9a4fc86a347fdc0bd47d160a31bf936d84efe4db0fa4b825314048691f609
+Homepage: https://gpac.wp.imt.fr/
+Description: An open-source multimedia framework focused on modularity and standards compliance
+
+Package: gpac-static
+Version: 2.4.0-5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 13700
+Depends: gpac (= 2.4.0-5)
+Filename: pool/clandro-pkg/gpac-static_2.4.0-5_aarch64.deb
+Size: 3029024
+MD5sum: af522f0cd4d7112e74944b72a5f4a9e8
+SHA1: b553882aa06de4279e37b011ff952670598ec793
+SHA256: dbe7c929d16a85cf9fd4e2c342cb0a1dd5efdcf24e31088288ccfd94e6f720f5
+Homepage: https://gpac.wp.imt.fr/
+Description: Static libraries for gpac
+
+Package: groff
+Version: 1.23.0-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 35552
+Depends: libc++, perl, mandoc
+Filename: pool/clandro-pkg/groff_1.23.0-2_aarch64.deb
+Size: 9720844
+MD5sum: 6f03efcbaacfdbc94d05a2bfcc06fa75
+SHA1: 703be6004309ddc7ed307ebcc9dd5408f93eaf6f
+SHA256: ac33b75e9e3d71ed8644d15baf75b27786032e1243564c28572c92883ef372f8
+Homepage: https://www.gnu.org/software/groff/
+Description: typesetting system that reads plain text mixed with formatting commands and produces formatted output
+
+Package: liba52
+Version: 0.8.0-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 136
+Filename: pool/clandro-pkg/liba52_0.8.0-3_aarch64.deb
+Size: 15400
+MD5sum: a40e939aedac5d5563a12e619bd73447
+SHA1: 59a3b7a345cb11c65bd2a4435db82136249d3c76
+SHA256: 9612686cd05049bd3e5b374de597dd3039a13965eddbbc31dfc6dc9829fba214
+Homepage: http://liba52.sourceforge.net/
+Description: A free library for decoding ATSC A/52 streams
+
+Package: liba52-static
+Version: 0.8.0-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 76
+Depends: liba52 (= 0.8.0-3)
+Filename: pool/clandro-pkg/liba52-static_0.8.0-3_aarch64.deb
+Size: 15484
+MD5sum: 4bd4e687c816e1af88371e6a7c1f535d
+SHA1: d18958f7e332da18ae02369100d518d3116c7373
+SHA256: 26abd007e556fee1044c766f1b91baf7e42253ecf4823651c64a474459203ba9
+Homepage: http://liba52.sourceforge.net/
+Description: Static libraries for liba52
 
 Package: libapt-pkg-perl
 Version: 0.1.40-14
@@ -1901,6 +2429,48 @@ SHA256: 18b0f2254f621bfd4998508dd3816b58be8523c4c7d5b8eb2b7ca1572395ec1a
 Homepage: https://www.gnu.org/software/libidn/
 Description: Static libraries for libidn
 
+Package: libiniparser
+Version: 4.2.6-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 172
+Filename: pool/clandro-pkg/libiniparser_4.2.6-2_aarch64.deb
+Size: 14780
+MD5sum: 3cc12ff41f74325f256f8fa9f134923f
+SHA1: 54de9ff9abc7bd392e660540d801a7c800541aff
+SHA256: 848cc5d948d4350539e5c6a2fa0cfff20a2d81ba144584309630b94e96d1d3b3
+Homepage: https://github.com/ndevilla/iniparser
+Description: Offers parsing of ini files from the C level
+
+Package: libiniparser-static
+Version: 4.2.6-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 52
+Depends: libiniparser (= 4.2.6-2)
+Filename: pool/clandro-pkg/libiniparser-static_4.2.6-2_aarch64.deb
+Size: 7016
+MD5sum: fafe5887c51e61db20e2aed76e63b308
+SHA1: 27e33675c655fb6bfc496d20df53a391776cc107
+SHA256: 85840da45068ff173e1c0e6aec38444e929816725bd282f201078dcb3fe19e18
+Homepage: https://github.com/ndevilla/iniparser
+Description: Static libraries for libiniparser
+
+Package: libmad
+Version: 0.16.4-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 264
+Breaks: libmad-dev
+Replaces: libmad-dev
+Filename: pool/clandro-pkg/libmad_0.16.4-2_aarch64.deb
+Size: 64004
+MD5sum: ecb8b906700163bbec3cf0992c58f8b8
+SHA1: fb6c91b04a0883e4e1aaaf25c2f447d9a2fd9d7f
+SHA256: 7c466d7b2446a988c20bf638a6a6bbf523bbee26f636a5197505ae95d131c91e
+Homepage: http://www.underbit.com/products/mad/
+Description: MAD is a high-quality MPEG audio decoder
+
 Package: libopenblas
 Version: 0.3.33
 Architecture: aarch64
@@ -1945,6 +2515,36 @@ SHA256: 58bfa19f25fc6ae36edf0d03fc42ef777ae77aa2e1742f4e256196957fa363dd
 Homepage: https://github.com/protocolbuffers/protobuf
 Description: Protocol buffers C++ library
 
+Package: libprotobuf-c
+Version: 1.5.2-3
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 392
+Depends: abseil-cpp, libc++, libprotobuf, protobuf
+Breaks: libprotobuf-c-dev
+Replaces: libprotobuf-c-dev
+Filename: pool/clandro-pkg/libprotobuf-c_1.5.2-3_aarch64.deb
+Size: 84592
+MD5sum: eb162bbb281786d3e92c7c8fd482cc38
+SHA1: 8739470bd616b922e495dd2f91e5bf35f99339ef
+SHA256: e3abee47c9da4f8405a367e95a09b5e7fe8447c99f4752b1b4a35cc38f28d78a
+Homepage: https://github.com/protobuf-c/protobuf-c
+Description: Protocol buffers C library
+
+Package: libprotobuf-c-static
+Version: 1.5.2-3
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 64
+Depends: libprotobuf-c (= 1.5.2-3)
+Filename: pool/clandro-pkg/libprotobuf-c-static_1.5.2-3_aarch64.deb
+Size: 11976
+MD5sum: 9c16757faf8c04709a25d6680ed05314
+SHA1: cffd9d365d2a7da538579de18b25b0c9c8e3ff94
+SHA256: 8400cdb217b5f2abbace1e252d240f0476df3743911d401bcfe87893ca577ff1
+Homepage: https://github.com/protobuf-c/protobuf-c
+Description: Static libraries for libprotobuf-c
+
 Package: libregexp-assemble-perl
 Version: 0.38-8
 Architecture: all
@@ -1958,6 +2558,66 @@ SHA1: 472cc34ae6f1dcb17f4bbefb4058f3888a6d223c
 SHA256: 4c0c0651583cbc573aeeb121510d17edddabf6e488703261f7927d250b1d17e3
 Homepage: https://metacpan.org/pod/Regexp::Assemble
 Description: Perl module to merge several regular expressions
+
+Package: libretls
+Version: 3.8.1-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 224
+Depends: openssl
+Replaces: libtls
+Provides: libtls
+Filename: pool/clandro-pkg/libretls_3.8.1-1_aarch64.deb
+Size: 46180
+MD5sum: a79b0a788112fa51ebd186fc0cb9e736
+SHA1: 023e8e4dffc4738e08ee0e214e4d0b1869ca7b6e
+SHA256: 7af37a1b79364cafc9e13d82a53f0967527dbbfa53fd3957bb26cdff00b6d135
+Homepage: https://git.causal.agency/libretls/about/
+Description: libtls for OpenSSL
+
+Package: libretls-static
+Version: 3.8.1-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 156
+Depends: libretls (= 3.8.1-1)
+Filename: pool/clandro-pkg/libretls-static_3.8.1-1_aarch64.deb
+Size: 26344
+MD5sum: 771271fa6f54e3036f4709c6dfaf1690
+SHA1: 63755498f04f1592916226aa9522addf2a7aa3ea
+SHA256: c77165717bba5990b22c143f9d8b4b3b7db7980833cac2d5350a313fb2bba6c0
+Homepage: https://git.causal.agency/libretls/about/
+Description: Static libraries for libretls
+
+Package: librsync
+Version: 2.3.4-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 168
+Depends: libbz2
+Breaks: librsync-dev
+Replaces: librsync-dev
+Filename: pool/clandro-pkg/librsync_2.3.4-1_aarch64.deb
+Size: 27316
+MD5sum: 4b6abc1befdd66955979a6e229859692
+SHA1: d2d43a83de74968f0fe11f99a7c0a3afebf785f0
+SHA256: cb3c436449c73459f6206231125083f536b2a8f889d516d043d450f470224371
+Homepage: https://github.com/librsync/librsync
+Description: Remote delta-compression library
+
+Package: libspdlog
+Version: 1.17.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1172
+Depends: libc++, fmt
+Filename: pool/clandro-pkg/libspdlog_1.17.0_aarch64.deb
+Size: 154924
+MD5sum: 8543d68628ea34ce1926b53de74a37c6
+SHA1: c9da1afc28942604ff54b768834c3fab3b6549c8
+SHA256: 5b6acc11f1ad49b1fbf010fe87f36b750f39f2e144d9c0547aa7bc4aa5f98118
+Homepage: https://github.com/gabime/spdlog
+Description: Very fast, header-only/compiled, C++ logging library
 
 Package: libstemmer
 Version: 3.0.1
@@ -1985,6 +2645,20 @@ SHA1: 59c22d4bb7884ef4cd6e652cab238898e3524646
 SHA256: 5589451e1b971f341337a0a6faf6dde622ccb7a0becaa9cbf93d9915dc06eb5c
 Homepage: https://snowballstem.org/
 Description: Static libraries for libstemmer
+
+Package: libtbb
+Version: 2023.0.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2376
+Depends: libc++
+Filename: pool/clandro-pkg/libtbb_2023.0.0_aarch64.deb
+Size: 297592
+MD5sum: 8f4aaa5b490639d3d2818ac7af9f9e97
+SHA1: 12f1524578ddedc53bd10d2fff980446cca1ec0d
+SHA256: a089fdacdfa07860006e6eb87338a1a216dfe633afc2fce4aafdd872044c2877
+Homepage: https://uxlfoundation.github.io/oneTBB/
+Description: oneAPI Threading Building Blocks
 
 Package: libxmlb
 Version: 0.3.26
@@ -2016,6 +2690,46 @@ SHA256: 3589b9d1ff404b47e2e2b888017832b75dac2c1cbb06dcc5b6754f2ba15c8412
 Homepage: https://github.com/google/zopfli
 Description: New zlib compatible compressor library
 
+Package: lowdown
+Version: 3.0.1
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 1068
+Filename: pool/clandro-pkg/lowdown_3.0.1_aarch64.deb
+Size: 194300
+MD5sum: 5d20ff398ebebe9bcdaeb88f82b08f06
+SHA1: 62fc6eab4f536f2a5b68fecd86b84939964485c1
+SHA256: 32d99c74b7da0b7f17e0579562c6dc7ffba197a8c8bdac5a765031c2fea368fe
+Homepage: https://kristaps.bsd.lv/lowdown
+Description: Markdown utilities and library (fork of hoedown -> sundown -> libsoldout)
+
+Package: lowdown-static
+Version: 3.0.1
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 456
+Depends: lowdown (= 3.0.1)
+Filename: pool/clandro-pkg/lowdown-static_3.0.1_aarch64.deb
+Size: 105360
+MD5sum: dde36c6c6f0ce99111b6993af9a32096
+SHA1: d435a6ca9841faa35ee6af8101d8483e52de0adf
+SHA256: ac4dc488906dca61bd907e6b17af9aa9c4bdb0a229f1445ad313216b1ec8e776
+Homepage: https://kristaps.bsd.lv/lowdown
+Description: Static libraries for lowdown
+
+Package: nlohmann-json
+Version: 3.12.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1180
+Filename: pool/clandro-pkg/nlohmann-json_3.12.0_aarch64.deb
+Size: 113540
+MD5sum: 10579e032e73e538c5f49f6ed5e536fc
+SHA1: 74ed934957ae237eb02cca341c797f5caeba96f3
+SHA256: bc015c69a70450acb2a9e83b68a1f70913ac154cb7e088114e40e40e1b00d46e
+Homepage: https://github.com/nlohmann/json
+Description: JSON for Modern C++
+
 Package: protobuf
 Version: 2:33.1-1
 Architecture: aarch64
@@ -2029,6 +2743,33 @@ SHA1: f0054f3cda8c2ae2da24dfb3db83e86818d7b0a3
 SHA256: f66e5da97deb2196a49267b5be0fdfccb339dfbd93d6eb1e7e06e7863ee3e561
 Homepage: https://github.com/protocolbuffers/protobuf
 Description: Compiler for protocol buffer definition files
+
+Package: rapidjson
+Version: 1.1.0-7
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 928
+Filename: pool/clandro-pkg/rapidjson_1.1.0-7_all.deb
+Size: 99560
+MD5sum: f14166b0c906ddb790687dca4d3a3f12
+SHA1: 778d7b6ca37bcd463eff71282836c447bf087c34
+SHA256: 26cd3f8db61c99c486bf6fb2800a070a7f73774a269b712057ff2ca1f0e5b655
+Homepage: https://github.com/Tencent/rapidjson/
+Description: Fast JSON parser/generator for C++ with SAX/DOM style API
+
+Package: rdiff
+Version: 2.3.4-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 60
+Depends: libpopt, librsync (= 2.3.4-1)
+Filename: pool/clandro-pkg/rdiff_2.3.4-1_aarch64.deb
+Size: 6200
+MD5sum: e1ec6db50ce6cc89e11c9c3064e73629
+SHA1: 86fd52bcf7d1efb5235857f99a1a8202ac61919b
+SHA256: 8928e873dc6d84e5e70a7a1e53ee7f915236ce06552148fd0995b2ac0caadcb3
+Homepage: https://github.com/librsync/librsync
+Description: Remote incremental backup
 
 Package: ripgrep-all
 Version: 1:0.10.10
@@ -2271,6 +3012,20 @@ SHA1: a8b8485ece314f5d3b37d6035a4b7f7f564cea8e
 SHA256: 2e5b85e9683d6d5b7653a2f71840421beb2a5c1f8f16ed3c1e7381807717e2c1
 Homepage: https://snowballstem.org/
 Description: A command-line tool which uses libstemmer
+
+Package: tmux
+Version: 3.6a
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev> & @clandro
+Installed-Size: 1128
+Depends: ncurses, libevent, libandroid-support, libandroid-glob
+Filename: pool/clandro-pkg/tmux_3.6a_aarch64.deb
+Size: 362540
+MD5sum: d3ec1b24c912e4f07db5e4403bee3a4d
+SHA1: 89799e8e9fd5b65b57e387820842a69817eb2471
+SHA256: 989396cf026ce8a468e38ec81d7a75d078435cc18ee64bd31c3c475b6dcd382d
+Homepage: https://tmux.github.io/
+Description: Terminal multiplexer
 
 Package: valac
 Version: 0.56.19
