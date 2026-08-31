@@ -3436,6 +3436,36 @@ SHA256: ac33b75e9e3d71ed8644d15baf75b27786032e1243564c28572c92883ef372f8
 Homepage: https://www.gnu.org/software/groff/
 Description: typesetting system that reads plain text mixed with formatting commands and produces formatted output
 
+Package: leptonica
+Version: 1.87.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 3136
+Depends: giflib, libjpeg-turbo, libpng, libtiff, libwebp, openjpeg, zlib
+Breaks: leptonica-dev
+Replaces: leptonica-dev
+Filename: pool/clandro-pkg/leptonica_1.87.0_aarch64.deb
+Size: 938728
+MD5sum: 263011d3cf6fb9cc5c693508bb8d5607
+SHA1: 2db7f2ab0bb1ccf2c344d4b48e5c4cabaf6045c9
+SHA256: afd1d723dd3d28c029d217fba478d66bbf4f4b445e547fb3c225809dfdce5990
+Homepage: http://www.leptonica.com/
+Description: Library for image processing and image analysis
+
+Package: leptonica-static
+Version: 1.87.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 4544
+Depends: leptonica (= 1.87.0)
+Filename: pool/clandro-pkg/leptonica-static_1.87.0_aarch64.deb
+Size: 996376
+MD5sum: 28aade66b39d095e8ec7ddb22a6555c1
+SHA1: ba8ad9f5e09262dee5138d4b4c192118ba02f1ad
+SHA256: 8d4db336519bd63ce5a91bc2008f4e2003df91cb93393a61eaa66b1a3233dc99
+Homepage: http://www.leptonica.com/
+Description: Static libraries for leptonica
+
 Package: liba52
 Version: 0.8.0-3
 Architecture: aarch64
