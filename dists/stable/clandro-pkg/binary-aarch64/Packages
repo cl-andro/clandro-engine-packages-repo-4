@@ -2499,6 +2499,34 @@ SHA256: 7c466d7b2446a988c20bf638a6a6bbf523bbee26f636a5197505ae95d131c91e
 Homepage: http://www.underbit.com/products/mad/
 Description: MAD is a high-quality MPEG audio decoder
 
+Package: libneon
+Version: 0.37.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1540
+Depends: libexpat, openssl, zlib
+Filename: pool/clandro-pkg/libneon_0.37.1_aarch64.deb
+Size: 204300
+MD5sum: 71b842d0a0f9121b2e9629cfcf80585d
+SHA1: e0e92ee63b48d8e13aacbe62c62314626dbeb035
+SHA256: 027a2929b43a10ddfeee2aa76388866b8a45e94bc04a98211b2aa1a3d7e9db2c
+Homepage: https://notroj.github.io/neon/
+Description: An HTTP/1.1 and WebDAV client library, with a C interface
+
+Package: libneon-static
+Version: 0.37.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 332
+Depends: libneon (= 0.37.1)
+Filename: pool/clandro-pkg/libneon-static_0.37.1_aarch64.deb
+Size: 66548
+MD5sum: 7be09a163df1e5c4a4a76511f91059e6
+SHA1: fed42941f04f221a675a4664f3578d7ce234084c
+SHA256: 612bca0d75efc83d0d678dee95e2753cb47e5359c5c067b2389dd49119ff2787
+Homepage: https://notroj.github.io/neon/
+Description: Static libraries for libneon
+
 Package: libopenblas
 Version: 0.3.33
 Architecture: aarch64
