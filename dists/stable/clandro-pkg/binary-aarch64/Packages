@@ -3132,12 +3132,12 @@ Version: 2.8.5
 Architecture: aarch64
 Maintainer: @clandro
 Installed-Size: 6060
-Depends: argon2, attr, libbz2, libc++, libgcrypt, libgpg-error, liblzma, liblzo, zlib, zstd
+Depends: argon2, attr, libbz2, libc++, libgcrypt, libgpg-error, liblzma, liblzo, librsync, zlib, zstd
 Filename: pool/clandro-pkg/dar_2.8.5_aarch64.deb
-Size: 1368556
-MD5sum: 4dc5becdb6e9d35f0ac238efe658b459
-SHA1: 0821e739548e3a4d524d10882c8f7ee90cf348c5
-SHA256: b7446dc6d55a33a9af248af03291220dd115617e01fefe37b98622a927ccf7d0
+Size: 1368560
+MD5sum: 2d26157042047ccbba425a4bc5ddb13c
+SHA1: 495c7cd7770b4a2f2a1c3bb70795b5faa84f4260
+SHA256: 8e11e19a6d8d175a0cdba08207c52660d20cb8c46e38e49131ae61c428efbc3c
 Homepage: http://dar.linux.free.fr/
 Description: A full featured command-line backup tool, short for Disk ARchive
 
