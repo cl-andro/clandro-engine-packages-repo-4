@@ -2171,6 +2171,34 @@ SHA256: 47c4122de817f4659ce8db772f1fc1afe08e477c6e9cad93aa5cb2eb42b00622
 Homepage: https://github.com/dloebl/cgif
 Description: A fast and lightweight GIF encoding library
 
+Package: chafa
+Version: 1.18.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 824
+Depends: freetype, glib, libavif, libcairo, libheif, libjpeg-turbo, libjxl, librsvg, libtiff, libwebp
+Filename: pool/clandro-pkg/chafa_1.18.2_aarch64.deb
+Size: 176640
+MD5sum: de0cd5f8670d2e028647be6662c43071
+SHA1: 1efffb7473a12c3eb43ec542c94a2d2f71699870
+SHA256: 1c8a8a84480bc8f03709114df1e1cd50a53de8e25167c0d67bdf9e24bf270fde
+Homepage: https://hpjansson.org/chafa/
+Description: Image-to-text converter supporting a wide range of symbols, etc.
+
+Package: chafa-static
+Version: 1.18.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 532
+Depends: chafa (= 1.18.2)
+Filename: pool/clandro-pkg/chafa-static_1.18.2_aarch64.deb
+Size: 103832
+MD5sum: c602846a48d1cc0291d9836b11b32efb
+SHA1: 0afae5badc1cc4099db573894f70a57ea1d888c4
+SHA256: 048a5b316034d9c800ebd1e5228942bffe87c839d23802f83c8417f5fb6d91bf
+Homepage: https://hpjansson.org/chafa/
+Description: Static libraries for chafa
+
 Package: chezmoi
 Version: 2.70.3
 Architecture: aarch64
