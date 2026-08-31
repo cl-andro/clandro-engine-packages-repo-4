@@ -2655,6 +2655,20 @@ SHA256: 32764d60e1ae389307df5b978b2ecff91b912390521b11b2859cb7e38f9c153f
 Homepage: https://github.com/termux/command-not-found
 Description: Suggest installation of packages in interactive shell sessions
 
+Package: containerd
+Version: 1.6.21-5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 109528
+Depends: runc
+Filename: pool/clandro-pkg/containerd_1.6.21-5_aarch64.deb
+Size: 24731340
+MD5sum: f71322e093fb84a0bff31fa41dac5bc8
+SHA1: 1e1feb3fe2568fb37a30f69f7db8006619f015e1
+SHA256: c782f4aee5a0ea67d815697cc882f45e45c6a77025b151959de52e7bd62707fb
+Homepage: https://containerd.io/
+Description: An open and reliable container runtime
+
 Package: convertlit
 Version: 1.8-2
 Architecture: aarch64
@@ -3304,6 +3318,416 @@ SHA256: ba7d5f9c3ea8ee0f2be112ff0749d05147c4fdb008e9b41f71a6db3dd9410e7b
 Homepage: https://github.com/go-delve/delve
 Description: A debugger for the Go programming language
 
+Package: desed
+Version: 1.2.2-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1260
+Filename: pool/clandro-pkg/desed_1.2.2-1_aarch64.deb
+Size: 402132
+MD5sum: 9aeedbf9169860f1dc39855e9b51a3b6
+SHA1: 83307262e1ed3becd347f96f4f40a20566e99452
+SHA256: 151b0af7d8dc3c1042c47dbded437aa42a71ccdc94e24b4c50cbc51a8f4473c4
+Homepage: https://github.com/SoptikHa2/desed
+Description: Demystifies and debugs your sed scripts
+
+Package: desktop-file-utils
+Version: 0.28-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 284
+Depends: glib
+Filename: pool/clandro-pkg/desktop-file-utils_0.28-3_aarch64.deb
+Size: 38208
+MD5sum: 11ff79d6da45514f4cf3d3668c7ade58
+SHA1: 88c6c1473ac5eddd6849b187c0d58a99238eb6b7
+SHA256: 484e2cf7fe9bcd0f98d5fe4180d903ad7baccdf730f44cde15595dccc89affbf
+Homepage: https://www.freedesktop.org/wiki/Software/desktop-file-utils
+Description: Command line utilities for working with desktop entries
+
+Package: deutex
+Version: 5.2.3-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 240
+Depends: libpng, zlib
+Filename: pool/clandro-pkg/deutex_5.2.3-1_aarch64.deb
+Size: 64712
+MD5sum: a0ac5a0a9bd397d9bfb433c25c5b9725
+SHA1: c5fed9e079080fe5c5ee23a8ee4afc676c304fa7
+SHA256: 073f2c73c343dc304e58b63ff018635aa9bb652704cad2b10799215ff2b1933a
+Homepage: https://github.com/Doom-Utils/deutex/
+Description: WAD composer for Doom, Heretic, Hexen, and Strife
+
+Package: dex2jar
+Version: 2.4-1
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 20352
+Depends: openjdk-21
+Filename: pool/clandro-pkg/dex2jar_2.4-1_all.deb
+Size: 18735236
+MD5sum: 597b339aea11e46f2b6137cc127de797
+SHA1: 13df146b7f6add96d2c03ee850f94459b17448b3
+SHA256: ee5bfca853a7568824a48efb0c2779cc29a2d100ff21a3b0978ad7d3279f7732
+Homepage: https://github.com/pxb1988/dex2jar
+Description: Tools to work with android .dex and java .class files
+
+Package: dictd
+Version: 1.13.3-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 488
+Depends: libmaa, zlib
+Filename: pool/clandro-pkg/dictd_1.13.3-1_aarch64.deb
+Size: 119924
+MD5sum: 584ef7bc5d7b7e8853d0f9d099e3aa17
+SHA1: 0bd7fb25989b4b442cb4a401a58acd58ca070a98
+SHA256: d8dd3e4e90ebba4534d1bbafc1f12fe3e597257704a06382ca6336c1e6157f66
+Homepage: https://sourceforge.net/projects/dict/
+Description: Online dictionary client and server
+
+Package: diffstat
+Version: 1.69
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 124
+Filename: pool/clandro-pkg/diffstat_1.69_aarch64.deb
+Size: 22008
+MD5sum: 06081054520bb3587d3131d60cb44295
+SHA1: bec0b0b68787f6108aeb5714639cf2b15ff6f2db
+SHA256: 86400421e6f5843ebf54d94d2147bad9367f19cdaebdab6db917f5099bce4659
+Homepage: https://invisible-island.net/diffstat/diffstat.html
+Description: Displays a histogram of changes to a file
+
+Package: difftastic
+Version: 0.69.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 120744
+Depends: libc++
+Recommends: file
+Filename: pool/clandro-pkg/difftastic_0.69.0_aarch64.deb
+Size: 6559808
+MD5sum: 59eb3ce2da4354defda18139de4a9c44
+SHA1: 97d55307205323ebaecc3f96ea60032bdd768360
+SHA256: 9eae853b7b383b3bcaf28dd1d32055a7cf8a4508b2759698040fc18d25ba6924
+Homepage: https://github.com/Wilfred/difftastic
+Description: difft: A structural diff that understands syntax
+
+Package: dirb
+Version: 2.22-5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1612
+Depends: libcurl
+Filename: pool/clandro-pkg/dirb_2.22-5_aarch64.deb
+Size: 192304
+MD5sum: 9c20d19ac2154258dc7c64e2df94cbb7
+SHA1: 6662a78802a7a3c8e1b410617084a12141e21aee
+SHA256: 2a1772448829220f36a56ed81a8a186149f36b208cae4a17f85dbdda0b2f680e
+Homepage: https://dirb.sourceforge.net/
+Description: Web Directory Fuzzer
+
+Package: direnv
+Version: 2.37.1-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 8600
+Filename: pool/clandro-pkg/direnv_2.37.1-1_aarch64.deb
+Size: 2396248
+MD5sum: fcf999ef4086210d5553b5342176c0c0
+SHA1: e0178dbed7a96567a4bc4c30a03f030186ad945a
+SHA256: bea745a6b3b307b3f20845270aa543ec49fc2a8d05b20a2603ffb0edb56046a5
+Homepage: https://github.com/direnv/direnv
+Description: Environment switcher for shell
+
+Package: direvent
+Version: 5.4-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 340
+Depends: libandroid-glob
+Filename: pool/clandro-pkg/direvent_5.4-1_aarch64.deb
+Size: 95848
+MD5sum: 42c3862f5e7e29f28ef8cdb5ab1a5306
+SHA1: 0f89f18b9929e736f811ebebd34b0666a47754fd
+SHA256: 67d43e8dd2c50ec908fb4895baeb24d5126ea3c88a58142ccb5b68e31081da4e
+Homepage: https://www.gnu.org.ua/software/direvent/
+Description: Monitor of events in file system directories
+
+Package: discordo
+Version: 2025.08.06
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 10972
+Filename: pool/clandro-pkg/discordo_2025.08.06_aarch64.deb
+Size: 2891112
+MD5sum: d4142ebb4492790f0d7dfea1f75023c1
+SHA1: b769f7f0571c4b50bfe3c2d9811529dd14a38530
+SHA256: 6c68c178726cb23aca9c515073bde01f5404549af8597959dccb7d77254249bb
+Homepage: https://github.com/ayntgl/discordo
+Description: A lightweight, secure, and feature-rich Discord terminal client
+
+Package: discount
+Version: 3.0.1.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 236
+Filename: pool/clandro-pkg/discount_3.0.1.2_aarch64.deb
+Size: 43792
+MD5sum: 7745d62c1eae0a376006489db2dcb20a
+SHA1: b459964095c298cabc56c5b306ad70dd52c0ad4a
+SHA256: 64342a2d78e8146cdf9c97eecfb569bf9c47a2aa73a6ade77b82ddf52c1ad43c
+Homepage: https://www.pell.portland.or.us/~orc/Code/discount/
+Description: Markdown implementation written in C
+
+Package: diskus
+Version: 0.9.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 796
+Filename: pool/clandro-pkg/diskus_0.9.0_aarch64.deb
+Size: 287296
+MD5sum: 5e5efb5eb043fa1583bbce97deaf5a16
+SHA1: bbfa4b073b2121cfabaf28406105eb9b5e3be523
+SHA256: 99e5de05b2bc9c2d7d83f71eb1eb27012e00a4c9c6f3d3c5cb52be57dd0bd130
+Homepage: https://github.com/sharkdp/diskus
+Description: A minimal, fast alternative to 'du -sh'
+
+Package: distant
+Version: 1:0.20.0-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 7540
+Depends: libssh2, openssl, zlib
+Filename: pool/clandro-pkg/distant_1:0.20.0-3_aarch64.deb
+Size: 2655960
+MD5sum: 00562c30dd7b06d49f94591e0057b97d
+SHA1: 00ccce94eca21be577174386c53e7ca2568893f8
+SHA256: 7b756d525465f56b762ffc9050024bdc9568cd2a60c14346e07a7726c4f0e315
+Homepage: https://github.com/chipsenkbeil/distant
+Description: Library and tooling that supports remote filesystem and process
+
+Package: distcc
+Version: 3.4-4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 684
+Depends: libpopt
+Filename: pool/clandro-pkg/distcc_3.4-4_aarch64.deb
+Size: 160720
+MD5sum: 226651ed5f2336327733dda6e195341a
+SHA1: edd723762d6260313e74496e7c038eaf34324c36
+SHA256: 9220be8e917ad0391f08ccfadee19b020ef4b7f653bbe43a44189dde09159b9e
+Homepage: http://distcc.org/
+Description: Distributed C/C++ compiler
+
+Package: dmagnetic
+Version: 0.37-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 220
+Filename: pool/clandro-pkg/dmagnetic_0.37-1_aarch64.deb
+Size: 61500
+MD5sum: 281463ccdfb6659eab4d8820b9eec0b4
+SHA1: 29daa31f1fddb2c59e8d022c03794d837bc9ba6e
+SHA256: a77fedead92f02f08adbc32077b1b314f32c2c6a676ab547cfc0569b5b6b13f0
+Homepage: https://dettus.net/dMagnetic
+Description: Interpreter for classic text adventure games and interactive fiction
+
+Package: dmtx-utils
+Version: 0.7.6-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 140
+Depends: imagemagick, libdmtx
+Filename: pool/clandro-pkg/dmtx-utils_0.7.6-2_aarch64.deb
+Size: 18268
+MD5sum: a4a9b2594289e22928c871a133b69b9c
+SHA1: df4bc3d191d724bc4130333e9ff59d0191a8ed5e
+SHA256: e3ed9d65df81d499b15ff59ffeb87f344b2d17bebe8c5b3d8d156e13c1fedb31
+Homepage: https://github.com/dmtx/dmtx-utils
+Description: A command line interface for libdmtx
+
+Package: dnglab
+Version: 0.7.2
+Architecture: aarch64
+Maintainer: Florian Wagner <florian@wagner-flo.de>
+Installed-Size: 10492
+Filename: pool/clandro-pkg/dnglab_0.7.2_aarch64.deb
+Size: 2712776
+MD5sum: 583607753ca9e63a965745e04e8eac33
+SHA1: 23596ff9928c9b7b9f76ffbad62ed491d0bc5eaa
+SHA256: ed829a300ddb4b67fbd4aaf850e557153727c566062290093e69092f8e3bcbd2
+Homepage: https://github.com/dnglab/dnglab
+Description: Camera RAW to DNG file format converter
+
+Package: dnote
+Version: 1:0.16.0
+Architecture: aarch64
+Maintainer: Ravener <ravener.anime@gmail.com>
+Installed-Size: 10064
+Breaks: dnote-client
+Replaces: dnote-client
+Filename: pool/clandro-pkg/dnote_1:0.16.0_aarch64.deb
+Size: 2813636
+MD5sum: 4b786f201d311761624a9cd76565a201
+SHA1: d74e6efa5d3008dc021c0de0798bf7f38a10fb1f
+SHA256: eadbeba0d81053b360439f4e5a920865d5a89dc3b85e7ad737ac22c39e7da58a
+Homepage: https://www.getdnote.com/
+Description: A simple command line notebook for programmers
+
+Package: dnote-server
+Version: 3.0.0
+Architecture: aarch64
+Maintainer: Ravener <ravener.anime@gmail.com>
+Installed-Size: 13144
+Suggests: postgresql
+Filename: pool/clandro-pkg/dnote-server_3.0.0_aarch64.deb
+Size: 3548408
+MD5sum: cf6d8a27a2aff967a6430329ce37dc74
+SHA1: 01161f4c1fb47a21e63324fe15bd6dbe18fc302f
+SHA256: 5ef27a366b544f7c55eac71e528d2b3116b708bbb4ac5eb676ae0926f74619c8
+Homepage: https://www.getdnote.com/
+Description: This package contains the Dnote server. It comprises of the web interface, the web API, and the background jobs.
+
+Package: dns2tcp
+Version: 0.5.2-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 172
+Filename: pool/clandro-pkg/dns2tcp_0.5.2-2_aarch64.deb
+Size: 33020
+MD5sum: 967bb73b8880f5f77acfaa0676ae0b3d
+SHA1: d512c12923215a0215f7afdc126fbc55819dd0f5
+SHA256: 42591a7e6a04ab59ba0a9618b6582892a92738f5008eb882a2e4ca14a1137557
+Homepage: https://github.com/alex-sector/dns2tcp
+Description: dns2tcp is a tool for relaying TCP connections over DNS
+
+Package: dnscontrol
+Version: 4.37.1
+Architecture: aarch64
+Maintainer: Izumi Sena Sora <info@unordinary.eu.org>
+Installed-Size: 63852
+Filename: pool/clandro-pkg/dnscontrol_4.37.1_aarch64.deb
+Size: 11612392
+MD5sum: 63c5fdd5350bbd9bec06a31c386b12b1
+SHA1: cee47f07a279ea168f1c33d0d8aa761e19fca356
+SHA256: 310179881ebc362675016357a2d561e9a58b16bb1e21c40db29465c6aee8f3e1
+Homepage: https://github.com/StackExchange/dnscontrol
+Description: Infrastructure as code for DNS!
+
+Package: dnslookup
+Version: 1.11.2
+Architecture: aarch64
+Maintainer: CHIZI-0618 <kay9925@outlook.com>
+Installed-Size: 9240
+Filename: pool/clandro-pkg/dnslookup_1.11.2_aarch64.deb
+Size: 2448840
+MD5sum: fb23660d0999275cee643ea5d477b21f
+SHA1: 5a8e5f0ba19d2ee1afa251a2d58a41c96e41f46c
+SHA256: 5da26faef7f4857137d89ec15dc68f04bb28aaecd32df35c1737216b196c015d
+Homepage: https://github.com/ameshkov/dnslookup
+Description: Simple command line utility to make DNS lookups. Supports all known DNS protocols: plain DNS, DoH, DoT, DoQ, DNSCrypt.
+
+Package: dnsmap
+Version: 0.36-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 204
+Filename: pool/clandro-pkg/dnsmap_0.36-3_aarch64.deb
+Size: 13272
+MD5sum: 630a51208a8b2c4f4622b812fb53144b
+SHA1: aeeefe984c45dc76c928cceaaba6e699149ed67f
+SHA256: 690fd7a68ee14e81ff99d77f5bd62a593f82c704012caeef3bfb558a408a21a4
+Homepage: https://github.com/resurrecting-open-source-projects/dnsmap
+Description: Subdomain Bruteforcing Tool
+
+Package: dnstop
+Version: 2022.10.19-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 212
+Depends: libpcap, ncurses
+Filename: pool/clandro-pkg/dnstop_2022.10.19-1_aarch64.deb
+Size: 31872
+MD5sum: a6014f7da4eaab41b181382364006240
+SHA1: e926c67a6069562b921ebef64d90207b5c477065
+SHA256: d0e90e95fa4cc7be3429fae960bb1ffb33e1cf7416ee4ef7ce6a1b95415314fd
+Homepage: https://github.com/measurement-factory/dnstop
+Description: A libpcap application that displays various tables of DNS traffic on your network
+
+Package: docker
+Version: 1:24.0.6-4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 86952
+Depends: containerd, libdevmapper, resolv-conf
+Filename: pool/clandro-pkg/docker_1:24.0.6-4_aarch64.deb
+Size: 19067908
+MD5sum: e2bf40061172dc41e175e30b329e6ba4
+SHA1: 1915c7322ddfd48126d174ceebb22442a16bf776
+SHA256: cffe901c8f1a38f23e0ecdc04bf56b6c6302c49def2320de3ba0d1892ab5ce85
+Homepage: https://docker.com
+Description: Set of products that use OS-level virtualization to deliver software in packages called containers.
+
+Package: docker-compose
+Version: 5.1.3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 30156
+Depends: docker
+Filename: pool/clandro-pkg/docker-compose_5.1.3_aarch64.deb
+Size: 6863812
+MD5sum: 31c734b9aab313a29ae894e1ec801547
+SHA1: 3244289a706a4ef50bbfb626a1211a8ccbfb86bb
+SHA256: 323b335f9c581e940ef1c2e2a0fbe9701cc4f18e98a1b873bf0514340cad20fe
+Homepage: https://github.com/docker/compose
+Description: Compose is a tool for defining and running multi-container Docker applications.
+
+Package: docopt
+Version: 0.6.3-4
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 444
+Depends: libc++
+Filename: pool/clandro-pkg/docopt_0.6.3-4_aarch64.deb
+Size: 95816
+MD5sum: 3c0159642037acdef995d10defcad8e9
+SHA1: cc3a62e57cb11048a702945b1bb42857a26eb807
+SHA256: ace560b20e72635d85617a4d370202cbf408b74647cfb917a55b1a093225c86e
+Homepage: http://docopt.org
+Description: Command line arguments parser for C++11 and later
+
+Package: docopt-static
+Version: 0.6.3-4
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 588
+Depends: docopt (= 0.6.3-4)
+Filename: pool/clandro-pkg/docopt-static_0.6.3-4_aarch64.deb
+Size: 86904
+MD5sum: 7102c22829a8157719ed292567dc2d20
+SHA1: d876b170dc07a335c759384b31cb48bbe0d79eaa
+SHA256: cc86c76bcbab401e2b7b742f4ce3e38bb0049ba9abd763aa663078672067ca28
+Homepage: http://docopt.org
+Description: Static libraries for docopt
+
+Package: doctest
+Version: 2.5.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 524
+Depends: libc++
+Filename: pool/clandro-pkg/doctest_2.5.2_aarch64.deb
+Size: 64236
+MD5sum: 8e953b5a3ec1b7e7812961bc191431c6
+SHA1: bd7579f1ea197140315386a61be08125cc94924e
+SHA256: e00f61d896291ace4ec6edbc948b9bc720ef02856608155db9f8e250faf55236
+Homepage: https://github.com/doctest/doctest
+Description: The fastest feature-rich C++11/14/17/20 single-header testing framework
+
 Package: dvtm
 Version: 0.15-4
 Architecture: aarch64
@@ -3633,6 +4057,47 @@ SHA256: bfdbe724deb6b1ad6eccefd73e446f5e012f845cbf11b1913f0632cf58d98fe7
 Homepage: https://github.com/google/cpu_features
 Description: A cross-platform C library to retrieve CPU features (such as available instructions) at runtime
 
+Package: libdevmapper
+Version: 2.03.40
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 624
+Depends: libandroid-support
+Filename: pool/clandro-pkg/libdevmapper_2.03.40_aarch64.deb
+Size: 182380
+MD5sum: 0022b453ac64494915ee32f0dae28077
+SHA1: 139d5ec57f8cd982d46e9af0196bbc671752322f
+SHA256: 53977a30d475b0993706909fbe7216bfe15d4690bf8767bc918d97623a8dc450
+Homepage: https://sourceware.org/lvm2/
+Description: A device-mapper library
+
+Package: libdmtx
+Version: 0.7.8-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 196
+Filename: pool/clandro-pkg/libdmtx_0.7.8-1_aarch64.deb
+Size: 41960
+MD5sum: 5c8669d52b19342a4fe0d3a3e8805521
+SHA1: feeba81257d4d694f26f83423de0a4f30cf7b4d2
+SHA256: 24f270f3792d4b93530b18630d3cae6ef45fa57346c43e98860d04da90a802ef
+Homepage: https://github.com/dmtx/libdmtx
+Description: A software library that enables programs to read and write Data Matrix barcodes
+
+Package: libdmtx-static
+Version: 0.7.8-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 136
+Depends: libdmtx (= 0.7.8-1)
+Filename: pool/clandro-pkg/libdmtx-static_0.7.8-1_aarch64.deb
+Size: 34592
+MD5sum: 18484ac9f25f70e655563f6fad1facd8
+SHA1: aeff9a9400b384e1286e29f3db0d2f3ee1b12a1a
+SHA256: 3d972d23d5a4a2e7ac2c63ec5fb4ca895042a3a80b10d74d998b11e5b7580e51
+Homepage: https://github.com/dmtx/libdmtx
+Description: Static libraries for libdmtx
+
 Package: libfyaml
 Version: 0.9.6-1
 Architecture: aarch64
@@ -3745,6 +4210,19 @@ SHA1: 8be5c4ecbb96ea4cb1d387544f025406bde11b02
 SHA256: 979177877abedc92ed13fdb0c3562375c98c3321094551121d76f7568453146f
 Homepage: http://www.digip.org/jansson/
 Description: Static libraries for libjansson
+
+Package: libmaa
+Version: 1.4.7-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 180
+Filename: pool/clandro-pkg/libmaa_1.4.7-1_aarch64.deb
+Size: 29976
+MD5sum: b18f599510f82571365f6051a3146497
+SHA1: 3f6effc7c43e31a5c9934dccea895ca871a2e412
+SHA256: 3ea8295858644bc8e75cdfaa02f320abd00cf1f24684a560b885ca432786e042
+Homepage: https://sourceforge.net/projects/dict/
+Description: Provides many low-level data structures which are helpful for writing compilers
 
 Package: libmad
 Version: 0.16.4-2
@@ -4173,6 +4651,22 @@ SHA256: ac4dc488906dca61bd907e6b17af9aa9c4bdb0a229f1445ad313216b1ec8e776
 Homepage: https://kristaps.bsd.lv/lowdown
 Description: Static libraries for lowdown
 
+Package: lvm2
+Version: 2.03.40
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2756
+Depends: libaio, libandroid-support, libblkid, readline
+Breaks: libdevmapper-dev
+Replaces: libdevmapper-dev
+Filename: pool/clandro-pkg/lvm2_2.03.40_aarch64.deb
+Size: 1043128
+MD5sum: e5349b41d922d50d54a94ea065c32966
+SHA1: 70a3808c04fd2efb9d1ffcb2976476817ce12852
+SHA256: a04152c351c9c937d0be8e17e492e1fdaa3b68b7b121abc49518e3013e5eceb8
+Homepage: https://sourceware.org/lvm2/
+Description: A device-mapper library from LVM2 package
+
 Package: nlohmann-json
 Version: 3.12.0
 Architecture: aarch64
@@ -4271,6 +4765,19 @@ SHA1: ce7781eb0b62faa03478625859075bff9c69d876
 SHA256: 1d8402efd0762dd84b2dcd864d7ef3884aaa622151c8a03be2f5319105c7ed8a
 Homepage: https://github.com/phiresky/ripgrep-all
 Description: Search tool able to locate in PDFs, E-Books, zip, tar.gz, etc
+
+Package: runc
+Version: 1.4.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 10596
+Filename: pool/clandro-pkg/runc_1.4.0_aarch64.deb
+Size: 2983148
+MD5sum: 7b23c580939091e5186c364d01bda4df
+SHA1: b0f8e208234c193d2f02864aa06adac0ffe937f8
+SHA256: ffcf120a52e8b9906cea13f17b5de7b4d0560effab3ff5d89c5ca91621e5384d
+Homepage: https://www.opencontainers.org/
+Description: A tool for spawning and running containers according to the OCI specification
 
 Package: rust
 Version: 1.95.0
