@@ -2834,6 +2834,77 @@ SHA256: 592c2b39cd133e513650d034eedbed13a1eaf659524515f33dae1d8e13ff91fd
 Homepage: https://github.com/opsengine/cpulimit
 Description: CPU usage limiter
 
+Package: crawl
+Version: 0.34.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 25696
+Depends: libc++, lua51, libsqlite, ncurses, zlib
+Filename: pool/clandro-pkg/crawl_0.34.1_aarch64.deb
+Size: 6408556
+MD5sum: 821cca086a6aa29f574a445baa00df94
+SHA1: 1c92ba7aae5d3da2896c73e513859094d70fe205
+SHA256: 50737a6aa8e458c68f5b132e997f744194f727946d3c86f9f4793457c0dd152d
+Homepage: https://crawl.develz.org/
+Description: Roguelike adventure through dungeons filled with dangerous monsters
+
+Package: croc
+Version: 1:10.4.3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 11320
+Filename: pool/clandro-pkg/croc_1:10.4.3_aarch64.deb
+Size: 3027064
+MD5sum: 0d239686a53f483d851126262de4b949
+SHA1: 9519dfbb8a0c5f6e1c7dc77d3d8add879bcbf9df
+SHA256: cb2d47f9cc9527ee1daac1c8b90d869ea2483a423b8e509730e1332c63ddd912
+Homepage: https://github.com/schollz/croc
+Description: Easily and securely send things from one computer to another
+
+Package: cronie
+Version: 1.7.2-4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 316
+Depends: dash
+Suggests: clandro-services
+Conflicts: busybox (<< 1.31.1-11)
+Replaces: anacron
+Filename: pool/clandro-pkg/cronie_1.7.2-4_aarch64.deb
+Size: 57892
+MD5sum: bde3eb154a7f4895c899ad9215c86dcf
+SHA1: 4c04297eee11edcbb442cb2cb066a31a0adf9981
+SHA256: 06d01fe29cbdc5b98d3ca2f6bc521b2882cf53bddb1748a062b824ca3d15aea0
+Homepage: https://github.com/cronie-crond/cronie/
+Description: Daemon that runs specified programs at scheduled times and related tools
+
+Package: crowbook
+Version: 0.17.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 6804
+Depends: openssl
+Filename: pool/clandro-pkg/crowbook_0.17.0-1_aarch64.deb
+Size: 1966984
+MD5sum: 176aea47b39d978fec4fc142d50e42df
+SHA1: 4c66b19cda8417dc31215cb9054f0726dae309c7
+SHA256: 2612a44061a96022ab4b6b7a70417a60c26e2e4fa7a9b0f1a92287d733f2fc20
+Homepage: https://github.com/crowdagger/crowbook
+Description: Allows you to write a book in Markdown without worrying about formatting or typography
+
+Package: crunch
+Version: 3.6-5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 156
+Filename: pool/clandro-pkg/crunch_3.6-5_aarch64.deb
+Size: 29252
+MD5sum: 4d93e37bbe72169a8b827b97d086c161
+SHA1: 046d72fc06c393f64f284285de3b7fe05825515c
+SHA256: 0c3eeb60dd933f6934a238a94fc20186640ebb7d39d7d600deb92fda594670ed
+Homepage: https://sourceforge.net/projects/crunch-wordlist/
+Description: Highly customizable wordlist generator
+
 Package: cryptopp
 Version: 8.9.0-1
 Architecture: aarch64
@@ -2863,6 +2934,347 @@ SHA1: 654bf5107c5c7a1fdff0238e5213f36b8ed276df
 SHA256: bcc71d729f9eafb64d544209836eb4df395bb9c894aaaf7a11e027286da7f2a6
 Homepage: https://www.cryptopp.com/
 Description: Static libraries for cryptopp
+
+Package: cscope
+Version: 15.9-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 740
+Depends: ncurses
+Filename: pool/clandro-pkg/cscope_15.9-2_aarch64.deb
+Size: 118212
+MD5sum: 062cdb40498a255d5c33a3ef577850c8
+SHA1: 16c33997fe8e6d7908de900bdb9eb3db73083603
+SHA256: 5949df15c65319a3abd3c337463e68bfa704dbc70537f761fd7ae021fde9a8cf
+Homepage: https://cscope.sourceforge.net/
+Description: A developers tool for browsing program code
+
+Package: csh
+Version: 20110502-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 244
+Depends: libandroid-glob, libbsd
+Filename: pool/clandro-pkg/csh_20110502-1_aarch64.deb
+Size: 80508
+MD5sum: 6f5cf04292f42bb7fcced12fca593d22
+SHA1: 9aefa558bd8f5fdd68c05c1019a1579670169cf6
+SHA256: 7ab34bdd5d02066c84ccd2386f84313b3ef09e4a47d791c4a18cad22cf1b2f20
+Homepage: https://packages.debian.org/sid/csh
+Description: C Shell with process control from 3BSD
+
+Package: csol
+Version: 1.6.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 264
+Depends: libandroid-support, ncurses
+Filename: pool/clandro-pkg/csol_1.6.0-1_aarch64.deb
+Size: 32684
+MD5sum: 6ab8a0ee1126c901a596df412f14b0b9
+SHA1: 5117633fda912f02c7defd87b249e9e482a0e581
+SHA256: 0fbb810c8635655fdfff5207e19a07d07277ba5a6ae4d58566943aa1678cc421
+Homepage: https://github.com/nielssp/csol
+Description: A small collection of solitaire games implemented in C using ncurses
+
+Package: csview
+Version: 1.3.4-1
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 904
+Filename: pool/clandro-pkg/csview_1.3.4-1_aarch64.deb
+Size: 289756
+MD5sum: 8b96188173027d321fa4fd12a8c3a89a
+SHA1: c2dc6b9b2236dcb5fd555a4d2fda9f9ca9edabe2
+SHA256: dcd71f25c977e051d5f9390b37d0da01968a87793ead7289377a9c582a81cdd1
+Homepage: https://github.com/wfxr/csview
+Description: Pretty-printing CSV/TSV/xSV on terminal
+
+Package: ctags
+Version: 2:6.2.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 3656
+Depends: libiconv, libjansson, libxml2, libyaml
+Filename: pool/clandro-pkg/ctags_2:6.2.1_aarch64.deb
+Size: 723700
+MD5sum: 0d455dbcc64f863a4b56481c6cc03418
+SHA1: 448a13b76024595f8bb603ca04abf8f43d8bf8fe
+SHA256: 31badabc0a843803bc9ff29a3c02a7a35fbbbf00db8e53d86987a0946b1cca95
+Homepage: https://ctags.io/
+Description: Universal ctags: Source code index builder
+
+Package: ctypes-sh
+Version: 1.2-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 212
+Depends: bash, libelf, libdw, libffi, zlib
+Filename: pool/clandro-pkg/ctypes-sh_1.2-2_aarch64.deb
+Size: 44840
+MD5sum: ef5a4695a30d1cb5c653ce57b98f92ce
+SHA1: 7a3383ce48d4bd9c2d3fa718a47713cb0a96b8b7
+SHA256: ec5bd917459403dee192058c7dbefd71a7bd0fc43f3edba9566064909c919d9f
+Homepage: https://github.com/taviso/ctypes.sh
+Description: A foreign function interface for bash
+
+Package: cuetools
+Version: 1.4.1-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 280
+Filename: pool/clandro-pkg/cuetools_1.4.1-1_aarch64.deb
+Size: 38052
+MD5sum: be386e4fa645d9bf961d89d7e47d35ff
+SHA1: d67c12b109642310d379a91d55e3724f00d66f52
+SHA256: 2567fa869a53ab3038e01218d1a5ccc59d76c09ed930af54dd2b6da1d3219564
+Homepage: https://github.com/svend/cuetools
+Description: A set of utilities for working with Cue Sheet (cue) and Table of Contents (toc) files
+
+Package: cups
+Version: 2.4.19
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 11928
+Depends: libc++, libcrypt, libgnutls, libiconv, zlib
+Filename: pool/clandro-pkg/cups_2.4.19_aarch64.deb
+Size: 5165084
+MD5sum: 0314237d61c6905a4e03fc3c40a2c054
+SHA1: 01edcaf1785766f4475535951269d237d27166e6
+SHA256: f59b2b9bda20930b054422c547750b0998ee444ae59df6b4f3e79f998b294046
+Homepage: https://www.cups.org/
+Description: Common UNIX Printing System
+
+Package: cups-pdf
+Version: 3.0.1-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 260
+Depends: cups, ghostscript
+Filename: pool/clandro-pkg/cups-pdf_3.0.1-3_aarch64.deb
+Size: 17400
+MD5sum: 0c05845bd46c7967c8fd965f528fcc7c
+SHA1: e3023ec80250c7810b06a717ec973ccee5801674
+SHA256: b9676d5f9af8acaa4bb1e8612890577447f240d2489de90fc91d5740aba17976
+Homepage: https://www.cups-pdf.de/
+Description: CUPS PDF backend
+
+Package: cups-static
+Version: 2.4.19
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 4144
+Depends: cups (= 2.4.19)
+Filename: pool/clandro-pkg/cups-static_2.4.19_aarch64.deb
+Size: 729288
+MD5sum: d75cfa1f7653b3c672c333ff9afc878e
+SHA1: 6fe3eab6566fc26cc922ce1bfc44e180f7fa5e0c
+SHA256: 46645cb87ab029cc7f126cb5b490746fd587896359cf6085d46259ffb132c636
+Homepage: https://www.cups.org/
+Description: Static libraries for cups
+
+Package: curlie
+Version: 1.8.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2952
+Filename: pool/clandro-pkg/curlie_1.8.2_aarch64.deb
+Size: 838520
+MD5sum: b004d4e9abaff4812cdb60e75c17cee9
+SHA1: be2b5815416d01de99d36ddf8799bcfcbacf0faf
+SHA256: 5da692e012cff679eba01edee673d317c6fc45c629814e96c123ce496338975b
+Homepage: https://curlie.io/
+Description: The power of curl, the ease of use of httpie
+
+Package: curseofwar
+Version: 1.3.0-5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 144
+Depends: libc++, ncurses
+Filename: pool/clandro-pkg/curseofwar_1.3.0-5_aarch64.deb
+Size: 28480
+MD5sum: c4e5d851e8db52a3e804cb097939ca44
+SHA1: 8f26af4870bd25d653176ca2d62dadccb5406e97
+SHA256: a84e72ccdb2c5bca3ca9d892ee5bd69c417eb74d8b6bbcdfc96b14e6ea453b84
+Homepage: http://a-nikolaev.github.io/curseofwar/
+Description: Fast-paced action strategy game focusing on high-level strategic planning
+
+Package: cvs
+Version: 1:1.12.13-5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1744
+Depends: zlib, libandroid-support
+Filename: pool/clandro-pkg/cvs_1:1.12.13-5_aarch64.deb
+Size: 500936
+MD5sum: de0b05f068e584837822ebe68d40da15
+SHA1: 63ba4514af8c1a232b9dd63dc0609c76797445a0
+SHA256: a964d67a647deaed83952c8df17d1572d264d123a049a1b6b0cb1f169c0cdd75
+Homepage: https://www.nongnu.org/cvs/
+Description: Concurrent Versions System
+
+Package: daemonize
+Version: 1.7.8-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 100
+Filename: pool/clandro-pkg/daemonize_1.7.8-3_aarch64.deb
+Size: 9604
+MD5sum: 21712f4684d385671c7f3b414f43370e
+SHA1: 0877f55e1a987f2cee67f092d5c5ab70c1fd94ee
+SHA256: a6a2b1fa1f6ca80e2bc5f05fcadeb911d6fc006baa7f151d02545f2ce86e097e
+Homepage: http://software.clapper.org/daemonize/
+Description: Run a command as a Unix daemon
+
+Package: dar
+Version: 2.8.5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 6060
+Depends: attr, libbz2, libc++, libgcrypt, libgpg-error, liblzma, liblzo, zlib, zstd
+Filename: pool/clandro-pkg/dar_2.8.5_aarch64.deb
+Size: 1368552
+MD5sum: 7636e62068135b5a910ea46ff0e19e50
+SHA1: 2a3e51dba88c59eb7e17dff48076d8d308846db8
+SHA256: 22df90aa9cbd43fbda40f38138865dc68d123c79ed0721e9d5d7eb21a422c2b6
+Homepage: http://dar.linux.free.fr/
+Description: A full featured command-line backup tool, short for Disk ARchive
+
+Package: dar-static
+Version: 2.8.5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 10732
+Depends: dar (= 2.8.5)
+Filename: pool/clandro-pkg/dar-static_2.8.5_aarch64.deb
+Size: 1160004
+MD5sum: c24415e4886e5b28c36847fa571f1ae1
+SHA1: 53c8ca0c50d7ed4adda634f7e02c1941a54cd0cb
+SHA256: cee5445b575dc1613b7f9dde94357deca88f98757c62683d464c949d1ccf52e0
+Homepage: http://dar.linux.free.fr/
+Description: Static libraries for dar
+
+Package: dasel
+Version: 3.8.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 10336
+Filename: pool/clandro-pkg/dasel_3.8.1_aarch64.deb
+Size: 2620688
+MD5sum: 5e59c3e5d6f68d6194e797aa1b8c09fa
+SHA1: 3773c2e5e44bf24d38d27bc24175d8f01c1c512a
+SHA256: c1867e95f91b110b4376ea476251b97e360f66e8a30385ed9af32e00456df0dd
+Homepage: https://github.com/TomWright/dasel
+Description: Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single utility
+
+Package: dasm
+Version: 2.20.14.1-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 256
+Filename: pool/clandro-pkg/dasm_2.20.14.1-1_aarch64.deb
+Size: 33548
+MD5sum: fbb29e6754ff70e623b4e61234dac15a
+SHA1: ccbd5cd7eb1ceab2ec4d72b856a3f85d0f554453
+SHA256: 3e1058ae8e1c66327b332d5fb15d61da30c23b7a5d6357199162007c1403855b
+Homepage: https://dasm-dillon.sourceforge.io/
+Description: Macro assembler with support for several 8-bit microprocessors
+
+Package: datamash
+Version: 1.9-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2432
+Filename: pool/clandro-pkg/datamash_1.9-1_aarch64.deb
+Size: 288168
+MD5sum: 381fd5d6d301ed8df1f42b97ddd3b0f1
+SHA1: 5bad589a2d3ee98d653b221f7fc3a89a7badf81c
+SHA256: f799a9035051fb3b5d2dc6da2af88a090729b9f9e3a52b6e3ebe9982de54b4c1
+Homepage: https://www.gnu.org/software/datamash/
+Description: Program performing numeric, textual and statistical operations
+
+Package: dateutils
+Version: 0.4.11-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1536
+Filename: pool/clandro-pkg/dateutils_0.4.11-1_aarch64.deb
+Size: 189284
+MD5sum: de78c9d8108aac31ea77910cae5f733a
+SHA1: e876d91f44813730017c49f9378234bf7e79a97e
+SHA256: dff69f64fe5383b13e5cb97898f6bbd530313e92e8d14d3acea7fc1fe4d48488
+Homepage: https://www.fresse.org/dateutils/
+Description: Command line date and time utilities
+
+Package: dbus-python
+Version: 1.4.0-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 492
+Depends: dbus, glib, python
+Filename: pool/clandro-pkg/dbus-python_1.4.0-2_aarch64.deb
+Size: 69012
+MD5sum: 4cf3222a67027dd0fbf8e8c48c42c5bf
+SHA1: f07946962281d9913aeaadb1aee716db92f70a94
+SHA256: 646fa9053ee9583c02bad61db62e622d11225489e42e6d99045e1a180cc8ac78
+Homepage: https://dbus.freedesktop.org/doc/dbus-python/
+Description: Python bindings for D-Bus
+
+Package: dcmtk
+Version: 3.7.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 57612
+Depends: libc++, libiconv, libpng, libtiff, libxml2, openssl, zlib
+Filename: pool/clandro-pkg/dcmtk_3.7.0_aarch64.deb
+Size: 6805028
+MD5sum: b28172ff4d4e1e9d916f312a39fb343f
+SHA1: a96194cb940a8d26740d7e15d89653dc657ec9d4
+SHA256: 950f54acf965ff31f86dad6fb8b89395a4e7c350fde7c89929e3acc24621e45f
+Homepage: https://dicom.offis.de/dcmtk
+Description: A collection of libraries and applications implementing large parts the DICOM standard
+
+Package: dcraw
+Version: 9.28.0-7
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 316
+Depends: littlecms, libjasper, libjpeg-turbo
+Filename: pool/clandro-pkg/dcraw_9.28.0-7_aarch64.deb
+Size: 114748
+MD5sum: fd7d07ba83f0be2338c85ce6b81644d0
+SHA1: 64bc837d3ba68014e70ca15dca30bd5075ff952a
+SHA256: e4f2d8def4c4e3ef75a4cd57e05a00fbdd5979eb6c13ad5a3c0598e568269953
+Homepage: https://www.dechifro.org/dcraw/
+Description: Raw digital camera images decoding utility
+
+Package: ddrescue
+Version: 1.30
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 424
+Depends: libc++
+Filename: pool/clandro-pkg/ddrescue_1.30_aarch64.deb
+Size: 100648
+MD5sum: be2d2e5eb1628b18db93128647f530bd
+SHA1: d9e5c385e739679102efbb958baa128f5b160bb1
+SHA256: 49db88f12980e1669a9a6c4f16f81fca3a78a20291e7e8e92a3da17732f4854f
+Homepage: https://www.gnu.org/software/ddrescue/
+Description: GNU data recovery tool
+
+Package: debianutils
+Version: 5.23.2-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 144
+Filename: pool/clandro-pkg/debianutils_5.23.2-1_aarch64.deb
+Size: 16740
+MD5sum: 0cccf83cd14d4885b535cc36c9c47366
+SHA1: b030a12898694f3cd1259ca2de88e8d536e0088e
+SHA256: 2de021b55ea4ade2bf7481f131d7b6b6149dd5463670a2808323e82d065ffa6d
+Homepage: https://packages.debian.org/debianutils
+Description: Small utilities which are used primarily by the installation scripts of Debian packages
 
 Package: debootstrap
 Version: 1.0.144
