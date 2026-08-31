@@ -3364,6 +3364,20 @@ SHA256: f38df61784ddf313e67bf0d63d7650c72421af99e91d7af4fd295d5338c3332e
 Homepage: https://www.gnu.org/software/gettext/
 Description: Static libraries for gettext
 
+Package: ghostscript
+Version: 10.07.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 44620
+Depends: fontconfig, freetype, jbig2dec, leptonica, libandroid-support, libc++, libiconv, libidn, libjpeg-turbo, libpng, libtiff, littlecms, openjpeg, zlib
+Filename: pool/clandro-pkg/ghostscript_10.07.0_aarch64.deb
+Size: 20445124
+MD5sum: 88f8bd4e25c624bb3d23453c566d1a3d
+SHA1: 25d31efd470fcc1e0254d338f0decb7c98259485
+SHA256: 2ab4c8afdf5ea60e65ad9e764f5f31cf86a9b30d9a015cfceb8605fd696b8895
+Homepage: https://www.ghostscript.com/
+Description: Interpreter for the PostScript language and for PDF
+
 Package: googletest
 Version: 1.17.0-1
 Architecture: aarch64
@@ -3672,6 +3686,35 @@ SHA1: 27e33675c655fb6bfc496d20df53a391776cc107
 SHA256: 85840da45068ff173e1c0e6aec38444e929816725bd282f201078dcb3fe19e18
 Homepage: https://github.com/ndevilla/iniparser
 Description: Static libraries for libiniparser
+
+Package: libjansson
+Version: 2.15.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 204
+Breaks: libjansson-dev
+Replaces: libjansson-dev
+Filename: pool/clandro-pkg/libjansson_2.15.0_aarch64.deb
+Size: 46736
+MD5sum: 0edcb5e35e96695240e77df1a2506c14
+SHA1: e8bdf837f496492529d245fb5e0967ac9c5b0f1c
+SHA256: 1fe05bd2c9e87a9fa5b59f6320541d8132dd0197cd34ce23c8d45f0e76b9326a
+Homepage: http://www.digip.org/jansson/
+Description: C library for encoding, decoding and manipulating JSON data
+
+Package: libjansson-static
+Version: 2.15.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 176
+Depends: libjansson (= 2.15.0)
+Filename: pool/clandro-pkg/libjansson-static_2.15.0_aarch64.deb
+Size: 46936
+MD5sum: 83464a7a5e274e376b143b92e1903b40
+SHA1: 8be5c4ecbb96ea4cb1d387544f025406bde11b02
+SHA256: 979177877abedc92ed13fdb0c3562375c98c3321094551121d76f7568453146f
+Homepage: http://www.digip.org/jansson/
+Description: Static libraries for libjansson
 
 Package: libmad
 Version: 0.16.4-2
