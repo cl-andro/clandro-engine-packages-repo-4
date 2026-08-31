@@ -5324,20 +5324,6 @@ Homepage: https://github.com/protocolbuffers/protobuf
 Description: Compiler for protocol buffer definition files
 
 Package: python-cryptography
-Version: 48.0.0
-Architecture: aarch64
-Maintainer: @clandro
-Installed-Size: 5444
-Depends: openssl, python, python-pip
-Filename: pool/clandro-pkg/python-cryptography_48.0.0_aarch64.deb
-Size: 1129028
-MD5sum: a41f86f001264fdba4c1c7add22be5fc
-SHA1: a7af2dda639abf9b30c394f08630f177bf915ac8
-SHA256: bae2bba57e11f0fbd1f437dd40dd3a37b64ab74bbc142baa428e4e15661a3d0e
-Homepage: https://github.com/pyca/cryptography
-Description: Provides cryptographic recipes and primitives to Python developers
-
-Package: python-cryptography
 Version: 48.0.0-1
 Architecture: aarch64
 Maintainer: @clandro
