@@ -4273,6 +4273,456 @@ SHA256: 55f43693df586ccaccea0e47a4c4107b030d4180b68ebe7dffc4e8a14fac7ad6
 Homepage: https://www.erlang.org/
 Description: Erlang HTML documentation
 
+Package: esbuild
+Version: 0.28.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 11276
+Filename: pool/clandro-pkg/esbuild_0.28.0_aarch64.deb
+Size: 3190828
+MD5sum: 242afc86bed641e6f801c2a35529aae1
+SHA1: 5e435dab305f989df5a2af49339bd81cb50f5549
+SHA256: dbe381fc3841526409a622870a21c2873ac7afe98b9af5d0742f53cf310f0f57
+Homepage: https://esbuild.github.io/
+Description: An extremely fast JavaScript bundler
+
+Package: espeak
+Version: 1.52.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 26572
+Depends: libc++, pcaudiolib
+Breaks: espeak-dev
+Replaces: espeak-dev
+Filename: pool/clandro-pkg/espeak_1.52.0-1_aarch64.deb
+Size: 8845972
+MD5sum: 3e6418cb0c6f3df12646e45d8d537f01
+SHA1: 7f7bbe63b03c0399261ceed79b32e1bca96344f6
+SHA256: fee2737e9eeef1a4aaeebbd05f6432ed25adbb2d4c0b5e349932af342e352de2
+Homepage: https://github.com/espeak-ng/espeak-ng
+Description: Compact software speech synthesizer
+
+Package: espeak-static
+Version: 1.52.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 904
+Depends: espeak (= 1.52.0-1)
+Filename: pool/clandro-pkg/espeak-static_1.52.0-1_aarch64.deb
+Size: 205312
+MD5sum: 26114ba434814a775c081277eee9bd9d
+SHA1: 67344e911fae2893c2338667dd8a8b8d27913ecf
+SHA256: 9287ad0782fe80a79e1f77357c768f9858f57ac7ef0efabfa565303599dfc2b1
+Homepage: https://github.com/espeak-ng/espeak-ng
+Description: Static libraries for espeak
+
+Package: et
+Version: 6.2.11-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 5204
+Depends: abseil-cpp, libc++, libsodium, openssl, protobuf, zlib
+Filename: pool/clandro-pkg/et_6.2.11-3_aarch64.deb
+Size: 755660
+MD5sum: 14e84eea5ed504439a82d60eaadbd1ee
+SHA1: ef0cdf11b433576046092741c8acbe5cd76e26ba
+SHA256: 75872dd0ba94d42dd516a4d33874b52ad7f3f9e3de6367f69b456cacaec190bb
+Homepage: https://eternalterminal.dev
+Description: A remote shell that automatically reconnects without interrupting the session
+
+Package: etsh
+Version: 5.4.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 344
+Filename: pool/clandro-pkg/etsh_5.4.0-1_aarch64.deb
+Size: 76744
+MD5sum: db4bda9df978fc0eeabdb2636efe6603
+SHA1: 7720cff20d04d806fd7a2821a0b5cc47a5f12885
+SHA256: 2f6aabe1ec9279788bea6e960c755156a4275e2ed7065fbed647acd5f3840d8d
+Homepage: https://etsh.nl
+Description: An enhanced, backward-compatible port of Thompson Shell
+
+Package: exercism
+Version: 3.5.8
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 11516
+Filename: pool/clandro-pkg/exercism_3.5.8_aarch64.deb
+Size: 3193184
+MD5sum: 15b94a99aa53c7eade00eb6ad93aab33
+SHA1: d7320db83ed344b65b931ce6befa07d22d3cd58c
+SHA256: 49702ae3ed9dc6cdba9e4a2f714caa6166c41828dbc61e9080ed0e8cca013581
+Homepage: https://github.com/exercism/cli/
+Description: A Go based command line tool for exercism.io
+
+Package: exfatprogs
+Version: 1.3.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 372
+Filename: pool/clandro-pkg/exfatprogs_1.3.2_aarch64.deb
+Size: 59472
+MD5sum: 70ef49f2e4fb8fa5288571913e0d90ff
+SHA1: d72339fe12f38418195cb28c489741ab40c54c3e
+SHA256: db2e485269fa384e4cf50de06f391db167af1923f98bf17d4893c566cb484775
+Homepage: https://github.com/exfatprogs/exfatprogs
+Description: exFAT filesystem userspace utilities
+
+Package: exhale
+Version: 1.2.2RC+really1.2.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 376
+Depends: libc++
+Filename: pool/clandro-pkg/exhale_1.2.2RC+really1.2.2_aarch64.deb
+Size: 123572
+MD5sum: af0c688dc5bcc152c54dee6af50ef9b4
+SHA1: abba3ad45870aa93d822b5bbd840145ad642a2fc
+SHA256: 0dd615a4dfef76e2b9f497461759e181ff07d16fe6d116fbb0ab684ced3976b8
+Homepage: https://gitlab.com/ecodis/exhale
+Description: Open source xHE-AAC encoder
+
+Package: exiftool
+Version: 13.58
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 18440
+Depends: perl
+Filename: pool/clandro-pkg/exiftool_13.58_all.deb
+Size: 3894556
+MD5sum: 4d2fb4b325bf630f096e72a35421e49f
+SHA1: 96745f5218f9e22a36a5367a1469185e4196f041
+SHA256: 45f13f49738672f17ff05a523f6b507a759e4f44a6528492b0a44d5f9a907f99
+Homepage: https://exiftool.org/
+Description: Utility for reading, writing and editing meta information in a wide variety of files.
+
+Package: exiv2
+Version: 2:0.28.7
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 5132
+Depends: brotli, libandroid-support, libc++, libexpat, libiconv, libinih, zlib
+Breaks: exiv2-dev
+Replaces: exiv2-dev
+Filename: pool/clandro-pkg/exiv2_2:0.28.7_aarch64.deb
+Size: 984752
+MD5sum: 7be459006db49775bc46aa106d0df653
+SHA1: b355355519b3ca716549a0ae2cb21bb26885c03f
+SHA256: 25dabb58eb5615658c79ff980c3094ac734873a7738ee2a24cc7a720a1f9a370
+Homepage: https://exiv2.org/
+Description: Exif, Iptc and XMP metadata manipulation library and tools
+
+Package: expect
+Version: 5.45.4-4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 384
+Depends: tcl
+Breaks: expect-dev
+Replaces: expect-dev
+Filename: pool/clandro-pkg/expect_5.45.4-4_aarch64.deb
+Size: 113908
+MD5sum: 10ca87ea4366b323e6d311fbbf37540e
+SHA1: 124a9885f67863942e803b831bb507424ec7a06c
+SHA256: 5533cb26d0b4c2ad7add5d4c85ed1829dde5ef5521036eb5aca34bd79ae4470e
+Homepage: https://core.tcl.tk/expect/index
+Description: Tool for automating interactive terminal applications
+
+Package: fact++
+Version: 1.6.5-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1456
+Depends: libc++
+Filename: pool/clandro-pkg/fact++_1.6.5-3_aarch64.deb
+Size: 315516
+MD5sum: e59c6d551c0c6d03045f8579a33e13cc
+SHA1: bc61e7f717de9504172e0dd8add198a16a22cfe8
+SHA256: 6ed48400e90b3171b38d53c29402b03dfa8eeae42d9c7c8580a66b27e18c6bb9
+Homepage: https://bitbucket.org/dtsarkov/factplusplus
+Description: Re-implementation of the well-known FaCT Description Logic (DL) Reasoner
+
+Package: fakeroot
+Version: 1.38.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 176
+Filename: pool/clandro-pkg/fakeroot_1.38.1_aarch64.deb
+Size: 27176
+MD5sum: 5354ad653c1823c8161c961d15f05607
+SHA1: 35aea9e81e489ffcb6b8da6ecdcfe925fc1b3389
+SHA256: d8ca74551bf0458cff6657e5613aa9246ddfd672595093e04d81f301a094d9cb
+Homepage: https://packages.qa.debian.org/f/fakeroot.html
+Description: Tool for simulating superuser privileges (with tcp ipc)
+
+Package: fakeroot-static
+Version: 1.38.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 104
+Depends: fakeroot (= 1.38.1)
+Filename: pool/clandro-pkg/fakeroot-static_1.38.1_aarch64.deb
+Size: 13896
+MD5sum: 2e93744b786f3a64af3c8b223f5b4442
+SHA1: b9c83a0bb10daf15cd2dd03d90ff10bfcac6115c
+SHA256: 19b51c4c6c56b991f95571707a3fe71787017f0385f6bc1bbfe2eb2de0e710da
+Homepage: https://packages.qa.debian.org/f/fakeroot.html
+Description: Static libraries for fakeroot
+
+Package: fasd
+Version: 2.0.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 100
+Filename: pool/clandro-pkg/fasd_2.0.0_aarch64.deb
+Size: 7420
+MD5sum: c7a51336ab818bfed5eedde6c976a543
+SHA1: 5e83b51d28bcb3ac08a1e6a2dd9bb69c638924ec
+SHA256: 16da5bbd4f554e29ecdaeaad969c6975a105c7e42af7abc9671583da68e4529c
+Homepage: https://github.com/whjvenyl/fasd
+Description: To fastly access files and folders
+
+Package: fastmod
+Version: 0.4.4-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 3216
+Filename: pool/clandro-pkg/fastmod_0.4.4-1_aarch64.deb
+Size: 933404
+MD5sum: ecc18b3f4e0bfd7283ac9304a85a6386
+SHA1: 9408923307e52cbc4a68ca66d6431834304b8ced
+SHA256: f15f13a50a80ad5cd62f8b13c904c1e95c7717828d96ea2b44d4be0498f0e0d0
+Homepage: https://github.com/facebookincubator/fastmod
+Description: Regex-based code refactoring utility
+
+Package: fatsort
+Version: 1.7.679
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 148
+Depends: libiconv
+Filename: pool/clandro-pkg/fatsort_1.7.679_aarch64.deb
+Size: 25956
+MD5sum: c6bbd23aabf591e27b45f709c89d0a6c
+SHA1: be4c1bcb4b95ca2b3253d1fb3da20fbd97e9e59b
+SHA256: f8632c66ff0d94bd62f9ba9f5207d727cf1b52465862bad6a11e8fc64f3f1e64
+Homepage: https://fatsort.sourceforge.io/
+Description: A C utility that sorts FAT12, FAT16, FAT32 and exFAT partitions
+
+Package: faust
+Version: 2.85.5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 75256
+Depends: libc++
+Filename: pool/clandro-pkg/faust_2.85.5_aarch64.deb
+Size: 27370768
+MD5sum: b60d44bfd12a8165fd034ebacd3893d2
+SHA1: d6395d2b83d31a3e0a31ab72e45eb04b2bef6f5a
+SHA256: 71622edcfec9b5bb42c7631bb7c349446a35ff201b2a2b38d4d46aaa3949234c
+Homepage: https://github.com/grame-cncm/faust
+Description: A functional programming language for signal processing and sound synthesis
+
+Package: faust-static
+Version: 2.85.5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 38044
+Depends: faust (= 2.85.5)
+Filename: pool/clandro-pkg/faust-static_2.85.5_aarch64.deb
+Size: 4613700
+MD5sum: 1d418e61f04c0be69722e2f1d7f45cae
+SHA1: 5132543cb1ea51f0a901328c1ed20a0c8495865d
+SHA256: 43785c61156614c0891ab3f15481b4fba23741dfbe517c0710c9c1bc43358854
+Homepage: https://github.com/grame-cncm/faust
+Description: Static libraries for faust
+
+Package: faustlibraries
+Version: 2.85.5
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 2320
+Depends: faust
+Filename: pool/clandro-pkg/faustlibraries_2.85.5_all.deb
+Size: 403136
+MD5sum: d3f12e502e09eda5b0dbf4847d89f1ff
+SHA1: 61f525c71ee7a9c579a50abf3f4f61fb1d26249f
+SHA256: e992b7a053d4aecd445e69298272bafbe2c391189b0603d783bbbf1bb9a1fcd8
+Homepage: https://github.com/grame-cncm/faust
+Description: Faust DSP libraries
+
+Package: fcgi
+Version: 2.4.7
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 288
+Breaks: fcgi-dev
+Replaces: fcgi-dev
+Filename: pool/clandro-pkg/fcgi_2.4.7_aarch64.deb
+Size: 49584
+MD5sum: 8d61b1638e4d5767e2be539276e088bb
+SHA1: ada75757201d6560c142673ff8a2804fd0bfd773
+SHA256: ebe29480e6d99d15d27b7f4cf69f971e1712c948a6a3b321e723ee7bb3d79e92
+Homepage: https://fastcgi-archives.github.io/
+Description: A language independent, high performant extension to CGI
+
+Package: fcgi-static
+Version: 2.4.7
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 120
+Depends: fcgi (= 2.4.7)
+Filename: pool/clandro-pkg/fcgi-static_2.4.7_aarch64.deb
+Size: 19900
+MD5sum: 042f6e122ac5c43d3928b6fb9685e7fd
+SHA1: a59ed9927af71d540d0217a74f421b8e629a14ca
+SHA256: c43d2076dbb3c71794d95de817a98e48ce77343d9c7537f0626440a81071989e
+Homepage: https://fastcgi-archives.github.io/
+Description: Static libraries for fcgi
+
+Package: fcgiwrap
+Version: 1.1.0+g99c942c
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 108
+Depends: fcgi
+Filename: pool/clandro-pkg/fcgiwrap_1.1.0+g99c942c_aarch64.deb
+Size: 9484
+MD5sum: 70ec0a58cf351d992bc65674fa85d6b3
+SHA1: 0dc39bd0fd5b6fe1728e97db620b443900775cf8
+SHA256: fb3874eb772c1ad8315955ec07f96c702e867d46999bedfe5e0f934e0ee2cf19
+Homepage: https://github.com/gnosek/fcgiwrap
+Description: A simple server for running CGI applications over FastCGI
+
+Package: fcp
+Version: 0.2.1-4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 560
+Filename: pool/clandro-pkg/fcp_0.2.1-4_aarch64.deb
+Size: 180864
+MD5sum: 02c2fb272c2617b14d4039558f763163
+SHA1: 39d58a4970d41bbfc425dc63cc91923140022993
+SHA256: 30d75bbec852e1e897a15b2217c11667d944bcd73f8d49c7e699a1d34b409cea
+Homepage: https://github.com/Svetlitski/fcp
+Description: A significantly faster alternative to the classic Unix cp(1) command
+
+Package: fdkaac
+Version: 1.0.7
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 164
+Depends: libfdk-aac
+Filename: pool/clandro-pkg/fdkaac_1.0.7_aarch64.deb
+Size: 32992
+MD5sum: 2a5cbf79f37fe75b8c6eff8fac8db686
+SHA1: aa13782ce5da1df405ff1e36e289a7e1a63bb657
+SHA256: 1c048dacae676b49878b4c62b3700ebfe82cfc4db57bf0fab337b506c221dfbf
+Homepage: https://github.com/nu774/fdkaac
+Description: command line encoder frontend for libfdk-aac
+
+Package: fdm
+Version: 2.2-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 360
+Depends: libandroid-glob, libtdb, openssl, pcre2, zlib
+Filename: pool/clandro-pkg/fdm_2.2-2_aarch64.deb
+Size: 96384
+MD5sum: f03d5eee0a52dac9d693ececab2c603f
+SHA1: 26df5fd55b319c38bbe858108376e462748f03e5
+SHA256: 98b388724b5725d4a97de6d5de8974af948cc589101ea1b6383550684162301f
+Homepage: https://github.com/nicm/fdm
+Description: A program designed to fetch mail from POP3 or IMAP servers, or receive local mail from stdin, and deliver it in various ways
+
+Package: fdroidcl
+Version: 0.8.1-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 8156
+Depends: android-tools
+Filename: pool/clandro-pkg/fdroidcl_0.8.1-1_aarch64.deb
+Size: 2233972
+MD5sum: 1dcb77d320af1646ceb5a92b7438d92f
+SHA1: 9460e9966e8eb88bef080fee162246f3413bf2e2
+SHA256: 2b04d5b68a7eb065a4040c834415aafdcf505daf4340a1d05e1658fcaaa4e37a
+Homepage: https://github.com/mvdan/fdroidcl
+Description: F-Droid client
+
+Package: fennel
+Version: 1.6.1
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 780
+Depends: lua54
+Filename: pool/clandro-pkg/fennel_1.6.1_all.deb
+Size: 112104
+MD5sum: 6a027edfb974f7cd392c646cf16daef2
+SHA1: 0ca8be2ce6d6ffd89c9b8db8755fae0cd7095099
+SHA256: c823f1626022b42ffc97c962048a1a478276308682a4ceb56e0bab6eec98497f
+Homepage: https://fennel-lang.org
+Description: A Lisp that compiles to Lua
+
+Package: feroxbuster
+Version: 2.13.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 6168
+Depends: openssl
+Filename: pool/clandro-pkg/feroxbuster_2.13.1_aarch64.deb
+Size: 1846796
+MD5sum: b879cb860cb46b18b7f25e0ed1508b72
+SHA1: c6af48b099ec0f718d8a073f499846bdee08ca4e
+SHA256: 16e74a10dc4129c45adcebb7473fbaa129606fc25bebbb7e515be8d8b36b4ec3
+Homepage: https://github.com/epi052/feroxbuster
+Description: A fast, simple, recursive content discovery tool written in Rust
+
+Package: fetchmail
+Version: 6.6.4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 404
+Depends: openssl
+Filename: pool/clandro-pkg/fetchmail_6.6.4_aarch64.deb
+Size: 157076
+MD5sum: d147ee08ca3647c94214df7e720f9824
+SHA1: bdf2c9c9f4719c9d82dbe6251ebbcb2951922d36
+SHA256: a1e4b50cc6b60ef6bbfe944a9db5bb886875f0a62e6850b6290d782059f8467e
+Homepage: https://www.fetchmail.info/
+Description: A remote-mail retrieval utility
+
+Package: fetchmailconf
+Version: 6.6.4
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 156
+Depends: python, python-tkinter, fetchmail (= 6.6.4)
+Conflicts: fetchmail (<< 6.4.33)
+Replaces: fetchmail (<< 6.4.33)
+Filename: pool/clandro-pkg/fetchmailconf_6.6.4_all.deb
+Size: 25092
+MD5sum: 01563b777d725faec429f5774468ae79
+SHA1: 4ec4fc6167e1335db7de8efa3cba6472ae34be0f
+SHA256: 653ea8d4e7b8669ad48f8b0ad6ff7ce50bc75e7b4de69bccf1caee1796ce07ad
+Homepage: https://www.fetchmail.info/
+Description: A GUI configurator for generating fetchmail configuration files
+
+Package: fff
+Version: 2.2
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 136
+Depends: bash
+Suggests: w3m-img, xdotool
+Filename: pool/clandro-pkg/fff_2.2_all.deb
+Size: 16200
+MD5sum: 3087950eebddb1da54026884661cef43
+SHA1: 9ad5fa5d1e3efb3b27d213c2984dbb083898648d
+SHA256: 0dbc2a4bec79fae886a75acf65c83999268f830d8410ecbe3ef574f7f16a8d14
+Homepage: https://github.com/dylanaraps/fff
+Description: A simple file manager written in bash
+
 Package: gettext
 Version: 1.0
 Architecture: aarch64
@@ -4670,6 +5120,33 @@ SHA256: 50bcd26b7e1e5155a30ebeb6097e3a32ae160f379767817a38f144e427f23158
 Homepage: https://code.videolan.org/videolan/libdvdread
 Description: Static libraries for libdvdread
 
+Package: libfdk-aac
+Version: 2.0.3-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1240
+Filename: pool/clandro-pkg/libfdk-aac_2.0.3-1_aarch64.deb
+Size: 484708
+MD5sum: 0b9480fdbad7a6bec7883c492c70c169
+SHA1: a0dec322ec100308f1d5fbe98f827be9fc412df2
+SHA256: a0b20c08eaf398dac8425dcc6c8cb5f36ad9140e31888145a7015fecb74abea2
+Homepage: https://github.com/mstorsjo/fdk-aac
+Description: Fraunhofer FDK AAC Codec Library
+
+Package: libfdk-aac-static
+Version: 2.0.3-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1716
+Depends: libfdk-aac (= 2.0.3-1)
+Filename: pool/clandro-pkg/libfdk-aac-static_2.0.3-1_aarch64.deb
+Size: 538680
+MD5sum: d0899df8ba106d052d128bddab479cca
+SHA1: c20b84b14ba67a85c3fd988c5a7bef2bd2cb21a7
+SHA256: 8c333a61ceafd1b1ed43a2418cf9a7e26d92fcb2eaf132b56fc81a5af584f41b
+Homepage: https://github.com/mstorsjo/fdk-aac
+Description: Static libraries for libfdk-aac
+
 Package: libfyaml
 Version: 0.9.6-1
 Architecture: aarch64
@@ -4726,6 +5203,20 @@ SHA1: 1aaba37117e24252a77dfbf2ac13cea1816fe2cf
 SHA256: 18b0f2254f621bfd4998508dd3816b58be8523c4c7d5b8eb2b7ca1572395ec1a
 Homepage: https://www.gnu.org/software/libidn/
 Description: Static libraries for libidn
+
+Package: libinih
+Version: 62
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 176
+Depends: libc++
+Filename: pool/clandro-pkg/libinih_62_aarch64.deb
+Size: 23836
+MD5sum: 78ea4a27138dac44b0f75b6bf7fdb3f1
+SHA1: 923a8fd652e095c1f048792b563ae634504a8ff5
+SHA256: 9e115db070bcaeb7c92993f2ab73df29046552c9d1f8314bb9c3d0b427a1c6dc
+Homepage: https://github.com/benhoyt/inih
+Description: A simple .INI file parser written in C
 
 Package: libiniparser
 Version: 4.2.6-2
@@ -5111,6 +5602,20 @@ SHA256: a089fdacdfa07860006e6eb87338a1a216dfe633afc2fce4aafdd872044c2877
 Homepage: https://uxlfoundation.github.io/oneTBB/
 Description: oneAPI Threading Building Blocks
 
+Package: libtdb
+Version: 1.4.15
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 208
+Depends: libbsd
+Filename: pool/clandro-pkg/libtdb_1.4.15_aarch64.deb
+Size: 38852
+MD5sum: 2522b812ce4975cba0ddc158db30544e
+SHA1: 8a33f1f70656f313959acd83824eb599ed458d6b
+SHA256: 79d80554621079f2b1cb8599a9c72a480df461fbe02181a2f47695060f771e0e
+Homepage: https://tdb.samba.org/
+Description: A trivial database system
+
 Package: libtomcrypt
 Version: 1.18.2-1
 Architecture: aarch64
@@ -5308,6 +5813,34 @@ SHA1: 11ecf39c18a134e39a729a5f3f700a40727d3ef2
 SHA256: 1cc7689cde6bae4627c1daa483e60af634ec1651c721e6decf96e8bc8f621e03
 Homepage: https://www.opus-codec.org/
 Description: Static libraries for opusfile
+
+Package: pcaudiolib
+Version: 1.3-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 108
+Depends: pulseaudio
+Filename: pool/clandro-pkg/pcaudiolib_1.3-1_aarch64.deb
+Size: 5608
+MD5sum: 60e3abaef2c523acc8ab94f6eddc6ab1
+SHA1: 63a3dc2443fdd599089a5b0e55e3cd837a11251c
+SHA256: 8fe0f290aacba31eca7d77ad307db5b50c8d8c224a394c5a9e4b52204669429f
+Homepage: https://github.com/espeak-ng/pcaudiolib
+Description: Portable C Audio Library
+
+Package: pcaudiolib-static
+Version: 1.3-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 48
+Depends: pcaudiolib (= 1.3-1)
+Filename: pool/clandro-pkg/pcaudiolib-static_1.3-1_aarch64.deb
+Size: 4896
+MD5sum: 6f7e1a2558bbd4770123a4360fe4e29f
+SHA1: 42ed84a911e5f7efaa7e0c7960407ea9c530eb2c
+SHA256: 9373a5fcc600bf9b75f8879db97c9d5c9d9239551b83601adbe590e79f39b555
+Homepage: https://github.com/espeak-ng/pcaudiolib
+Description: Static libraries for pcaudiolib
 
 Package: protobuf
 Version: 2:33.1-1
@@ -5634,6 +6167,20 @@ SHA1: a8b8485ece314f5d3b37d6035a4b7f7f564cea8e
 SHA256: 2e5b85e9683d6d5b7653a2f71840421beb2a5c1f8f16ed3c1e7381807717e2c1
 Homepage: https://snowballstem.org/
 Description: A command-line tool which uses libstemmer
+
+Package: tdb-tools
+Version: 1.4.15
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 104
+Depends: libtdb (= 1.4.15)
+Filename: pool/clandro-pkg/tdb-tools_1.4.15_aarch64.deb
+Size: 17732
+MD5sum: 8210a97a8c8719f148c479a7b9024c80
+SHA1: 58ee501a15ffab4358ff3b3e5e55ce1c6251a7df
+SHA256: 676b8b3c0f1d99364602edfda975c6d7750f224328f195f171e6cbf70dc493e5
+Homepage: https://tdb.samba.org/
+Description: Tools for TDB
 
 Package: tmux
 Version: 3.6a
