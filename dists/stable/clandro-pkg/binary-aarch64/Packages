@@ -5169,18 +5169,18 @@ Homepage: https://www.gnu.org/software/gcal/
 Description: Program for calculating and printing calendars
 
 Package: gdal
-Version: 3.12.4-1
+Version: 3.12.4-2
 Architecture: aarch64
 Maintainer: @clandro
 Installed-Size: 37224
-Depends: giflib, json-c, libc++, libcurl, libexpat, libfreexl, libgeos, libiconv, libjpeg-turbo, libjxl, liblzma, libpng, libspatialite, libsqlite, libwebp, libxml2, netcdf-c (>= 4.9.3), openjpeg, openssl, postgresql, proj, xerces-c, zlib, zstd, libarchive
+Depends: giflib, json-c, libc++, libcurl, libexpat, libfreexl, libgeos, libiconv, libjpeg-turbo, libjxl, liblzma, libpng, libspatialite, libsqlite, libwebp, libxml2, netcdf-c (>= 4.9.3), openjpeg, openssl, postgresql, proj, xerces-c, zlib, zstd, libarchive, cryptopp, liblz4, libavif, libheif, poppler, openexr, imath, pcre2
 Breaks: gdal-dev
 Replaces: gdal-dev
-Filename: pool/clandro-pkg/gdal_3.12.4-1_aarch64.deb
-Size: 9028848
-MD5sum: a2766fc8e92ade1d038265d5b132bc97
-SHA1: 4afbd7c80be910e7448cdf7e82a7625eb5e35020
-SHA256: 99a2e9e662a52efb5810b1dfb627db3e09f1aedce80060f625175105c32e0d4e
+Filename: pool/clandro-pkg/gdal_3.12.4-2_aarch64.deb
+Size: 9108316
+MD5sum: 30392c9c575ea685114c43f5af8c470f
+SHA1: 0493da0ba6bb8b8b8bfab624f509b0714075c81d
+SHA256: 65dec9f070ba7372175bdb47936a7d4653298d0489eb671e380afc2bf53bb834
 Homepage: https://gdal.org
 Description: A translator library for raster and vector geospatial data formats
 
