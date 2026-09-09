@@ -4851,16 +4851,16 @@ Homepage: http://www.flintlib.org
 Description: C library for doing number theory
 
 Package: fluidsynth
-Version: 2.5.4
+Version: 2.5.4-1
 Architecture: aarch64
 Maintainer: @clandro
 Installed-Size: 1736
-Depends: dbus, glib, libc++, libsndfile, pulseaudio, readline
-Filename: pool/clandro-pkg/fluidsynth_2.5.4_aarch64.deb
-Size: 481468
-MD5sum: dd61f5d3f364b0e3835dab4459ac75d4
-SHA1: 540dd01737e9a3e1c937e0d4cc56644f31c84240
-SHA256: d2f090cf44deb86a82cab95b8daddcb249f2961e011204de8e37deee09942617
+Depends: dbus, glib, libc++, libsndfile, pulseaudio, readline, jack2
+Filename: pool/clandro-pkg/fluidsynth_2.5.4-1_aarch64.deb
+Size: 481472
+MD5sum: 0e6e3b0a0f8dda2bad54b4f7cc74019f
+SHA1: 6d214a1b8ef79ad9ff28232dcafbf0fc40e49dc8
+SHA256: 5575e615ad70def16f2fcd9e6bcd880eddc77d3ea0841db66ee515a440bf40d6
 Homepage: https://github.com/FluidSynth/fluidsynth
 Description: Software synthesizer based on the SoundFont 2 specifications
 
@@ -5169,32 +5169,32 @@ Homepage: https://www.gnu.org/software/gcal/
 Description: Program for calculating and printing calendars
 
 Package: gdal
-Version: 3.12.4
+Version: 3.12.4-1
 Architecture: aarch64
 Maintainer: @clandro
-Installed-Size: 37032
-Depends: giflib, json-c, libc++, libcurl, libexpat, libfreexl, libgeos, libiconv, libjpeg-turbo, libjxl, liblzma, libpng, libspatialite, libsqlite, libwebp, libxml2, netcdf-c (>= 4.9.3), openjpeg, openssl, postgresql, proj, xerces-c, zlib, zstd
+Installed-Size: 37224
+Depends: giflib, json-c, libc++, libcurl, libexpat, libfreexl, libgeos, libiconv, libjpeg-turbo, libjxl, liblzma, libpng, libspatialite, libsqlite, libwebp, libxml2, netcdf-c (>= 4.9.3), openjpeg, openssl, postgresql, proj, xerces-c, zlib, zstd, libarchive
 Breaks: gdal-dev
 Replaces: gdal-dev
-Filename: pool/clandro-pkg/gdal_3.12.4_aarch64.deb
-Size: 8975700
-MD5sum: 9ec5467a3777c9517520f82531686936
-SHA1: 1e16278863ed0147a05284a2b61f91dbe351f745
-SHA256: 13d1b3caececf790a38528b78b96568317c4577fbaffe29d8b0f77b0f9837db4
+Filename: pool/clandro-pkg/gdal_3.12.4-1_aarch64.deb
+Size: 9028848
+MD5sum: a2766fc8e92ade1d038265d5b132bc97
+SHA1: 4afbd7c80be910e7448cdf7e82a7625eb5e35020
+SHA256: 99a2e9e662a52efb5810b1dfb627db3e09f1aedce80060f625175105c32e0d4e
 Homepage: https://gdal.org
 Description: A translator library for raster and vector geospatial data formats
 
 Package: gdrive-downloader
-Version: 1:1.1
+Version: 1:1.1-1
 Architecture: all
 Maintainer: @clandro
 Installed-Size: 156
 Depends: bash, curl
-Filename: pool/clandro-pkg/gdrive-downloader_1:1.1_all.deb
-Size: 18620
-MD5sum: 11eca569abf5e6e65f20403d23080fc4
-SHA1: bce7d1522334a6ffac40a71009d16b9db92615bd
-SHA256: c1fb6b0e8cbcfb4069a5a0612d0f4de5313b7c29b6c418cb9e95ac8ec8da16be
+Filename: pool/clandro-pkg/gdrive-downloader_1:1.1-1_all.deb
+Size: 18640
+MD5sum: 2d057cd9b906fb7d738ebdc31877d403
+SHA1: 78f4f74f3f205d02cbe1f70aa1b0c13a2cc554d8
+SHA256: c15153c8c740d2cb1224a55087ae6e2070150dfcff72b1da6963a522b200bf12
 Homepage: https://github.com/Akianonymus/gdrive-downloader
 Description: Download a gdrive folder or file easily, shell ftw
 
