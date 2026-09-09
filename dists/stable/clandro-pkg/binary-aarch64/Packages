@@ -4511,44 +4511,44 @@ Homepage: https://fatsort.sourceforge.io/
 Description: A C utility that sorts FAT12, FAT16, FAT32 and exFAT partitions
 
 Package: faust
-Version: 2.85.5
+Version: 2.85.5-1
 Architecture: aarch64
 Maintainer: @clandro
-Installed-Size: 75256
+Installed-Size: 65820
 Depends: libc++
-Filename: pool/clandro-pkg/faust_2.85.5_aarch64.deb
-Size: 27370768
-MD5sum: b60d44bfd12a8165fd034ebacd3893d2
-SHA1: d6395d2b83d31a3e0a31ab72e45eb04b2bef6f5a
-SHA256: 71622edcfec9b5bb42c7631bb7c349446a35ff201b2a2b38d4d46aaa3949234c
+Filename: pool/clandro-pkg/faust_2.85.5-1_aarch64.deb
+Size: 25724576
+MD5sum: af17864d895c7c3619b0555a4f7de0f1
+SHA1: 41292cc28b511bd2a385dae975a3250dccd5c1e2
+SHA256: f54832cc003f79fbb39d58094a5f152c5496f241b103d9b475f40ca6448d404a
 Homepage: https://github.com/grame-cncm/faust
 Description: A functional programming language for signal processing and sound synthesis
 
 Package: faust-static
-Version: 2.85.5
+Version: 2.85.5-1
 Architecture: aarch64
 Maintainer: @clandro
 Installed-Size: 38044
-Depends: faust (= 2.85.5)
-Filename: pool/clandro-pkg/faust-static_2.85.5_aarch64.deb
-Size: 4613700
-MD5sum: 1d418e61f04c0be69722e2f1d7f45cae
-SHA1: 5132543cb1ea51f0a901328c1ed20a0c8495865d
-SHA256: 43785c61156614c0891ab3f15481b4fba23741dfbe517c0710c9c1bc43358854
+Depends: faust (= 2.85.5-1)
+Filename: pool/clandro-pkg/faust-static_2.85.5-1_aarch64.deb
+Size: 4613704
+MD5sum: 6168f2f232ac8af235318d21f5eae8f6
+SHA1: 37c1e119a7e1bb63039da8fc3a3ed8223aa13ca9
+SHA256: 4e550f50e13185cf5b3e7a152d5df9e4af1f7a252f7bcda6b237bd5bad451722
 Homepage: https://github.com/grame-cncm/faust
 Description: Static libraries for faust
 
 Package: faustlibraries
-Version: 2.85.5
+Version: 2.85.5-1
 Architecture: all
 Maintainer: @clandro
 Installed-Size: 2320
 Depends: faust
-Filename: pool/clandro-pkg/faustlibraries_2.85.5_all.deb
+Filename: pool/clandro-pkg/faustlibraries_2.85.5-1_all.deb
 Size: 403136
-MD5sum: d3f12e502e09eda5b0dbf4847d89f1ff
-SHA1: 61f525c71ee7a9c579a50abf3f4f61fb1d26249f
-SHA256: e992b7a053d4aecd445e69298272bafbe2c391189b0603d783bbbf1bb9a1fcd8
+MD5sum: 6eb6a9b1fadc33ed67a1b56bbb20f486
+SHA1: 4fe104b873bde2756f992dea1539d8b76a62f827
+SHA256: 313d8f73ccc7b38d18e9fb442189f30e1203ff179e88142e2d17b1ae46420fa8
 Homepage: https://github.com/grame-cncm/faust
 Description: Faust DSP libraries
 
@@ -5815,30 +5815,30 @@ Homepage: https://www.opus-codec.org/
 Description: Static libraries for opusfile
 
 Package: pcaudiolib
-Version: 1.3-1
+Version: 1.3-2
 Architecture: aarch64
 Maintainer: @clandro
 Installed-Size: 108
-Depends: pulseaudio
-Filename: pool/clandro-pkg/pcaudiolib_1.3-1_aarch64.deb
-Size: 5608
-MD5sum: 60e3abaef2c523acc8ab94f6eddc6ab1
-SHA1: 63a3dc2443fdd599089a5b0e55e3cd837a11251c
-SHA256: 8fe0f290aacba31eca7d77ad307db5b50c8d8c224a394c5a9e4b52204669429f
+Depends: alsa-lib, pulseaudio
+Filename: pool/clandro-pkg/pcaudiolib_1.3-2_aarch64.deb
+Size: 5616
+MD5sum: c2741148ae3e8d275a472bd5974b83b8
+SHA1: 561ea544db28a0d34c75f019619863dc6a8ed4d1
+SHA256: 758b0aaee06ed3892d35321cd120753dd5ba68972eeda85e012df1c57f267e5a
 Homepage: https://github.com/espeak-ng/pcaudiolib
 Description: Portable C Audio Library
 
 Package: pcaudiolib-static
-Version: 1.3-1
+Version: 1.3-2
 Architecture: aarch64
 Maintainer: @clandro
 Installed-Size: 48
-Depends: pcaudiolib (= 1.3-1)
-Filename: pool/clandro-pkg/pcaudiolib-static_1.3-1_aarch64.deb
+Depends: pcaudiolib (= 1.3-2)
+Filename: pool/clandro-pkg/pcaudiolib-static_1.3-2_aarch64.deb
 Size: 4896
-MD5sum: 6f7e1a2558bbd4770123a4360fe4e29f
-SHA1: 42ed84a911e5f7efaa7e0c7960407ea9c530eb2c
-SHA256: 9373a5fcc600bf9b75f8879db97c9d5c9d9239551b83601adbe590e79f39b555
+MD5sum: f0110355a60fa78bf2bca5a4a702bec2
+SHA1: dcfa1c63cfd83f50eb7c35d698d3554082e73366
+SHA256: 0f022758bfba1f9aaa484c4fc54c9df387d53e0886423bc926a1585de255827d
 Homepage: https://github.com/espeak-ng/pcaudiolib
 Description: Static libraries for pcaudiolib
 
